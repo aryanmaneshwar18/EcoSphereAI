@@ -191,9 +191,10 @@ export default function LogActivityPage() {
                     <input
                       type="number"
                       step="0.01"
+                      autoFocus
                       placeholder="e.g. 15.5"
                       {...register("amount", { required: true, min: 0 })}
-                      className="input-field text-xl py-3 pl-4 pr-16"
+                      className="bg-black/50 border border-white/10 rounded-lg px-4 py-3 w-full text-white focus:outline-none focus:border-emerald-500 transition-colors text-xl pl-4 pr-16"
                     />
                     <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
                       <span className="text-gray-400 font-medium">{subcategoryDef?.unit}</span>

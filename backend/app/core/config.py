@@ -42,7 +42,7 @@ class Settings(BaseSettings):
     DEBUG: bool = Field(default=False)
     API_PREFIX: str = "/api/v1"
     ALLOWED_ORIGINS: list[str] | str = Field(
-        default=["http://localhost:3000", "http://localhost:3001"]
+        default=["http://localhost:3000", "http://localhost:3001", "https://eco-sphere-ai-eight.vercel.app", "*"]
     )
     LOG_LEVEL: str = "INFO"
     SECRET_KEY: str = Field(
