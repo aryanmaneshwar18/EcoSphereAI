@@ -43,7 +43,7 @@ const containerVariants = {
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] as const } },
 };
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -82,7 +82,7 @@ export default function DashboardPage() {
   // Analytics Data
   const weeklyData = data.daily_emissions.slice(0, 7).reverse().map(d => ({
     name: new Date(d.date).toLocaleDateString("en-US", { weekday: "short" }),
-    actual: Math.round(d.total * 10) / 10,
+    actual: Math.round(d.co2e * 10) / 10,
     baseline: 15,
   }));
 
@@ -125,7 +125,7 @@ export default function DashboardPage() {
               <div>
                 <p className="text-sm font-medium text-slate-400 mb-1">Today's Footprint</p>
                 <div className="flex items-baseline gap-2">
-                  <span className="text-4xl font-bold text-white tracking-tight">{formatCO2e(data.daily_emissions[0]?.total || 0)}</span>
+                  <span className="text-4xl font-bold text-white tracking-tight">{formatCO2e(data.daily_emissions[0]?.co2e || 0)}</span>
                 </div>
               </div>
               <div>
@@ -159,21 +159,21 @@ export default function DashboardPage() {
               <div className="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center mb-4">
                 <TreePine className="w-5 h-5" />
               </div>
-              <span className="text-2xl font-bold text-white">{data.impact_equivalency.trees_saved.toFixed(1)}</span>
+              <span className="text-2xl font-bold text-white">{(data.impact_equivalencies?.trees_needed ?? 0).toFixed(1)}</span>
               <span className="text-xs font-medium text-slate-400 mt-1 uppercase tracking-wider">Trees Saved</span>
             </div>
             <div className="glass-card rounded-3xl p-6 flex flex-col justify-center border border-white/5 bg-white/[0.02] hover:bg-white/[0.04] transition-colors cursor-default">
               <div className="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center mb-4">
                 <Car className="w-5 h-5" />
               </div>
-              <span className="text-2xl font-bold text-white">{data.impact_equivalency.km_driven_avoided.toFixed(0)}</span>
+              <span className="text-2xl font-bold text-white">{(data.impact_equivalencies?.cars_removed_days ?? 0).toFixed(0)}</span>
               <span className="text-xs font-medium text-slate-400 mt-1 uppercase tracking-wider">Km Avoided</span>
             </div>
             <div className="glass-card rounded-3xl p-6 flex flex-col justify-center border border-white/5 bg-white/[0.02] hover:bg-white/[0.04] transition-colors cursor-default">
               <div className="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center mb-4">
                 <Lightbulb className="w-5 h-5" />
               </div>
-              <span className="text-2xl font-bold text-white">{data.impact_equivalency.smartphone_charges.toFixed(0)}</span>
+              <span className="text-2xl font-bold text-white">{(data.impact_equivalencies?.phone_charges ?? 0).toFixed(0)}</span>
               <span className="text-xs font-medium text-slate-400 mt-1 uppercase tracking-wider">Phone Charges</span>
             </div>
             <div className="glass-card rounded-3xl p-6 flex flex-col justify-center border border-white/5 bg-white/[0.02] hover:bg-white/[0.04] transition-colors cursor-default">

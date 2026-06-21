@@ -12,15 +12,15 @@ export function Skeleton({ className, ...props }: React.HTMLAttributes<HTMLDivEl
   );
 }
 
-export function SkeletonCard() {
+export function SkeletonCard({ className }: { className?: string }) {
   return (
-    <div className="stat-card">
-      <div className="flex items-center justify-between mb-3">
-        <Skeleton className="h-3 w-20" />
-        <Skeleton className="h-5 w-12 rounded-full" />
+    <div className={cn("rounded-3xl border border-white/5 bg-white/[0.02] p-6", className)}>
+      <div className="flex items-center justify-between mb-4">
+        <Skeleton className="h-3 w-24" />
+        <Skeleton className="h-5 w-14 rounded-full" />
       </div>
-      <Skeleton className="h-8 w-24 mb-2" />
-      <Skeleton className="h-3 w-32" />
+      <Skeleton className="h-8 w-28 mb-3" />
+      <Skeleton className="h-3 w-36" />
     </div>
   );
 }
