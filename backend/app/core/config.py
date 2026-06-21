@@ -144,6 +144,13 @@ class Settings(BaseSettings):
             return v.replace("postgresql://", "postgresql+asyncpg://", 1)
         return v
 
+    @field_validator("DATABASE_SYNC_URL", mode="before")
+    @classmethod
+    def enforce_sync_driver(cls, v: str) -> str:
+        if isinstance(v, str) and v.startswith("postgresql+asyncpg://"):
+            return v.replace("postgresql+asyncpg://", "postgresql://", 1)
+        return v
+
     @property
     def is_production(self) -> bool:
         return self.ENVIRONMENT == Environment.PRODUCTION
