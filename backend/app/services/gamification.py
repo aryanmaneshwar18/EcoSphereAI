@@ -8,8 +8,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func, and_
 from datetime import datetime, UTC, timedelta
 
-from app.models.gamification import Streak, Badge, UserBadge, Challenge, ChallengeParticipation
-from app.models.user import User
+from app.models import Streak, Badge, UserBadge, Challenge, UserChallenge as ChallengeParticipation, User
 
 # Level requirements (XP needed for each level)
 # Level 1: 0 XP

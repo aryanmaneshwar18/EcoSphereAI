@@ -6,8 +6,7 @@ Handles social features including friends, leaderboards, and community feeds.
 from typing import List, Dict, Any
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func, desc
-from app.models.gamification import Leaderboard
-from app.models.user import User
+from app.models import LeaderboardEntry as Leaderboard, User
 
 class CommunityService:
     def __init__(self, db: AsyncSession):

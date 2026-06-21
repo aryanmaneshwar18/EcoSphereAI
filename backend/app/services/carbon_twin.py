@@ -7,7 +7,7 @@ scenario analysis, and historical trend extrapolation.
 from typing import Dict, Any, List
 from datetime import datetime, UTC
 from sqlalchemy.ext.asyncio import AsyncSession
-from app.models.gamification import CarbonActivity
+from app.models import Activity as CarbonActivity
 from sqlalchemy import select, and_
 
 class CarbonTwinService:
