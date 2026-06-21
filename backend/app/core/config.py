@@ -137,6 +137,13 @@ class Settings(BaseSettings):
             return [origin.strip() for origin in v.split(",")]
         return v
 
+    @field_validator("DATABASE_URL", mode="before")
+    @classmethod
+    def enforce_async_driver(cls, v: str) -> str:
+        if isinstance(v, str) and v.startswith("postgresql://"):
+            return v.replace("postgresql://", "postgresql+asyncpg://", 1)
+        return v
+
     @property
     def is_production(self) -> bool:
         return self.ENVIRONMENT == Environment.PRODUCTION
