@@ -1,0 +1,19103 @@
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART I — PRODUCT STRATEGY
+
+---
+
+# 1. Vision
+
+EcoSphere AI aims to become the world's most intelligent personal sustainability platform, helping individuals understand, track, predict, and reduce their environmental impact through AI-driven insights and behavior change.
+
+The platform should combine:
+
+* Scientific accuracy
+* Personalized intelligence
+* Gamification
+* Community engagement
+* Habit formation
+* Forecasting
+* Scenario simulation
+
+The goal is not merely to calculate emissions, but to help users permanently develop sustainable habits.
+
+---
+
+# 2. Problem Statement
+
+Most existing carbon calculators suffer from:
+
+### Low engagement
+
+Users interact once and abandon the platform.
+
+### Poor personalization
+
+Recommendations are generic.
+
+### Weak scientific foundation
+
+Emission factors are often unclear.
+
+### Lack of behavior change mechanisms
+
+Users see numbers but receive no motivation.
+
+### Limited forecasting
+
+Current apps rarely answer:
+
+* What happens if I stop flying?
+* What happens if I switch to a vegetarian diet?
+* How much can I save over 1 year?
+
+### No digital twin
+
+Users cannot simulate future lifestyles.
+
+---
+
+# 3. Mission
+
+Enable users to:
+
+1. Understand their carbon footprint.
+2. Track emissions from everyday activities.
+3. Receive AI-powered recommendations.
+4. Build sustainable habits.
+5. Forecast future impact.
+6. Compete and collaborate with others.
+7. Reduce emissions through measurable actions.
+
+---
+
+# 4. Product Principles
+
+Every feature must satisfy:
+
+### Scientific Accuracy
+
+Calculations must be based on trusted sources:
+
+* IPCC
+* DEFRA
+* EPA
+* IEA
+* GHG Protocol
+* Climatiq
+
+---
+
+### User Delight
+
+Interfaces should feel like:
+
+* Stripe
+* Linear
+* Notion
+* Apple
+* Arc Browser
+
+---
+
+### Accessibility
+
+The application must comply with:
+
+* WCAG 2.2 AA
+* Keyboard navigation
+* Screen readers
+* Reduced motion support
+
+---
+
+### Reliability
+
+Target:
+
+* 99.9% uptime
+* <200ms API latency
+* Lighthouse 100
+
+---
+
+### Security
+
+Follow:
+
+* OWASP Top 10
+* Zero-trust principles
+
+---
+
+# 5. Target Users
+
+---
+
+## Persona 1 — Eco-Conscious Professional
+
+Age:
+
+25–40
+
+Characteristics:
+
+* Tech savvy
+* High income
+* Environmentally aware
+
+Goals:
+
+* Reduce emissions
+* Compare performance
+* Optimize lifestyle
+
+Pain Points:
+
+* Doesn't know biggest emission sources.
+* Wants data-driven suggestions.
+
+---
+
+## Persona 2 — Student
+
+Age:
+
+18–25
+
+Characteristics:
+
+* Budget conscious
+* Mobile-first
+
+Goals:
+
+* Learn sustainability.
+* Build habits.
+
+Pain Points:
+
+* Information overload.
+* Needs simple actions.
+
+---
+
+## Persona 3 — Family
+
+Age:
+
+30–50
+
+Characteristics:
+
+* Household decision maker
+
+Goals:
+
+* Reduce utility bills.
+* Teach children sustainability.
+
+Pain Points:
+
+* Lack of time.
+* Need practical recommendations.
+
+---
+
+## Persona 4 — Frequent Traveler
+
+Age:
+
+25–50
+
+Characteristics:
+
+* Travels often.
+
+Goals:
+
+* Understand flight impact.
+* Offset emissions.
+
+Pain Points:
+
+* High carbon guilt.
+* Limited alternatives.
+
+---
+
+## Persona 5 — Sustainability Enthusiast
+
+Characteristics:
+
+* Wants detailed analytics.
+
+Goals:
+
+* Optimize every aspect.
+
+Pain Points:
+
+* Existing apps lack depth.
+
+---
+
+# 6. User Stories
+
+---
+
+### Transportation
+
+As a user,
+
+I want to record my travel activities,
+
+So that I can understand transportation emissions.
+
+---
+
+### Energy
+
+As a user,
+
+I want to monitor electricity consumption,
+
+So that I can reduce energy-related emissions.
+
+---
+
+### Food
+
+As a user,
+
+I want to understand the impact of my diet,
+
+So that I can make sustainable choices.
+
+---
+
+### AI Coaching
+
+As a user,
+
+I want personalized recommendations,
+
+So that I can reduce emissions efficiently.
+
+---
+
+### Forecasting
+
+As a user,
+
+I want to simulate future scenarios,
+
+So that I can understand long-term consequences.
+
+---
+
+### Community
+
+As a user,
+
+I want to participate in challenges,
+
+So that I stay motivated.
+
+---
+
+# 7. User Journey
+
+### Onboarding
+
+```text
+Signup
+↓
+Questionnaire
+↓
+Lifestyle profile
+↓
+Baseline footprint
+↓
+Dashboard
+```
+
+---
+
+### Daily Loop
+
+```text
+Log activities
+↓
+Update emissions
+↓
+Receive insights
+↓
+Earn rewards
+↓
+Build streak
+↓
+Repeat
+```
+
+---
+
+### Weekly Loop
+
+```text
+Analyze activities
+↓
+Generate report
+↓
+AI recommendations
+↓
+Set goals
+↓
+Weekly challenge
+```
+
+---
+
+### Forecasting Loop
+
+```text
+Current lifestyle
+↓
+Scenario simulator
+↓
+Future prediction
+↓
+Impact comparison
+↓
+Action plan
+```
+
+---
+
+# 8. KPIs
+
+## Product Metrics
+
+Daily Active Users
+
+Weekly Active Users
+
+Monthly Active Users
+
+Retention Rate
+
+Session Duration
+
+---
+
+## Engagement Metrics
+
+Streak completion
+
+Challenge participation
+
+Badge unlocks
+
+Community interactions
+
+---
+
+## Sustainability Metrics
+
+CO₂ reduced
+
+Emission trend
+
+Goal completion
+
+Recommendation acceptance rate
+
+---
+
+## Technical Metrics
+
+API latency
+
+Crash-free sessions
+
+Error rate
+
+Lighthouse score
+
+Accessibility score
+
+---
+
+## AI Metrics
+
+Recommendation accuracy
+
+User satisfaction
+
+Conversation completion rate
+
+Forecast confidence
+
+---
+
+# 9. Success Criteria
+
+EcoSphere AI succeeds if users:
+
+* Understand their emissions.
+* Build sustainable habits.
+* Reduce their footprint over time.
+* Remain engaged for months.
+* Trust the scientific accuracy.
+* Recommend the platform to others.
+
+---
+
+# End of PART I
+
+---
+
+The next section (**PART II**) becomes much deeper and covers:
+
+* Carbon science
+* CO₂e formulas
+* IPCC methodology
+* DEFRA emission factors
+* EPA references
+* Transport equations
+* Food emissions
+* Waste calculations
+* Shopping footprint
+* Water footprint
+* Digital footprint
+* Regional emission factors
+* Accuracy models
+
+This is where the platform begins to resemble a Google Sustainability + OpenAI + Stripe-level product.                                  
+
+
+
+Perfect. We'll continue building the **MASTER PROMPT DOCUMENT V2.0 ULTIMATE EDITION** as if we were writing the internal design document for a Google Sustainability × OpenAI × Stripe product.
+
+---
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART II — SCIENTIFIC CARBON METHODOLOGY
+
+---
+
+# 10. Scientific Principles
+
+EcoSphere AI must prioritize **scientific credibility over estimation shortcuts**.
+
+All calculations must be transparent, reproducible, and based on internationally accepted standards.
+
+The platform should rely on:
+
+### Primary Sources
+
+* IPCC AR6
+* DEFRA Conversion Factors
+* EPA Emission Factors Hub
+* IEA Electricity Carbon Intensity
+* GHG Protocol
+* Climatiq API
+* Our World in Data
+* Poore & Nemecek Food Dataset
+
+---
+
+# 11. Carbon Calculation Formula
+
+All emissions follow:
+
+```python
+CO2e = Activity Amount × Emission Factor
+```
+
+where:
+
+```python
+Activity Amount
+=
+distance, kWh, kg food, liters fuel, etc.
+
+Emission Factor
+=
+kg CO2e per unit
+
+Result
+=
+kg CO2 equivalent
+```
+
+---
+
+# 12. Greenhouse Gases
+
+Include:
+
+### Carbon Dioxide
+
+CO₂
+
+---
+
+### Methane
+
+CH₄
+
+---
+
+### Nitrous Oxide
+
+N₂O
+
+---
+
+### Fluorinated Gases
+
+HFCs
+
+PFCs
+
+SF₆
+
+NF₃
+
+---
+
+All gases are converted to:
+
+```python
+CO₂ Equivalent (CO₂e)
+```
+
+using:
+
+```python
+Global Warming Potential (GWP100)
+```
+
+according to IPCC AR6.
+
+---
+
+# 13. Emission Categories
+
+EcoSphere AI tracks:
+
+---
+
+## Transportation
+
+### Personal Vehicles
+
+Petrol
+
+Diesel
+
+Hybrid
+
+Electric
+
+Motorcycle
+
+---
+
+### Public Transport
+
+Bus
+
+Metro
+
+Train
+
+Tram
+
+---
+
+### Flights
+
+Short-haul
+
+Medium-haul
+
+Long-haul
+
+Business class
+
+Economy class
+
+---
+
+### Micro Mobility
+
+Walking
+
+Cycling
+
+Scooter
+
+---
+
+## Home Energy
+
+Electricity
+
+Natural Gas
+
+LPG
+
+Solar
+
+Heating
+
+Cooling
+
+---
+
+## Food
+
+Beef
+
+Lamb
+
+Pork
+
+Chicken
+
+Fish
+
+Milk
+
+Cheese
+
+Eggs
+
+Rice
+
+Vegetables
+
+Fruits
+
+Nuts
+
+Vegan meals
+
+---
+
+## Waste
+
+Landfill
+
+Recycling
+
+Composting
+
+Food waste
+
+Plastic waste
+
+Paper waste
+
+---
+
+## Water Footprint
+
+Water consumption
+
+Hot water
+
+Shower duration
+
+Laundry
+
+Dishwashing
+
+---
+
+## Shopping Footprint
+
+Electronics
+
+Fashion
+
+Furniture
+
+Household goods
+
+Packaging
+
+---
+
+## Digital Footprint
+
+Streaming
+
+Cloud storage
+
+Gaming
+
+AI usage
+
+Internet activity
+
+Device charging
+
+---
+
+# 14. Transportation Equations
+
+---
+
+## Distance-Based
+
+```python
+CO2e = distance × emission_factor
+```
+
+Example:
+
+```python
+distance = 100 km
+
+car_factor = 0.171
+
+co2e = 17.1 kg
+```
+
+---
+
+## Fuel-Based
+
+```python
+CO2e = fuel_used × factor
+```
+
+Petrol:
+
+```python
+2.31 kg CO2/liter
+```
+
+Diesel:
+
+```python
+2.68 kg CO2/liter
+```
+
+---
+
+## Flight Equation
+
+```python
+CO2e =
+distance
+× aircraft_factor
+× radiative_forcing
+```
+
+Factors depend on:
+
+* Economy class
+* Business class
+* Flight length
+
+---
+
+# 15. Energy Equations
+
+---
+
+## Electricity
+
+```python
+CO2e =
+kWh × grid_factor
+```
+
+Example:
+
+```python
+400 kWh × 0.45
+
+=
+180 kg CO2e
+```
+
+---
+
+## Natural Gas
+
+```python
+CO2e =
+gas_consumption × gas_factor
+```
+
+---
+
+## Solar
+
+Solar production generates:
+
+```python
+Negative Emissions Savings
+```
+
+---
+
+# 16. Food Equations
+
+---
+
+## Beef
+
+Approximately:
+
+```python
+60 kg CO2e/kg
+```
+
+---
+
+## Lamb
+
+```python
+24 kg CO2e/kg
+```
+
+---
+
+## Cheese
+
+```python
+21 kg CO2e/kg
+```
+
+---
+
+## Chicken
+
+```python
+6 kg CO2e/kg
+```
+
+---
+
+## Vegetables
+
+```python
+0.5–2 kg CO2e/kg
+```
+
+---
+
+## Nuts
+
+```python
+0.3 kg CO2e/kg
+```
+
+---
+
+## Vegan Meals
+
+Lowest category.
+
+---
+
+# 17. Waste Equations
+
+---
+
+## Landfill
+
+```python
+CO2e =
+waste_weight × landfill_factor
+```
+
+---
+
+## Composting
+
+Produces much lower emissions.
+
+---
+
+## Recycling
+
+Can generate avoided emissions.
+
+---
+
+# 18. Water Footprint
+
+Hot water:
+
+```python
+Water × Heating Energy Factor
+```
+
+Show:
+
+Daily
+
+Weekly
+
+Monthly
+
+Consumption trends.
+
+---
+
+# 19. Digital Footprint
+
+Track:
+
+---
+
+### Streaming
+
+Netflix
+
+YouTube
+
+Spotify
+
+---
+
+### Cloud Storage
+
+Google Drive
+
+Dropbox
+
+iCloud
+
+---
+
+### Gaming
+
+PC
+
+Console
+
+Cloud gaming
+
+---
+
+### AI Usage
+
+ChatGPT
+
+Gemini
+
+Claude
+
+Image generation
+
+---
+
+# 20. Household Footprint
+
+Include:
+
+Number of residents
+
+House size
+
+Appliances
+
+HVAC
+
+Lighting
+
+Water heaters
+
+Smart devices
+
+---
+
+# 21. Regional Factors
+
+Support:
+
+India
+
+USA
+
+UK
+
+Europe
+
+Australia
+
+Canada
+
+Global averages
+
+---
+
+Regional differences affect:
+
+Electricity
+
+Transportation
+
+Food
+
+Fuel
+
+Water
+
+---
+
+# 22. Accuracy Levels
+
+---
+
+### Level 1
+
+Global average
+
+Confidence:
+
+70%
+
+---
+
+### Level 2
+
+Country-specific
+
+Confidence:
+
+85%
+
+---
+
+### Level 3
+
+Region-specific
+
+Confidence:
+
+92%
+
+---
+
+### Level 4
+
+Smart meter and integrations
+
+Confidence:
+
+97%
+
+---
+
+# 23. Carbon Budget
+
+Annual target:
+
+```python
+2 tonnes CO2/person
+```
+
+Monthly:
+
+```python
+166 kg CO2
+```
+
+Users receive:
+
+Budget spent
+
+Remaining allowance
+
+Overspending alerts
+
+---
+
+# 24. Impact Equivalencies
+
+Convert emissions into:
+
+---
+
+Trees needed
+
+Cars removed
+
+Coal avoided
+
+Phone charging equivalents
+
+LED bulb equivalents
+
+Homes powered
+
+---
+
+Example:
+
+```python
+100 kg CO2e
+
+≈ 4 trees
+```
+
+---
+
+# 25. Scenario Simulation
+
+"What if I become vegetarian?"
+
+"What if I stop flying?"
+
+"What if I install solar panels?"
+
+"What if I cycle three days a week?"
+
+Predict:
+
+30 days
+
+90 days
+
+1 year
+
+5 years
+
+---
+
+# 26. Confidence Score
+
+Every prediction includes:
+
+```python
+confidence_score
+```
+
+Range:
+
+0–100
+
+Factors:
+
+Data quality
+
+History
+
+Consistency
+
+Regional factors
+
+---
+
+# 27. Explainability
+
+Every recommendation should answer:
+
+### Why?
+
+### How much impact?
+
+### Confidence level?
+
+### Scientific source?
+
+---
+
+Example:
+
+```text
+Switching two car trips to cycling
+can reduce approximately
+18 kg CO2/month.
+
+Confidence: 89%
+
+Source:
+DEFRA 2025 Transport Factors.
+```
+
+---
+
+# End of PART II
+
+---
+
+### PART III will move into **Enterprise Architecture** and will cover:
+
+* High-level architecture
+* Folder structure
+* DDD
+* SOLID principles
+* Hexagonal architecture
+* Service boundaries
+* Microservices vs modular monolith
+* API gateway
+* Redis
+* Celery
+* Event-driven systems
+* Monitoring architecture
+* Deployment architecture
+
+At this point, the document begins to resemble an internal engineering specification rather than a conventional prompt.
+
+
+
+
+
+Excellent. We are now entering the part where the document starts looking like something written by **Google Infrastructure + Stripe + OpenAI architects**.
+
+---
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART III — ENTERPRISE SYSTEM ARCHITECTURE
+
+---
+
+# 28. Architecture Philosophy
+
+EcoSphere AI should be built like a long-term scalable platform, not a hackathon prototype.
+
+The architecture should optimize for:
+
+* Scalability
+* Maintainability
+* Reliability
+* Observability
+* Performance
+* Security
+* Testability
+* Extensibility
+
+Follow:
+
+* Domain Driven Design (DDD)
+* SOLID principles
+* Clean Architecture
+* Hexagonal Architecture
+* Event-driven patterns
+
+---
+
+# 29. Architectural Style
+
+Prefer:
+
+### Modular Monolith
+
+For V1:
+
+```text
+Frontend
+↓
+API Layer
+↓
+Domain Services
+↓
+Database
+```
+
+Advantages:
+
+* Faster development
+* Easier deployment
+* Lower complexity
+
+---
+
+Future migration path:
+
+```text
+Authentication Service
+
+User Service
+
+Activity Service
+
+Recommendation Service
+
+AI Service
+
+Notification Service
+
+Community Service
+
+Analytics Service
+```
+
+This allows gradual transition into microservices.
+
+---
+
+# 30. High-Level System Architecture
+
+```text
+┌────────────────────────────┐
+│        Frontend            │
+│ Next.js + TypeScript       │
+└─────────────┬──────────────┘
+              │
+              ▼
+┌────────────────────────────┐
+│        API Gateway         │
+│ FastAPI                    │
+└─────────────┬──────────────┘
+              │
+────────────────────────────────
+
+Domain Layer
+
+Authentication
+
+Activities
+
+Goals
+
+Reports
+
+Recommendations
+
+AI
+
+Gamification
+
+Community
+
+Forecasting
+
+Notifications
+
+────────────────────────────────
+              │
+              ▼
+┌────────────────────────────┐
+│ PostgreSQL + Supabase      │
+└────────────────────────────┘
+
+              │
+
+Redis Cache
+
+Celery Workers
+
+Sentry
+
+Prometheus
+
+Grafana
+
+OpenAI
+
+Gemini
+
+Email Services
+
+Storage
+```
+
+---
+
+# 31. Core Domains
+
+---
+
+## User Domain
+
+Responsibilities:
+
+* Authentication
+* Profiles
+* Settings
+
+Entities:
+
+```python
+User
+Profile
+Session
+Preferences
+```
+
+---
+
+## Activity Domain
+
+Tracks:
+
+* Transportation
+* Energy
+* Food
+* Waste
+* Shopping
+* Water
+
+Entities:
+
+```python
+CarbonActivity
+EmissionFactor
+```
+
+---
+
+## Recommendation Domain
+
+Entities:
+
+```python
+Recommendation
+RecommendationScore
+```
+
+---
+
+## AI Domain
+
+Entities:
+
+```python
+Conversation
+Memory
+Prompt
+Embedding
+```
+
+---
+
+## Community Domain
+
+Entities:
+
+```python
+Friend
+Post
+Comment
+Challenge
+```
+
+---
+
+## Gamification Domain
+
+Entities:
+
+```python
+Badge
+XP
+Level
+Streak
+```
+
+---
+
+## Forecast Domain
+
+Entities:
+
+```python
+Forecast
+Scenario
+CarbonTwin
+```
+
+---
+
+# 32. Clean Architecture Layers
+
+---
+
+### Presentation Layer
+
+Next.js
+
+Pages
+
+Components
+
+Forms
+
+Charts
+
+---
+
+### Application Layer
+
+Use cases
+
+Commands
+
+Queries
+
+DTOs
+
+---
+
+### Domain Layer
+
+Business rules
+
+Entities
+
+Aggregates
+
+Value objects
+
+---
+
+### Infrastructure Layer
+
+Database
+
+Redis
+
+Email
+
+Storage
+
+AI Providers
+
+---
+
+Dependency flow:
+
+```text
+Presentation
+↓
+Application
+↓
+Domain
+↑
+Infrastructure
+```
+
+Domain never depends on Infrastructure.
+
+---
+
+# 33. SOLID Principles
+
+---
+
+### Single Responsibility
+
+Every service has one responsibility.
+
+---
+
+### Open Closed
+
+Add new features without changing existing code.
+
+---
+
+### Liskov
+
+Substitutions should work seamlessly.
+
+---
+
+### Interface Segregation
+
+Avoid huge interfaces.
+
+---
+
+### Dependency Inversion
+
+Depend on abstractions.
+
+---
+
+# 34. Feature-Based Folder Structure
+
+```python
+app/
+
+components/
+ui/
+shared/
+
+features/
+
+dashboard/
+
+activities/
+
+energy/
+
+transport/
+
+food/
+
+waste/
+
+reports/
+
+recommendations/
+
+coach/
+
+forecast/
+
+community/
+
+gamification/
+
+notifications/
+
+admin/
+
+services/
+
+repositories/
+
+hooks/
+
+store/
+
+schemas/
+
+validators/
+
+constants/
+
+providers/
+
+middleware/
+
+lib/
+
+utils/
+
+config/
+
+emails/
+
+animations/
+
+tests/
+
+e2e/
+
+scripts/
+```
+
+---
+
+# 35. Frontend Architecture
+
+Stack:
+
+```python
+Next.js 15
+TypeScript
+Tailwind
+Shadcn
+Framer Motion
+```
+
+Patterns:
+
+Server Components
+
+Client Components
+
+Optimistic Updates
+
+Suspense
+
+Streaming
+
+React Query
+
+---
+
+# 36. State Management
+
+Use:
+
+```python
+Zustand
+```
+
+Stores:
+
+```python
+AuthStore
+
+ThemeStore
+
+ActivityStore
+
+GoalStore
+
+NotificationStore
+
+ReportStore
+
+CommunityStore
+
+ForecastStore
+```
+
+---
+
+# 37. Backend Architecture
+
+Stack:
+
+```python
+FastAPI
+
+Pydantic
+
+SQLAlchemy
+
+Alembic
+```
+
+Structure:
+
+```python
+routers/
+
+services/
+
+repositories/
+
+models/
+
+schemas/
+
+core/
+
+middleware/
+
+workers/
+
+tasks/
+```
+
+---
+
+# 38. Repository Pattern
+
+Never access DB directly from routes.
+
+Flow:
+
+```text
+Controller
+↓
+Service
+↓
+Repository
+↓
+Database
+```
+
+Example:
+
+```python
+ActivityController
+
+↓
+
+ActivityService
+
+↓
+
+ActivityRepository
+
+↓
+
+PostgreSQL
+```
+
+---
+
+# 39. CQRS Pattern
+
+Commands:
+
+```python
+CreateActivity
+
+UpdateGoal
+
+GenerateReport
+```
+
+Queries:
+
+```python
+GetDashboard
+
+GetLeaderboard
+
+GetForecast
+```
+
+This improves scalability.
+
+---
+
+# 40. Event-Driven Architecture
+
+Events:
+
+```python
+ActivityLogged
+
+GoalCompleted
+
+BadgeUnlocked
+
+WeeklyReportGenerated
+
+RecommendationAccepted
+
+StreakUpdated
+```
+
+Consumers react automatically.
+
+---
+
+# 41. Redis Layer
+
+Used for:
+
+### Caching
+
+### Sessions
+
+### Leaderboards
+
+### AI memory cache
+
+### Rate limiting
+
+### Queue broker
+
+---
+
+# 42. Celery Workers
+
+Background jobs:
+
+```python
+GenerateReports
+
+SendEmails
+
+UpdateForecasts
+
+CalculateStreaks
+
+PushNotifications
+
+GenerateAIInsights
+```
+
+---
+
+# 43. Cron Jobs
+
+Daily:
+
+```python
+Update streaks
+```
+
+Weekly:
+
+```python
+Generate reports
+```
+
+Monthly:
+
+```python
+Generate analytics
+```
+
+Yearly:
+
+```python
+Carbon summary
+```
+
+---
+
+# 44. API Gateway
+
+Responsibilities:
+
+Authentication
+
+Validation
+
+Rate limiting
+
+Logging
+
+Routing
+
+Monitoring
+
+---
+
+# 45. External Services
+
+AI:
+
+```python
+OpenAI
+
+Gemini
+```
+
+Storage:
+
+```python
+Supabase Storage
+```
+
+Email:
+
+```python
+Resend
+```
+
+Analytics:
+
+```python
+PostHog
+```
+
+Monitoring:
+
+```python
+Sentry
+
+Prometheus
+
+Grafana
+```
+
+---
+
+# 46. Deployment Architecture
+
+Frontend:
+
+```python
+Vercel
+```
+
+Backend:
+
+```python
+Render
+```
+
+Database:
+
+```python
+Supabase
+```
+
+Cache:
+
+```python
+Redis
+```
+
+Workers:
+
+```python
+Celery
+```
+
+Monitoring:
+
+```python
+Grafana
+```
+
+---
+
+# 47. Scalability Targets
+
+Users:
+
+```python
+100K+
+```
+
+Activities:
+
+```python
+10M+
+```
+
+API Latency:
+
+```python
+<200ms
+```
+
+Availability:
+
+```python
+99.9%
+```
+
+---
+
+# 48. Engineering Standards
+
+Must follow:
+
+Google Engineering Practices
+
+Stripe DX philosophy
+
+Airbnb TypeScript standards
+
+Vercel frontend architecture
+
+OWASP Top 10
+
+WCAG 2.2
+
+12-Factor App methodology
+
+---
+
+# End of PART III
+
+---
+
+## PART IV — DATABASE DESIGN & ERD
+
+Next, the document becomes significantly deeper and will define:
+
+* Exact tables
+* Fields
+* Relationships
+* Constraints
+* Indexes
+* Composite indexes
+* Foreign keys
+* UUID strategy
+* Soft deletes
+* Audit logs
+* ER diagrams
+* Versioning
+* Time-series tables
+
+At that stage, the document will begin to resemble a real internal software architecture document used by senior engineers.
+
+
+
+
+
+
+
+
+Excellent. Now we move into the part where the specification starts looking like something written by **Staff Engineers at Stripe, Airbnb, Uber, and Google**.
+
+---
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART IV — DATABASE DESIGN & ERD
+
+---
+
+# 49. Database Philosophy
+
+The database must be:
+
+* Normalized
+* Highly indexed
+* Auditable
+* Scalable
+* Secure
+* Extensible
+
+Follow:
+
+* PostgreSQL best practices
+* UUID primary keys
+* Foreign keys
+* Soft deletes
+* Timestamps
+* Optimistic locking
+* Audit trails
+
+---
+
+# 50. Naming Conventions
+
+### Tables
+
+Snake_case
+
+```python
+carbon_activities
+user_profiles
+weekly_reports
+```
+
+---
+
+### Columns
+
+```python
+created_at
+updated_at
+deleted_at
+user_id
+```
+
+---
+
+### IDs
+
+Use UUID v7:
+
+```python
+id UUID PRIMARY KEY
+```
+
+---
+
+# 51. Base Entity
+
+Every table contains:
+
+```python
+id
+
+created_at
+
+updated_at
+
+deleted_at
+```
+
+Soft delete:
+
+```python
+deleted_at NULL
+```
+
+---
+
+# 52. User Table
+
+```python
+users
+
+id
+clerk_user_id
+email
+username
+avatar_url
+role
+status
+created_at
+updated_at
+```
+
+Indexes:
+
+```python
+email UNIQUE
+
+clerk_user_id UNIQUE
+```
+
+---
+
+# 53. Profile Table
+
+Relationship:
+
+```text
+User
+1 → 1
+Profile
+```
+
+Fields:
+
+```python
+profiles
+
+id
+user_id
+age
+gender
+country
+state
+city
+household_size
+diet_type
+vehicle_type
+income_group
+occupation
+sustainability_level
+```
+
+---
+
+# 54. User Preferences
+
+```python
+user_preferences
+
+id
+user_id
+
+theme
+
+language
+
+unit_system
+
+notifications_enabled
+
+email_notifications
+
+push_notifications
+```
+
+---
+
+# 55. Carbon Activity Table
+
+Most important table.
+
+```python
+carbon_activities
+
+id
+
+user_id
+
+category
+
+subcategory
+
+activity_name
+
+amount
+
+unit
+
+emission_factor
+
+co2e
+
+source
+
+confidence_score
+
+activity_date
+
+created_at
+```
+
+---
+
+Indexes:
+
+```python
+user_id
+
+activity_date
+
+category
+```
+
+Composite:
+
+```python
+(user_id, activity_date)
+```
+
+---
+
+# 56. Emission Factors
+
+```python
+emission_factors
+
+id
+
+category
+
+subcategory
+
+country
+
+factor
+
+unit
+
+source
+
+year
+
+confidence_score
+```
+
+---
+
+Sources:
+
+* IPCC
+* DEFRA
+* EPA
+* Climatiq
+
+---
+
+# 57. Goals Table
+
+```python
+goals
+
+id
+
+user_id
+
+goal_type
+
+target_value
+
+current_value
+
+status
+
+start_date
+
+end_date
+```
+
+---
+
+# 58. Recommendations Table
+
+```python
+recommendations
+
+id
+
+user_id
+
+title
+
+description
+
+impact_kg
+
+difficulty
+
+priority_score
+
+accepted
+
+completed
+```
+
+---
+
+# 59. Weekly Reports
+
+```python
+weekly_reports
+
+id
+
+user_id
+
+week_start
+
+week_end
+
+total_co2e
+
+summary
+
+ai_insights
+
+generated_at
+```
+
+---
+
+# 60. Monthly Reports
+
+```python
+monthly_reports
+
+id
+
+user_id
+
+month
+
+year
+
+total_co2e
+
+largest_source
+
+trend
+
+forecast
+```
+
+---
+
+# 61. Forecast Table
+
+```python
+forecasts
+
+id
+
+user_id
+
+period
+
+predicted_co2e
+
+confidence_score
+
+generated_at
+```
+
+Periods:
+
+```python
+30_days
+
+90_days
+
+1_year
+
+5_years
+```
+
+---
+
+# 62. Carbon Twin Table
+
+```python
+carbon_twins
+
+id
+
+user_id
+
+current_emissions
+
+future_projection
+
+vegetarian_projection
+
+solar_projection
+
+ev_projection
+
+generated_at
+```
+
+---
+
+# 63. AI Conversations
+
+```python
+ai_conversations
+
+id
+
+user_id
+
+session_id
+
+message
+
+role
+
+model
+
+token_usage
+
+created_at
+```
+
+---
+
+# 64. Memory Table
+
+Long-term AI memory:
+
+```python
+memories
+
+id
+
+user_id
+
+memory_type
+
+content
+
+importance_score
+
+embedding_id
+
+created_at
+```
+
+---
+
+# 65. Embeddings Table
+
+```python
+embeddings
+
+id
+
+reference_id
+
+vector
+
+metadata
+
+created_at
+```
+
+Used for:
+
+* RAG
+* Similarity search
+
+---
+
+# 66. Notifications Table
+
+```python
+notifications
+
+id
+
+user_id
+
+type
+
+title
+
+body
+
+is_read
+
+sent_at
+```
+
+---
+
+# 67. Streak Table
+
+```python
+streaks
+
+id
+
+user_id
+
+current_streak
+
+longest_streak
+
+last_activity_date
+```
+
+---
+
+# 68. XP Table
+
+```python
+xp
+
+id
+
+user_id
+
+total_xp
+
+current_level
+```
+
+---
+
+# 69. Badges
+
+```python
+badges
+
+id
+
+name
+
+description
+
+icon
+```
+
+---
+
+# 70. User Badges
+
+Many-to-many:
+
+```text
+Users
+
+↔
+
+Badges
+```
+
+Table:
+
+```python
+user_badges
+
+id
+
+user_id
+
+badge_id
+
+earned_at
+```
+
+---
+
+# 71. Challenges
+
+```python
+challenges
+
+id
+
+title
+
+description
+
+start_date
+
+end_date
+
+reward_xp
+```
+
+---
+
+# 72. User Challenges
+
+```python
+user_challenges
+
+id
+
+user_id
+
+challenge_id
+
+progress
+
+completed
+```
+
+---
+
+# 73. Community Posts
+
+```python
+posts
+
+id
+
+user_id
+
+content
+
+likes_count
+
+comments_count
+```
+
+---
+
+# 74. Comments
+
+```python
+comments
+
+id
+
+post_id
+
+user_id
+
+content
+```
+
+---
+
+# 75. Friends
+
+Many-to-many:
+
+```python
+friends
+
+user_id
+
+friend_id
+
+status
+```
+
+---
+
+# 76. Leaderboard
+
+```python
+leaderboard_entries
+
+id
+
+user_id
+
+rank
+
+score
+
+month
+```
+
+---
+
+# 77. Audit Logs
+
+Critical table.
+
+```python
+audit_logs
+
+id
+
+user_id
+
+action
+
+resource
+
+resource_id
+
+ip_address
+
+created_at
+```
+
+---
+
+# 78. Session Table
+
+```python
+sessions
+
+id
+
+user_id
+
+device
+
+browser
+
+location
+
+last_seen
+```
+
+---
+
+# 79. Admin Users
+
+```python
+admin_users
+
+id
+
+email
+
+role
+
+permissions
+```
+
+---
+
+# 80. API Keys
+
+```python
+api_keys
+
+id
+
+user_id
+
+key_hash
+
+status
+
+expires_at
+```
+
+---
+
+# 81. Search History
+
+```python
+search_history
+
+id
+
+user_id
+
+query
+
+timestamp
+```
+
+---
+
+# 82. Time-Series Optimization
+
+Partition:
+
+```python
+carbon_activities
+```
+
+By:
+
+```python
+month
+```
+
+Improves:
+
+* Analytics
+* Forecasting
+
+---
+
+# 83. Index Strategy
+
+B-tree:
+
+```python
+user_id
+
+activity_date
+
+category
+```
+
+GIN:
+
+```python
+embeddings
+
+jsonb metadata
+```
+
+Composite:
+
+```python
+(user_id, category)
+
+(user_id, activity_date)
+```
+
+---
+
+# 84. Relationships
+
+```text
+User
+│
+├── Profile
+├── Activities
+├── Goals
+├── Reports
+├── Forecasts
+├── Recommendations
+├── Notifications
+├── Streaks
+├── XP
+├── Posts
+├── AI Conversations
+├── Memories
+└── Search History
+```
+
+---
+
+# 85. Database Standards
+
+Follow:
+
+* PostgreSQL best practices
+* ACID transactions
+* Foreign keys
+* Constraints
+* Soft deletes
+* Auditability
+* Time-series optimization
+
+---
+
+# End of PART IV
+
+---
+
+## PART V — API CONTRACTS & SERVICE LAYER
+
+Next we define:
+
+* REST APIs
+* DTOs
+* Request schemas
+* Response schemas
+* Pagination
+* Error handling
+* Versioning
+* Swagger/OpenAPI
+* Rate limits
+* Authentication middleware
+* Service layer
+* Repository pattern
+
+At this stage, the specification starts resembling an actual backend architecture document used by senior platform engineers.
+
+
+
+
+
+
+Excellent. We now enter the layer that separates hobby projects from software designed by senior backend engineers. This section defines API contracts, DTOs, validation, versioning, pagination, and service boundaries.
+
+---
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART V — API CONTRACTS & SERVICE LAYER
+
+---
+
+# 86. API Philosophy
+
+APIs must be:
+
+* RESTful
+* Versioned
+* Typed
+* Predictable
+* Idempotent
+* Well documented
+
+Follow:
+
+* OpenAPI 3.1
+* JSON API principles
+* RFC 7807 Problem Details
+* DTO-based architecture
+
+---
+
+# 87. Base URL
+
+```text
+/api/v1
+```
+
+Future:
+
+```text
+/api/v2
+```
+
+---
+
+# 88. Standard Response Format
+
+Success:
+
+```json
+{
+  "success": true,
+  "message": "Activity created successfully",
+  "data": {},
+  "timestamp": ""
+}
+```
+
+Error:
+
+```json
+{
+  "success": false,
+  "error": {
+    "code": "VALIDATION_ERROR",
+    "message": "Invalid input"
+  }
+}
+```
+
+---
+
+# 89. Authentication APIs
+
+## Register
+
+```http
+POST /auth/register
+```
+
+Request:
+
+```json
+{
+  "email":"",
+  "password":""
+}
+```
+
+Response:
+
+```json
+{
+  "user_id":"",
+  "token":""
+}
+```
+
+---
+
+## Login
+
+```http
+POST /auth/login
+```
+
+---
+
+## Logout
+
+```http
+POST /auth/logout
+```
+
+---
+
+## Refresh Token
+
+```http
+POST /auth/refresh
+```
+
+---
+
+## Current User
+
+```http
+GET /auth/me
+```
+
+---
+
+# 90. Profile APIs
+
+### Get Profile
+
+```http
+GET /profiles/me
+```
+
+---
+
+### Update Profile
+
+```http
+PATCH /profiles/me
+```
+
+Fields:
+
+* age
+* diet_type
+* country
+* household_size
+* sustainability_level
+
+---
+
+# 91. Activity APIs
+
+---
+
+## Create Activity
+
+```http
+POST /activities
+```
+
+Request:
+
+```json
+{
+  "category":"transport",
+  "subcategory":"car",
+  "amount":100,
+  "unit":"km"
+}
+```
+
+Response:
+
+```json
+{
+  "co2e":17.1
+}
+```
+
+---
+
+## Get Activities
+
+```http
+GET /activities
+```
+
+Filters:
+
+* category
+* start_date
+* end_date
+
+Pagination:
+
+```text
+?page=1&limit=20
+```
+
+---
+
+## Update Activity
+
+```http
+PATCH /activities/{id}
+```
+
+---
+
+## Delete Activity
+
+```http
+DELETE /activities/{id}
+```
+
+---
+
+# 92. Dashboard APIs
+
+### Overview
+
+```http
+GET /dashboard
+```
+
+Returns:
+
+* total emissions
+* trends
+* category breakdown
+* AI insights
+
+---
+
+### Weekly Analytics
+
+```http
+GET /dashboard/weekly
+```
+
+---
+
+### Monthly Analytics
+
+```http
+GET /dashboard/monthly
+```
+
+---
+
+# 93. Goals APIs
+
+Create:
+
+```http
+POST /goals
+```
+
+---
+
+Get:
+
+```http
+GET /goals
+```
+
+---
+
+Update:
+
+```http
+PATCH /goals/{id}
+```
+
+---
+
+Delete:
+
+```http
+DELETE /goals/{id}
+```
+
+---
+
+# 94. Recommendation APIs
+
+```http
+GET /recommendations
+```
+
+---
+
+Accept Recommendation
+
+```http
+POST /recommendations/{id}/accept
+```
+
+---
+
+Complete Recommendation
+
+```http
+POST /recommendations/{id}/complete
+```
+
+---
+
+# 95. Forecast APIs
+
+30 Days
+
+```http
+GET /forecast/30d
+```
+
+---
+
+90 Days
+
+```http
+GET /forecast/90d
+```
+
+---
+
+1 Year
+
+```http
+GET /forecast/1y
+```
+
+---
+
+5 Years
+
+```http
+GET /forecast/5y
+```
+
+---
+
+# 96. Carbon Twin APIs
+
+Generate:
+
+```http
+POST /carbon-twin
+```
+
+---
+
+Scenario:
+
+```http
+POST /carbon-twin/scenario
+```
+
+Example:
+
+```json
+{
+  "diet":"vegetarian"
+}
+```
+
+---
+
+# 97. AI Coach APIs
+
+Chat:
+
+```http
+POST /chat
+```
+
+Request:
+
+```json
+{
+  "message":"How can I reduce transport emissions?"
+}
+```
+
+---
+
+Conversation History
+
+```http
+GET /chat/history
+```
+
+---
+
+Delete Session
+
+```http
+DELETE /chat/{session_id}
+```
+
+---
+
+# 98. Reports APIs
+
+Weekly:
+
+```http
+GET /reports/weekly
+```
+
+---
+
+Monthly:
+
+```http
+GET /reports/monthly
+```
+
+---
+
+Annual:
+
+```http
+GET /reports/annual
+```
+
+---
+
+# 99. Export APIs
+
+PDF
+
+```http
+GET /exports/pdf
+```
+
+---
+
+CSV
+
+```http
+GET /exports/csv
+```
+
+---
+
+Excel
+
+```http
+GET /exports/xlsx
+```
+
+---
+
+Social Card
+
+```http
+GET /exports/share
+```
+
+---
+
+# 100. Gamification APIs
+
+XP
+
+```http
+GET /xp
+```
+
+---
+
+Badges
+
+```http
+GET /badges
+```
+
+---
+
+Streak
+
+```http
+GET /streaks
+```
+
+---
+
+Leaderboard
+
+```http
+GET /leaderboard
+```
+
+---
+
+# 101. Community APIs
+
+Posts:
+
+```http
+GET /posts
+```
+
+Create:
+
+```http
+POST /posts
+```
+
+Like:
+
+```http
+POST /posts/{id}/like
+```
+
+Comment:
+
+```http
+POST /posts/{id}/comments
+```
+
+---
+
+# 102. Notification APIs
+
+Get Notifications:
+
+```http
+GET /notifications
+```
+
+---
+
+Mark Read:
+
+```http
+PATCH /notifications/{id}
+```
+
+---
+
+# 103. Search APIs
+
+```http
+GET /search
+```
+
+Parameters:
+
+```text
+query
+page
+limit
+sort
+```
+
+---
+
+# 104. Admin APIs
+
+Users
+
+```http
+GET /admin/users
+```
+
+---
+
+Reports
+
+```http
+GET /admin/reports
+```
+
+---
+
+Audit Logs
+
+```http
+GET /admin/audit-logs
+```
+
+---
+
+# 105. Pagination Standard
+
+```json
+{
+  "data": [],
+  "pagination": {
+    "page":1,
+    "limit":20,
+    "total":100,
+    "pages":5
+  }
+}
+```
+
+---
+
+# 106. Error Codes
+
+```python
+VALIDATION_ERROR
+
+UNAUTHORIZED
+
+FORBIDDEN
+
+NOT_FOUND
+
+RATE_LIMITED
+
+INTERNAL_SERVER_ERROR
+```
+
+---
+
+# 107. DTO Pattern
+
+Never expose database models directly.
+
+Flow:
+
+```text
+Request
+↓
+DTO
+↓
+Service
+↓
+Repository
+↓
+Database
+```
+
+---
+
+# 108. Service Layer
+
+Services:
+
+```python
+AuthService
+
+ProfileService
+
+ActivityService
+
+GoalService
+
+RecommendationService
+
+ForecastService
+
+AIService
+
+CommunityService
+
+GamificationService
+
+NotificationService
+```
+
+---
+
+# 109. Repository Layer
+
+Repositories:
+
+```python
+UserRepository
+
+ActivityRepository
+
+GoalRepository
+
+ForecastRepository
+
+ConversationRepository
+
+BadgeRepository
+
+NotificationRepository
+```
+
+---
+
+# 110. Validation Layer
+
+Use:
+
+* Pydantic
+* Zod
+
+Rules:
+
+* Strong typing
+* Enum validation
+* Length validation
+* Regex validation
+* Sanitization
+
+---
+
+# 111. Rate Limiting
+
+Default:
+
+```text
+100 requests/minute
+```
+
+Chat:
+
+```text
+20 requests/minute
+```
+
+Auth:
+
+```text
+10 requests/minute
+```
+
+---
+
+# 112. API Documentation
+
+Generate:
+
+* Swagger UI
+* OpenAPI schema
+* Request examples
+* Response examples
+* Error examples
+
+---
+
+# 113. Engineering Standards
+
+Follow:
+
+* REST principles
+* DTO pattern
+* Repository pattern
+* Service layer pattern
+* OpenAPI 3.1
+* RFC 7807
+* Idempotency
+
+---
+
+# End of PART V
+
+---
+
+## PART VI — AI ARCHITECTURE & MULTI-AGENT SYSTEM
+
+This is where EcoSphere AI becomes truly differentiated.
+
+Part VI will cover:
+
+* EcoGPT
+* RAG
+* Embeddings
+* Vector databases
+* Memory systems
+* Tool calling
+* Multi-agent architecture
+* Planner Agent
+* Coach Agent
+* Forecast Agent
+* Report Agent
+* Challenge Agent
+* Carbon Twin Agent
+* Agent orchestration
+* Reflection loops
+* Self-improvement mechanisms
+
+At this stage, the specification starts resembling an internal AI architecture document from OpenAI or Anthropic.
+
+
+
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART VI — AI ARCHITECTURE & MULTI-AGENT SYSTEM
+
+---
+
+# 114. AI Philosophy
+
+EcoSphere AI should not be a simple chatbot.
+
+It should function as an intelligent sustainability operating system capable of:
+
+* Understanding users
+* Remembering habits
+* Predicting future behavior
+* Recommending actions
+* Generating reports
+* Simulating scenarios
+* Building long-term behavior change
+
+The AI layer should behave like a personal sustainability coach.
+
+---
+
+# 115. AI Stack
+
+LLMs:
+
+```python
+GPT-5
+Gemini 2.5
+```
+
+Embeddings:
+
+```python
+text-embedding models
+```
+
+Vector Store:
+
+```python
+pgvector
+```
+
+Memory:
+
+```python
+Redis
+PostgreSQL
+```
+
+Framework:
+
+```python
+LangGraph
+LangChain
+Pydantic AI
+```
+
+---
+
+# 116. EcoGPT
+
+Primary AI Assistant:
+
+```python
+EcoGPT
+```
+
+Capabilities:
+
+* Answer sustainability questions
+* Explain emissions
+* Analyze habits
+* Recommend improvements
+* Forecast future impact
+* Explain scientific sources
+* Encourage healthy habits
+
+---
+
+# 117. Retrieval-Augmented Generation (RAG)
+
+Knowledge Sources:
+
+### Climate Science
+
+* IPCC
+* EPA
+* DEFRA
+* IEA
+* GHG Protocol
+
+### Internal Documents
+
+* User reports
+* Activities
+* Goals
+* Recommendations
+
+### FAQs
+
+* Sustainability tips
+* Common questions
+
+---
+
+Pipeline:
+
+```text
+Question
+↓
+Embedding
+↓
+Vector Search
+↓
+Context Retrieval
+↓
+LLM
+↓
+Response
+```
+
+---
+
+# 118. Embeddings
+
+Store:
+
+```python
+document_id
+
+embedding_vector
+
+metadata
+
+source
+
+created_at
+```
+
+Used for:
+
+* Semantic search
+* Memory retrieval
+* Similarity matching
+
+---
+
+# 119. Memory System
+
+---
+
+## Short-Term Memory
+
+Stores:
+
+* Current conversation
+* Session context
+
+TTL:
+
+```python
+24 hours
+```
+
+---
+
+## Long-Term Memory
+
+Stores:
+
+* Preferences
+* Goals
+* Habits
+* Frequent activities
+
+Persistence:
+
+```python
+PostgreSQL
+```
+
+---
+
+## Episodic Memory
+
+Examples:
+
+```python
+User prefers vegetarian meals.
+
+User cycles twice weekly.
+
+User aims to reduce transport emissions.
+```
+
+---
+
+# 120. Tool Calling
+
+Agents can access:
+
+### Emission Calculator
+
+```python
+calculate_emissions()
+```
+
+---
+
+### Recommendation Engine
+
+```python
+generate_recommendations()
+```
+
+---
+
+### Reports
+
+```python
+generate_report()
+```
+
+---
+
+### Forecasting
+
+```python
+predict_future()
+```
+
+---
+
+### Carbon Twin
+
+```python
+simulate_scenario()
+```
+
+---
+
+### Goal System
+
+```python
+get_goals()
+```
+
+---
+
+# 121. AI Workflow
+
+```text
+User Input
+↓
+Planner Agent
+↓
+Tool Selection
+↓
+Memory Retrieval
+↓
+Knowledge Retrieval
+↓
+Execution
+↓
+Response
+↓
+Memory Update
+```
+
+---
+
+# 122. Multi-Agent Architecture
+
+Agents should collaborate.
+
+```text
+Planner Agent
+      ↓
+ ┌──────────────┐
+ │ Coach Agent  │
+ │ Forecast     │
+ │ Report Agent │
+ │ Challenge    │
+ │ Carbon Twin  │
+ └──────────────┘
+```
+
+---
+
+# 123. Planner Agent
+
+Responsibilities:
+
+* Understand intent
+* Route tasks
+* Select tools
+* Coordinate agents
+
+Examples:
+
+```python
+If user asks:
+
+"How can I reduce transport emissions?"
+
+Planner
+↓
+
+Coach Agent
+```
+
+---
+
+# 124. Coach Agent
+
+Responsibilities:
+
+* Personalized advice
+* Motivation
+* Habit formation
+* Education
+
+Example:
+
+```text
+Replacing two weekly car trips with cycling
+could reduce approximately 18kg CO₂/month.
+```
+
+---
+
+# 125. Forecast Agent
+
+Responsibilities:
+
+Predict:
+
+* 30 days
+* 90 days
+* 1 year
+* 5 years
+
+Outputs:
+
+* Trend
+* Confidence score
+* Savings estimate
+
+---
+
+# 126. Report Agent
+
+Generates:
+
+Weekly report
+
+Monthly report
+
+Yearly report
+
+Includes:
+
+* Summary
+* Trends
+* Achievements
+* Suggestions
+
+---
+
+# 127. Challenge Agent
+
+Creates:
+
+Daily challenges
+
+Weekly missions
+
+Habit streaks
+
+Examples:
+
+```python
+Cycle to work twice this week.
+
+Avoid food waste for 3 days.
+```
+
+---
+
+# 128. Carbon Twin Agent
+
+Simulates:
+
+Diet changes
+
+Electric vehicle adoption
+
+Solar installation
+
+Reduced flying
+
+Outputs:
+
+```python
+Current emissions
+
+Future emissions
+
+Reduction achieved
+```
+
+---
+
+# 129. Reflection Loop
+
+Agents should self-check.
+
+Pipeline:
+
+```text
+Reason
+↓
+Execute
+↓
+Evaluate
+↓
+Improve
+↓
+Respond
+```
+
+---
+
+# 130. Recommendation Engine
+
+Inputs:
+
+```python
+activities
+
+goals
+
+history
+
+region
+
+diet
+
+household
+```
+
+Outputs:
+
+```python
+impact_score
+
+difficulty
+
+priority_score
+
+confidence_score
+```
+
+---
+
+# 131. Recommendation Ranking
+
+Score:
+
+```python
+score =
+impact
+× confidence
+÷ difficulty
+```
+
+Top recommendations shown first.
+
+---
+
+# 132. Habit Detection
+
+Patterns:
+
+* Frequent driving
+* Meat-heavy diet
+* High electricity use
+
+Detect:
+
+```python
+largest_emission_source
+```
+
+---
+
+# 133. Behavioral Analysis
+
+Metrics:
+
+Consistency
+
+Engagement
+
+Streaks
+
+Goal completion
+
+Improvement trends
+
+---
+
+# 134. Confidence Scores
+
+Every prediction includes:
+
+```python
+confidence_score
+```
+
+Range:
+
+```python
+0–100
+```
+
+Depends on:
+
+* Data quality
+* History
+* Regional factors
+
+---
+
+# 135. Explainability
+
+Responses must provide:
+
+### Why?
+
+### How much impact?
+
+### Confidence level?
+
+### Source?
+
+Example:
+
+```text
+Reducing one flight annually
+could save approximately
+300kg CO₂.
+
+Confidence: 87%
+
+Source:
+DEFRA Aviation Factors.
+```
+
+---
+
+# 136. Weekly Review Workflow
+
+```text
+Activities
+↓
+Largest source detection
+↓
+Trend analysis
+↓
+Recommendations
+↓
+Report generation
+↓
+Notification
+```
+
+---
+
+# 137. Goal Planning Workflow
+
+```text
+Goal
+↓
+Subtasks
+↓
+Challenges
+↓
+Progress tracking
+↓
+Feedback
+```
+
+---
+
+# 138. Carbon Twin Workflow
+
+```text
+Current lifestyle
+↓
+Scenario changes
+↓
+Prediction
+↓
+Visualization
+↓
+Savings estimate
+```
+
+---
+
+# 139. AI Report Workflow
+
+```text
+Activity history
+↓
+Analytics
+↓
+Forecast
+↓
+Recommendations
+↓
+Narrative summary
+↓
+PDF report
+```
+
+---
+
+# 140. Conversation Safety
+
+Prevent:
+
+* Hallucinations
+* Unsupported claims
+* False scientific statements
+
+Responses must:
+
+* Cite sources
+* Express uncertainty
+* Use confidence scores
+
+---
+
+# 141. AI Metrics
+
+Track:
+
+Conversation success
+
+Recommendation acceptance
+
+Forecast accuracy
+
+Retention impact
+
+User satisfaction
+
+---
+
+# 142. Future AI Upgrades
+
+Support:
+
+* Voice AI
+* Image analysis
+* Smart meter ingestion
+* Wearables
+* IoT devices
+* Smart home systems
+
+---
+
+# 143. Engineering Standards
+
+Follow:
+
+* LangGraph patterns
+* ReAct reasoning
+* Tool calling
+* Reflection loops
+* RAG
+* Memory systems
+* Explainability
+* Human-centered AI
+
+---
+
+# END OF PART VI
+
+---
+
+## PART VII — EVENT-DRIVEN ARCHITECTURE & INFRASTRUCTURE
+
+Next comes:
+
+* Redis
+* Celery
+* Background jobs
+* Message queues
+* Cron jobs
+* Caching
+* State management
+* Observability
+* Prometheus
+* Grafana
+* Sentry
+* PostHog
+* Event sourcing
+* CQRS
+* Reliability patterns
+
+This is where EcoSphere AI begins resembling a platform architecture designed by senior infrastructure engineers from Uber or Stripe.
+
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART VII — EVENT-DRIVEN ARCHITECTURE & INFRASTRUCTURE
+
+---
+
+# 144. Infrastructure Philosophy
+
+EcoSphere AI must be designed as a resilient, observable, scalable, and fault-tolerant platform.
+
+Infrastructure should prioritize:
+
+* Reliability
+* Horizontal scalability
+* Low latency
+* High availability
+* Event-driven workflows
+* Asynchronous execution
+* Fault isolation
+* Observability
+
+Follow:
+
+* 12-Factor App
+* Event-Driven Architecture
+* CQRS
+* Domain Events
+* Idempotency
+* Graceful degradation
+
+---
+
+# 145. Infrastructure Stack
+
+Frontend:
+
+```python
+Next.js 15
+Vercel
+```
+
+Backend:
+
+```python
+FastAPI
+Render
+```
+
+Database:
+
+```python
+PostgreSQL
+Supabase
+```
+
+Cache:
+
+```python
+Redis
+```
+
+Workers:
+
+```python
+Celery
+```
+
+Monitoring:
+
+```python
+Prometheus
+Grafana
+Sentry
+```
+
+Analytics:
+
+```python
+PostHog
+```
+
+Storage:
+
+```python
+Supabase Storage
+```
+
+---
+
+# 146. Event-Driven Philosophy
+
+The platform should react to events instead of tightly coupling services.
+
+Example:
+
+```text
+Activity Logged
+↓
+Emission Calculated
+↓
+Recommendation Updated
+↓
+XP Updated
+↓
+Streak Updated
+↓
+Notification Sent
+```
+
+This improves:
+
+* Scalability
+* Maintainability
+* Reliability
+
+---
+
+# 147. Domain Events
+
+Events include:
+
+```python
+UserRegistered
+
+ActivityLogged
+
+GoalCreated
+
+GoalCompleted
+
+RecommendationAccepted
+
+ChallengeCompleted
+
+BadgeUnlocked
+
+WeeklyReportGenerated
+
+ForecastGenerated
+
+CarbonTwinGenerated
+
+NotificationSent
+
+ConversationStarted
+
+MemoryStored
+```
+
+---
+
+# 148. Event Bus
+
+Architecture:
+
+```text
+Producer
+↓
+Redis Queue
+↓
+Consumers
+↓
+Side Effects
+```
+
+Benefits:
+
+* Loose coupling
+* Retry mechanisms
+* Background execution
+
+---
+
+# 149. Redis Infrastructure
+
+Redis should support:
+
+### Caching
+
+```python
+dashboard_cache
+recommendation_cache
+leaderboard_cache
+```
+
+---
+
+### Sessions
+
+```python
+user_sessions
+```
+
+---
+
+### Rate Limiting
+
+```python
+request_counts
+```
+
+---
+
+### AI Context Cache
+
+```python
+conversation_cache
+```
+
+---
+
+### Queue Broker
+
+Used by:
+
+```python
+Celery
+```
+
+---
+
+# 150. Celery Workers
+
+Workers execute asynchronous tasks.
+
+Workers:
+
+```python
+EmailWorker
+
+ReportWorker
+
+ForecastWorker
+
+NotificationWorker
+
+GamificationWorker
+
+AIWorker
+
+RecommendationWorker
+
+AnalyticsWorker
+```
+
+---
+
+# 151. Task Queues
+
+Queues:
+
+```python
+default
+
+emails
+
+notifications
+
+reports
+
+ai
+
+forecast
+
+analytics
+```
+
+Priority:
+
+```text
+high
+
+medium
+
+low
+```
+
+---
+
+# 152. Background Jobs
+
+Examples:
+
+---
+
+### Report Generation
+
+```text
+Weekly Trigger
+↓
+Generate Report
+↓
+AI Summary
+↓
+PDF Export
+↓
+Email User
+```
+
+---
+
+### Forecast Update
+
+```text
+Monthly Trigger
+↓
+Generate Prediction
+↓
+Store Forecast
+↓
+Update Dashboard
+```
+
+---
+
+### Challenge Reset
+
+```text
+Weekly Trigger
+↓
+Create Challenges
+↓
+Notify Users
+```
+
+---
+
+# 153. Cron Jobs
+
+Daily:
+
+```python
+UpdateStreaks
+
+RefreshRecommendations
+
+ClearExpiredSessions
+```
+
+Weekly:
+
+```python
+GenerateReports
+
+GenerateChallenges
+
+LeaderboardReset
+```
+
+Monthly:
+
+```python
+ForecastGeneration
+
+AnalyticsSummary
+```
+
+Yearly:
+
+```python
+AnnualCarbonReport
+```
+
+---
+
+# 154. CQRS
+
+Commands:
+
+```python
+CreateActivity
+
+UpdateGoal
+
+AcceptRecommendation
+
+UnlockBadge
+```
+
+Queries:
+
+```python
+GetDashboard
+
+GetLeaderboard
+
+GetForecast
+
+GetReports
+```
+
+Benefits:
+
+* Read optimization
+* Write optimization
+* Scalability
+
+---
+
+# 155. Event Sourcing
+
+Important events should be preserved.
+
+Examples:
+
+```python
+ActivityLogged
+
+GoalCompleted
+
+BadgeUnlocked
+
+ChallengeCompleted
+```
+
+Provides:
+
+* Auditability
+* Historical replay
+* Analytics
+
+---
+
+# 156. Idempotency
+
+Repeated requests should be safe.
+
+Example:
+
+```text
+Generate Weekly Report
+```
+
+Running twice should:
+
+```text
+Not create duplicates
+```
+
+Use:
+
+```python
+idempotency_key
+```
+
+---
+
+# 157. Retry Mechanism
+
+Celery retries:
+
+```python
+max_retries = 3
+```
+
+Backoff:
+
+```python
+1 second
+
+5 seconds
+
+30 seconds
+```
+
+---
+
+# 158. Dead Letter Queue
+
+Failed jobs go to:
+
+```python
+dead_letter_queue
+```
+
+Examples:
+
+* Email failures
+* AI timeouts
+* Export failures
+
+---
+
+# 159. Circuit Breakers
+
+Prevent cascading failures.
+
+Example:
+
+```text
+OpenAI API down
+↓
+Fallback to Gemini
+↓
+System remains operational
+```
+
+---
+
+# 160. Fallback Strategy
+
+AI:
+
+```text
+GPT-5
+↓
+Gemini
+↓
+Cached Response
+```
+
+Notifications:
+
+```text
+Push
+↓
+Email
+↓
+In-app
+```
+
+Storage:
+
+```text
+Supabase
+↓
+Backup Storage
+```
+
+---
+
+# 161. Cache Architecture
+
+Levels:
+
+### Browser Cache
+
+---
+
+### React Query Cache
+
+---
+
+### Redis Cache
+
+---
+
+### CDN Cache
+
+---
+
+### Edge Cache
+
+---
+
+Flow:
+
+```text
+Request
+↓
+Browser
+↓
+Edge
+↓
+Redis
+↓
+Database
+```
+
+---
+
+# 162. Cache TTL
+
+Dashboard:
+
+```python
+5 minutes
+```
+
+Leaderboard:
+
+```python
+1 hour
+```
+
+Recommendations:
+
+```python
+30 minutes
+```
+
+AI Responses:
+
+```python
+24 hours
+```
+
+---
+
+# 163. State Management
+
+Use:
+
+```python
+Zustand
+```
+
+Stores:
+
+```python
+AuthStore
+
+ThemeStore
+
+ActivityStore
+
+GoalStore
+
+NotificationStore
+
+ForecastStore
+
+CommunityStore
+```
+
+---
+
+# 164. WebSockets
+
+Real-time updates:
+
+```python
+Leaderboard
+
+Notifications
+
+Challenge Progress
+
+Community Feed
+```
+
+---
+
+# 165. Observability Philosophy
+
+Everything should be measurable.
+
+Track:
+
+* Logs
+* Metrics
+* Traces
+* Errors
+
+---
+
+# 166. Logging
+
+Use:
+
+```python
+Pino
+```
+
+Backend:
+
+```python
+Structlog
+```
+
+Logs include:
+
+```python
+request_id
+
+user_id
+
+latency
+
+status_code
+```
+
+---
+
+# 167. Metrics
+
+Collect:
+
+```python
+request_count
+
+latency
+
+error_rate
+
+cache_hit_rate
+
+token_usage
+
+forecast_accuracy
+```
+
+---
+
+# 168. Prometheus
+
+Monitor:
+
+```python
+CPU
+
+Memory
+
+Network
+
+API throughput
+```
+
+---
+
+# 169. Grafana Dashboards
+
+Visualize:
+
+### API Health
+
+### Worker Health
+
+### Redis
+
+### Database
+
+### AI Usage
+
+### Error Rates
+
+---
+
+# 170. Sentry
+
+Capture:
+
+```python
+Exceptions
+
+Stack traces
+
+Frontend errors
+
+Backend errors
+```
+
+---
+
+# 171. PostHog Analytics
+
+Track:
+
+```python
+Daily Active Users
+
+Retention
+
+Feature Usage
+
+Recommendation Acceptance
+
+Challenge Participation
+```
+
+---
+
+# 172. Health Checks
+
+Endpoints:
+
+```http
+GET /health
+```
+
+---
+
+```http
+GET /health/db
+```
+
+---
+
+```http
+GET /health/redis
+```
+
+---
+
+```http
+GET /health/ai
+```
+
+---
+
+# 173. Reliability Targets
+
+Availability:
+
+```python
+99.9%
+```
+
+API latency:
+
+```python
+<200ms
+```
+
+Error rate:
+
+```python
+<1%
+```
+
+Crash-free sessions:
+
+```python
+99.5%
+```
+
+---
+
+# 174. Disaster Recovery
+
+Daily backups
+
+Point-in-time recovery
+
+Database snapshots
+
+Redis persistence
+
+Export storage redundancy
+
+---
+
+# 175. Scalability Targets
+
+Users:
+
+```python
+100,000+
+```
+
+Activities:
+
+```python
+10 million+
+```
+
+Requests:
+
+```python
+1,000 req/sec
+```
+
+---
+
+# 176. Engineering Standards
+
+Follow:
+
+* Event-Driven Architecture
+* CQRS
+* Event Sourcing
+* 12-Factor App
+* Retry Patterns
+* Circuit Breakers
+* Idempotency
+* Observability-first design
+
+---
+
+# END OF PART VII
+
+---
+
+## PART VIII — SECURITY ARCHITECTURE
+
+Next will cover:
+
+* Zero Trust
+* JWT
+* Clerk
+* RBAC
+* ABAC
+* OWASP Top 10
+* XSS
+* CSRF
+* SQL Injection
+* Encryption
+* Secrets Manager
+* Session Security
+* Audit Logs
+* API Security
+* Rate Limiting
+* Secure File Uploads
+* Compliance
+* Privacy
+* Data Retention Policies
+
+This section will resemble the security design documents used by Stripe and major cloud platforms.
+
+
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART VIII — SECURITY ARCHITECTURE
+
+---
+
+# 177. Security Philosophy
+
+EcoSphere AI must follow a **Zero Trust Architecture**.
+
+Assumptions:
+
+```text
+Never trust
+
+Always verify
+
+Least privilege
+
+Defense in depth
+```
+
+Every request must be:
+
+* Authenticated
+* Authorized
+* Logged
+* Rate limited
+* Validated
+
+---
+
+# 178. Security Standards
+
+Follow:
+
+* OWASP Top 10
+* Zero Trust Architecture
+* Principle of Least Privilege
+* NIST Cybersecurity Framework
+* GDPR
+* SOC2 principles
+* Privacy by Design
+
+---
+
+# 179. Authentication Architecture
+
+Provider:
+
+```python
+Clerk
+```
+
+Session Types:
+
+```python
+JWT
+
+Refresh Tokens
+
+Session Cookies
+```
+
+Flow:
+
+```text
+Login
+↓
+Access Token
+↓
+Refresh Token
+↓
+Session Validation
+↓
+Authorized Request
+```
+
+---
+
+# 180. Session Security
+
+Store:
+
+```python
+session_id
+
+user_id
+
+device
+
+ip_address
+
+expires_at
+```
+
+Session expiration:
+
+```python
+7 days
+```
+
+Idle timeout:
+
+```python
+30 minutes
+```
+
+---
+
+# 181. Multi-Factor Authentication
+
+Support:
+
+* Email OTP
+* TOTP
+* Authenticator Apps
+
+Future:
+
+* Passkeys
+* WebAuthn
+* Biometrics
+
+---
+
+# 182. Authorization
+
+Implement:
+
+## RBAC
+
+Roles:
+
+```python
+USER
+
+PREMIUM_USER
+
+MODERATOR
+
+ADMIN
+
+SUPER_ADMIN
+```
+
+---
+
+Permissions:
+
+```python
+read_profile
+
+create_activity
+
+generate_reports
+
+manage_users
+
+delete_posts
+```
+
+---
+
+## ABAC
+
+Based on:
+
+* User
+* Resource
+* Context
+* Time
+* Location
+
+---
+
+# 183. API Security
+
+Every API must:
+
+* Require authentication
+* Validate inputs
+* Log requests
+* Rate limit abuse
+
+Headers:
+
+```python
+Authorization
+
+Content-Type
+
+Accept
+
+Origin
+```
+
+---
+
+# 184. Rate Limiting
+
+Global:
+
+```python
+100 req/min
+```
+
+Authentication:
+
+```python
+10 req/min
+```
+
+AI Chat:
+
+```python
+20 req/min
+```
+
+Reports:
+
+```python
+5 req/min
+```
+
+Storage:
+
+Use:
+
+```python
+Redis
+```
+
+---
+
+# 185. Input Validation
+
+Frontend:
+
+```python
+Zod
+```
+
+Backend:
+
+```python
+Pydantic
+```
+
+Checks:
+
+* Length
+* Type
+* Enum
+* Regex
+* Sanitization
+
+---
+
+# 186. SQL Injection Protection
+
+Never:
+
+```python
+raw SQL strings
+```
+
+Always:
+
+```python
+SQLAlchemy ORM
+```
+
+Parameterized queries only.
+
+---
+
+# 187. XSS Protection
+
+Escape:
+
+* HTML
+* Markdown
+* User-generated content
+
+Use:
+
+```python
+DOMPurify
+```
+
+Security headers:
+
+```python
+Content-Security-Policy
+```
+
+---
+
+# 188. CSRF Protection
+
+Protect:
+
+```python
+POST
+
+PATCH
+
+DELETE
+```
+
+Using:
+
+```python
+CSRF Tokens
+```
+
+---
+
+# 189. CORS Policy
+
+Allow:
+
+```python
+Frontend Domain
+```
+
+Block:
+
+```python
+Unknown origins
+```
+
+Environment specific:
+
+* Development
+* Staging
+* Production
+
+---
+
+# 190. Content Security Policy
+
+Restrict:
+
+```python
+script-src
+
+img-src
+
+connect-src
+
+frame-src
+```
+
+Prevent:
+
+* XSS
+* Clickjacking
+
+---
+
+# 191. HTTPS Everywhere
+
+Enforce:
+
+```python
+TLS 1.3
+```
+
+Redirect:
+
+```python
+HTTP
+↓
+HTTPS
+```
+
+---
+
+# 192. Encryption
+
+At Rest:
+
+```python
+AES-256
+```
+
+In Transit:
+
+```python
+TLS
+```
+
+Passwords:
+
+```python
+Argon2
+```
+
+---
+
+# 193. Secret Management
+
+Never store:
+
+```python
+API keys
+```
+
+Inside source code.
+
+Use:
+
+```python
+Environment Variables
+```
+
+Future:
+
+```python
+AWS Secrets Manager
+```
+
+---
+
+# 194. File Upload Security
+
+Validate:
+
+* MIME type
+* Extension
+* Size
+
+Scan:
+
+```python
+Virus Scan
+```
+
+Store:
+
+```python
+Supabase Storage
+```
+
+Generate:
+
+```python
+Signed URLs
+```
+
+---
+
+# 195. Audit Logging
+
+Track:
+
+```python
+Login
+
+Logout
+
+Activity creation
+
+Goal updates
+
+Admin actions
+
+Permission changes
+```
+
+Store:
+
+```python
+user_id
+
+ip_address
+
+timestamp
+```
+
+---
+
+# 196. Sensitive Data Classification
+
+Public:
+
+```python
+Badges
+```
+
+Internal:
+
+```python
+Analytics
+```
+
+Confidential:
+
+```python
+Email
+
+Profile
+```
+
+Restricted:
+
+```python
+Tokens
+
+Secrets
+```
+
+---
+
+# 197. Privacy by Design
+
+Minimize:
+
+* Data collection
+* Retention period
+
+Users should:
+
+* Export data
+* Delete data
+* View stored data
+
+---
+
+# 198. Data Retention Policy
+
+Logs:
+
+```python
+90 days
+```
+
+Sessions:
+
+```python
+30 days
+```
+
+Analytics:
+
+```python
+1 year
+```
+
+Deleted accounts:
+
+```python
+30-day grace period
+```
+
+---
+
+# 199. Account Recovery
+
+Methods:
+
+* Email verification
+* OTP
+
+Future:
+
+* Passkeys
+* Recovery codes
+
+---
+
+# 200. Password Policy
+
+Minimum:
+
+```python
+12 characters
+```
+
+Require:
+
+* Uppercase
+* Lowercase
+* Number
+* Special character
+
+Passwords:
+
+Never stored in plaintext.
+
+---
+
+# 201. Brute Force Protection
+
+After:
+
+```python
+5 failed attempts
+```
+
+Apply:
+
+```python
+Temporary lock
+```
+
+Use:
+
+```python
+Exponential backoff
+```
+
+---
+
+# 202. Secure Headers
+
+Enable:
+
+```python
+X-Frame-Options
+
+X-Content-Type-Options
+
+Strict-Transport-Security
+
+Referrer-Policy
+
+Permissions-Policy
+```
+
+---
+
+# 203. Bot Protection
+
+Future:
+
+```python
+Cloudflare Turnstile
+```
+
+Protect:
+
+* Signup
+* Login
+* AI endpoints
+
+---
+
+# 204. Dependency Security
+
+Scan:
+
+```python
+npm audit
+
+pip-audit
+```
+
+Automate:
+
+```python
+GitHub Dependabot
+```
+
+---
+
+# 205. Supply Chain Security
+
+Verify:
+
+* Packages
+* Containers
+* Dependencies
+
+Use:
+
+```python
+SBOM
+```
+
+---
+
+# 206. Monitoring Security Events
+
+Detect:
+
+* Suspicious logins
+* Excessive requests
+* Token abuse
+* Permission escalation
+
+Alert:
+
+Admins
+
+---
+
+# 207. AI Security
+
+Prevent:
+
+* Prompt injection
+* Jailbreak attempts
+* Malicious tool execution
+* Data leakage
+
+Implement:
+
+```python
+Input filtering
+
+Tool permissions
+
+Output validation
+```
+
+---
+
+# 208. Secure AI Tool Calling
+
+Allow only:
+
+```python
+calculate_emissions()
+
+generate_report()
+
+predict_future()
+```
+
+Disallow:
+
+```python
+arbitrary shell execution
+```
+
+---
+
+# 209. Compliance Readiness
+
+Design toward:
+
+* GDPR
+* SOC2
+* ISO 27001
+
+Future:
+
+* HIPAA-like controls
+* Enterprise security
+
+---
+
+# 210. Disaster Recovery
+
+Daily backups
+
+Point-in-time recovery
+
+Database snapshots
+
+Redis persistence
+
+Multi-region storage
+
+---
+
+# 211. Incident Response
+
+Pipeline:
+
+```text
+Detect
+↓
+Investigate
+↓
+Contain
+↓
+Recover
+↓
+Postmortem
+```
+
+---
+
+# 212. Security Metrics
+
+Track:
+
+* Failed logins
+* Blocked requests
+* Token refreshes
+* Session expirations
+* Vulnerability count
+
+---
+
+# 213. Engineering Standards
+
+Follow:
+
+* OWASP Top 10
+* Zero Trust
+* Least Privilege
+* Defense in Depth
+* Privacy by Design
+* Secure by Default
+
+---
+
+# END OF PART VIII
+
+---
+
+# PART IX — OBSERVABILITY, ANALYTICS & RELIABILITY
+
+Next will cover:
+
+* Logging
+* Structured logs
+* Prometheus
+* Grafana
+* Sentry
+* PostHog
+* Mixpanel
+* Distributed tracing
+* OpenTelemetry
+* Metrics
+* SLIs
+* SLOs
+* SLAs
+* Alerting
+* Error budgets
+* Reliability engineering
+
+This section will resemble the internal observability documents used by Uber, Stripe, and Google SRE teams.
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART IX — OBSERVABILITY, ANALYTICS & RELIABILITY
+
+---
+
+# 214. Observability Philosophy
+
+EcoSphere AI must be **observable by default**.
+
+Every component should expose:
+
+* Logs
+* Metrics
+* Traces
+* Events
+
+Nothing should fail silently.
+
+Follow:
+
+* SRE principles
+* OpenTelemetry
+* RED methodology
+* USE methodology
+
+---
+
+# 215. Three Pillars of Observability
+
+```text
+Logs
+↓
+Metrics
+↓
+Traces
+```
+
+Together they provide:
+
+* Debugging
+* Monitoring
+* Root cause analysis
+* Performance analysis
+
+---
+
+# 216. Logging Architecture
+
+Frontend:
+
+```python
+Pino
+```
+
+Backend:
+
+```python
+Structlog
+```
+
+Log Format:
+
+```json
+{
+  "timestamp":"",
+  "request_id":"",
+  "user_id":"",
+  "endpoint":"",
+  "status_code":"",
+  "latency_ms":""
+}
+```
+
+---
+
+# 217. Log Levels
+
+```python
+DEBUG
+
+INFO
+
+WARNING
+
+ERROR
+
+CRITICAL
+```
+
+---
+
+# 218. Structured Logging
+
+Never:
+
+```python
+print()
+```
+
+Always:
+
+```python
+logger.info(
+"user_logged_in",
+user_id=user_id
+)
+```
+
+---
+
+# 219. Correlation IDs
+
+Generate:
+
+```python
+request_id
+trace_id
+session_id
+```
+
+Used to connect:
+
+* Frontend
+* Backend
+* Database
+* AI calls
+
+---
+
+# 220. Metrics Philosophy
+
+Track:
+
+### Throughput
+
+### Latency
+
+### Errors
+
+### Saturation
+
+---
+
+# 221. RED Methodology
+
+Monitor:
+
+### Request Rate
+
+Requests per second
+
+---
+
+### Errors
+
+Error percentage
+
+---
+
+### Duration
+
+Response latency
+
+---
+
+# 222. USE Methodology
+
+Resources:
+
+CPU
+
+Memory
+
+Disk
+
+Network
+
+Measure:
+
+Utilization
+
+Saturation
+
+Errors
+
+---
+
+# 223. Prometheus
+
+Collect:
+
+```python
+api_requests_total
+
+request_duration_seconds
+
+active_users
+
+cache_hits
+
+token_usage
+
+forecast_accuracy
+```
+
+---
+
+# 224. Grafana Dashboards
+
+Dashboard Categories:
+
+---
+
+### System Dashboard
+
+CPU
+
+Memory
+
+Network
+
+Disk
+
+---
+
+### API Dashboard
+
+Latency
+
+Throughput
+
+Error rate
+
+---
+
+### AI Dashboard
+
+Token usage
+
+Conversation count
+
+Forecast accuracy
+
+---
+
+### Worker Dashboard
+
+Celery queues
+
+Failures
+
+Retries
+
+---
+
+### Database Dashboard
+
+Connections
+
+Slow queries
+
+Locks
+
+---
+
+### Redis Dashboard
+
+Memory usage
+
+Hit ratio
+
+Evictions
+
+---
+
+# 225. Sentry
+
+Capture:
+
+```python
+Exceptions
+
+Stack traces
+
+Frontend crashes
+
+Backend failures
+```
+
+Track:
+
+```python
+Crash-free sessions
+
+Error trends
+```
+
+---
+
+# 226. OpenTelemetry
+
+Trace:
+
+```python
+Frontend
+
+API Gateway
+
+FastAPI
+
+Redis
+
+PostgreSQL
+
+OpenAI
+
+Gemini
+```
+
+Flow:
+
+```text
+User
+↓
+Frontend
+↓
+API
+↓
+Database
+↓
+AI
+↓
+Response
+```
+
+---
+
+# 227. Distributed Tracing
+
+Trace IDs:
+
+```python
+trace_id
+
+span_id
+```
+
+Used to identify:
+
+* Bottlenecks
+* Slow queries
+* AI latency
+
+---
+
+# 228. Health Checks
+
+Endpoints:
+
+```http
+GET /health
+```
+
+---
+
+```http
+GET /health/db
+```
+
+---
+
+```http
+GET /health/redis
+```
+
+---
+
+```http
+GET /health/ai
+```
+
+---
+
+```http
+GET /health/workers
+```
+
+---
+
+# 229. Readiness vs Liveness
+
+### Liveness
+
+Is service alive?
+
+---
+
+### Readiness
+
+Can service receive traffic?
+
+---
+
+# 230. PostHog Analytics
+
+Track:
+
+```python
+DAU
+
+WAU
+
+MAU
+
+Retention
+
+Feature usage
+
+Challenge participation
+```
+
+---
+
+Events:
+
+```python
+activity_logged
+
+goal_created
+
+recommendation_accepted
+
+badge_unlocked
+
+report_downloaded
+```
+
+---
+
+# 231. Mixpanel
+
+Analyze:
+
+Funnels
+
+Cohorts
+
+Retention
+
+Conversion
+
+---
+
+# 232. AI Metrics
+
+Track:
+
+Conversation Success Rate
+
+Recommendation Acceptance Rate
+
+Forecast Accuracy
+
+Average Tokens
+
+Hallucination Rate
+
+Response Time
+
+Confidence Score Distribution
+
+---
+
+# 233. Reliability Engineering
+
+Follow:
+
+Google SRE principles.
+
+Targets:
+
+Availability:
+
+```python
+99.9%
+```
+
+Error rate:
+
+```python
+<1%
+```
+
+Latency:
+
+```python
+<200ms
+```
+
+---
+
+# 234. SLIs
+
+Service Level Indicators:
+
+API latency
+
+Availability
+
+Error rate
+
+Cache hit ratio
+
+Forecast accuracy
+
+AI response time
+
+---
+
+# 235. SLOs
+
+Objectives:
+
+```python
+99.9% uptime
+
+95% requests <200ms
+
+99% successful AI responses
+```
+
+---
+
+# 236. SLA
+
+External target:
+
+```python
+99.5%
+```
+
+Availability guarantee.
+
+---
+
+# 237. Error Budgets
+
+Allowed downtime:
+
+```python
+0.1%
+```
+
+If exhausted:
+
+* Freeze features
+* Prioritize reliability
+
+---
+
+# 238. Alerting
+
+Critical alerts:
+
+Database down
+
+Redis unavailable
+
+AI provider outage
+
+Queue overflow
+
+High latency
+
+Error spike
+
+---
+
+# 239. Notification Channels
+
+Slack
+
+Discord
+
+Email
+
+PagerDuty
+
+---
+
+# 240. Alert Severity
+
+```python
+P0
+Critical
+
+P1
+High
+
+P2
+Medium
+
+P3
+Low
+```
+
+---
+
+# 241. Database Monitoring
+
+Track:
+
+Connections
+
+Deadlocks
+
+Slow queries
+
+Replication lag
+
+Disk utilization
+
+---
+
+# 242. Redis Monitoring
+
+Track:
+
+Hit ratio
+
+Memory usage
+
+Evictions
+
+Queue depth
+
+---
+
+# 243. Celery Monitoring
+
+Track:
+
+Pending jobs
+
+Retry count
+
+Failed jobs
+
+Execution time
+
+---
+
+# 244. AI Monitoring
+
+Track:
+
+OpenAI latency
+
+Gemini latency
+
+Fallback frequency
+
+Token costs
+
+Failure rate
+
+---
+
+# 245. Cost Observability
+
+Track:
+
+OpenAI spend
+
+Storage cost
+
+Bandwidth
+
+Database cost
+
+Worker cost
+
+Forecast monthly spending.
+
+---
+
+# 246. User Analytics
+
+Track:
+
+Session duration
+
+Feature adoption
+
+Retention
+
+Churn
+
+Streak completion
+
+Challenge participation
+
+---
+
+# 247. Chaos Engineering
+
+Inject failures:
+
+Database unavailable
+
+Redis unavailable
+
+AI unavailable
+
+Worker crashes
+
+Ensure graceful degradation.
+
+---
+
+# 248. Reliability Patterns
+
+Implement:
+
+Circuit Breakers
+
+Retry Policies
+
+Timeouts
+
+Bulkheads
+
+Fallback Providers
+
+Graceful Degradation
+
+---
+
+# 249. Incident Management
+
+Pipeline:
+
+```text
+Detection
+↓
+Classification
+↓
+Containment
+↓
+Recovery
+↓
+Postmortem
+```
+
+---
+
+# 250. Postmortem Template
+
+Include:
+
+Timeline
+
+Impact
+
+Root Cause
+
+Fix
+
+Preventive Actions
+
+Lessons Learned
+
+---
+
+# 251. Golden Signals
+
+Monitor:
+
+Latency
+
+Traffic
+
+Errors
+
+Saturation
+
+---
+
+# 252. Engineering Standards
+
+Follow:
+
+* Google SRE
+* OpenTelemetry
+* RED
+* USE
+* Error Budgets
+* Distributed Tracing
+* Reliability First
+
+---
+
+# END OF PART IX
+
+---
+
+# PART X — DEVOPS, CI/CD & DEPLOYMENT
+
+Next will cover:
+
+* Docker
+* Docker Compose
+* GitHub Actions
+* CI/CD pipelines
+* Preview deployments
+* Staging
+* Production
+* Environment management
+* Blue-Green deployments
+* Canary releases
+* Rollback strategies
+* Infrastructure as Code
+* Backup systems
+* Release engineering
+
+This section will resemble internal DevOps specifications used by Stripe, Netflix, and Google.
+
+
+
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART X — DEVOPS, CI/CD & DEPLOYMENT
+
+---
+
+# 253. DevOps Philosophy
+
+EcoSphere AI must be built with a DevOps-first mindset.
+
+Goals:
+
+* Continuous delivery
+* Reliability
+* Reproducibility
+* Automation
+* Fast rollbacks
+* Zero downtime deployments
+
+Follow:
+
+* GitOps
+* Infrastructure as Code
+* Immutable deployments
+* 12-Factor App
+
+---
+
+# 254. Environments
+
+Maintain:
+
+```python
+Development
+
+Testing
+
+Staging
+
+Production
+```
+
+Isolation:
+
+```text
+Each environment has:
+
+Database
+
+Redis
+
+Storage
+
+Secrets
+
+Workers
+```
+
+---
+
+# 255. Environment Variables
+
+Never hardcode secrets.
+
+Examples:
+
+```python
+DATABASE_URL
+
+REDIS_URL
+
+OPENAI_API_KEY
+
+GEMINI_API_KEY
+
+SUPABASE_URL
+
+SUPABASE_KEY
+
+CLERK_SECRET_KEY
+
+SENTRY_DSN
+```
+
+---
+
+# 256. Docker Architecture
+
+Frontend:
+
+```docker
+Node
+↓
+Next.js
+```
+
+Backend:
+
+```docker
+Python
+↓
+FastAPI
+```
+
+Workers:
+
+```docker
+Celery
+```
+
+Cache:
+
+```docker
+Redis
+```
+
+---
+
+# 257. Docker Compose
+
+Services:
+
+```python
+frontend
+
+backend
+
+postgres
+
+redis
+
+celery_worker
+
+flower
+
+prometheus
+
+grafana
+```
+
+---
+
+# 258. Repository Strategy
+
+Branching:
+
+```python
+main
+
+develop
+
+feature/*
+```
+
+Example:
+
+```python
+feature/forecast-engine
+
+feature/recommendation-system
+```
+
+---
+
+# 259. Git Workflow
+
+```text
+Feature Branch
+↓
+Pull Request
+↓
+Code Review
+↓
+Tests
+↓
+Merge
+↓
+Deploy
+```
+
+---
+
+# 260. CI Pipeline
+
+Run automatically on PR.
+
+Checks:
+
+```python
+Lint
+
+Formatting
+
+Unit Tests
+
+Integration Tests
+
+Type Checking
+
+Security Scan
+```
+
+---
+
+# 261. GitHub Actions
+
+Workflows:
+
+```python
+ci.yml
+
+deploy.yml
+
+tests.yml
+
+security.yml
+
+release.yml
+```
+
+---
+
+# 262. Code Quality
+
+Use:
+
+```python
+ESLint
+
+Prettier
+
+Black
+
+Ruff
+
+mypy
+```
+
+---
+
+# 263. Dependency Scanning
+
+Run:
+
+```python
+npm audit
+
+pip-audit
+```
+
+Automate:
+
+```python
+Dependabot
+```
+
+---
+
+# 264. Security Scanning
+
+Tools:
+
+```python
+Trivy
+
+Bandit
+
+Semgrep
+```
+
+Check:
+
+* Vulnerabilities
+* Secrets
+* Container security
+
+---
+
+# 265. Container Registry
+
+Store images in:
+
+```python
+GitHub Container Registry
+```
+
+Tag format:
+
+```python
+latest
+
+v1.0.0
+
+commit_sha
+```
+
+---
+
+# 266. Preview Deployments
+
+Every PR creates:
+
+```python
+Temporary Environment
+```
+
+For:
+
+* QA
+* Review
+* Testing
+
+---
+
+# 267. Staging Environment
+
+Purpose:
+
+* Integration testing
+* Performance testing
+* User acceptance testing
+
+Must mirror production.
+
+---
+
+# 268. Production Environment
+
+Hosted on:
+
+Frontend:
+
+```python
+Vercel
+```
+
+Backend:
+
+```python
+Render
+```
+
+Database:
+
+```python
+Supabase
+```
+
+Cache:
+
+```python
+Redis
+```
+
+Workers:
+
+```python
+Celery
+```
+
+---
+
+# 269. Deployment Strategy
+
+Use:
+
+### Blue-Green Deployment
+
+```text
+Blue
+↓
+Green
+↓
+Switch Traffic
+```
+
+Benefits:
+
+* Zero downtime
+* Easy rollback
+
+---
+
+# 270. Canary Releases
+
+Rollout:
+
+```python
+5%
+
+20%
+
+50%
+
+100%
+```
+
+Monitor before full deployment.
+
+---
+
+# 271. Rollback Strategy
+
+If deployment fails:
+
+```text
+Detect Failure
+↓
+Revert Version
+↓
+Restore Service
+```
+
+Target:
+
+```python
+<5 minutes
+```
+
+---
+
+# 272. Database Migrations
+
+Use:
+
+```python
+Alembic
+```
+
+Rules:
+
+* Version controlled
+* Reversible
+* Tested
+
+---
+
+# 273. Backup Strategy
+
+Daily:
+
+```python
+Database Backup
+```
+
+Weekly:
+
+```python
+Full Snapshot
+```
+
+Monthly:
+
+```python
+Archive Backup
+```
+
+---
+
+# 274. Disaster Recovery
+
+Recovery Time Objective:
+
+```python
+RTO = 1 hour
+```
+
+Recovery Point Objective:
+
+```python
+RPO = 15 minutes
+```
+
+---
+
+# 275. Infrastructure as Code
+
+Future Support:
+
+```python
+Terraform
+```
+
+Resources:
+
+```python
+Databases
+
+Redis
+
+Storage
+
+Monitoring
+```
+
+---
+
+# 276. Secrets Management
+
+Development:
+
+```python
+.env
+```
+
+Production:
+
+```python
+Secrets Manager
+```
+
+Never commit secrets.
+
+---
+
+# 277. Feature Flags
+
+Control:
+
+```python
+EcoGPT
+
+Carbon Twin
+
+Community
+
+Forecasting
+```
+
+Benefits:
+
+* Safe rollouts
+* A/B testing
+
+---
+
+# 278. Release Strategy
+
+Versioning:
+
+```python
+MAJOR.MINOR.PATCH
+```
+
+Example:
+
+```python
+1.2.0
+```
+
+---
+
+# 279. Release Notes
+
+Include:
+
+* Features
+* Bug fixes
+* Breaking changes
+* Performance improvements
+
+---
+
+# 280. Performance Testing
+
+Tools:
+
+```python
+Locust
+
+k6
+```
+
+Simulate:
+
+```python
+1000 users
+
+5000 users
+
+10000 users
+```
+
+---
+
+# 281. Load Testing Targets
+
+API latency:
+
+```python
+<200 ms
+```
+
+Availability:
+
+```python
+99.9%
+```
+
+Error rate:
+
+```python
+<1%
+```
+
+---
+
+# 282. Deployment Metrics
+
+Track:
+
+* Deployment frequency
+* Mean time to recovery
+* Lead time
+* Change failure rate
+
+DORA Metrics.
+
+---
+
+# 283. Engineering Standards
+
+Follow:
+
+* GitOps
+* CI/CD
+* DORA Metrics
+* Infrastructure as Code
+* Blue-Green Deployments
+* Canary Releases
+* Zero Downtime Deployments
+
+---
+
+# END OF PART X
+
+---
+
+# PART XI — TESTING ARCHITECTURE
+
+Next section will cover:
+
+* Unit Testing
+* Integration Testing
+* E2E Testing
+* Performance Testing
+* Accessibility Testing
+* Security Testing
+* Visual Regression Testing
+* Contract Testing
+* Mutation Testing
+* Chaos Testing
+* Load Testing
+
+This section will resemble testing specifications used by Stripe and Google.
+
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XI — TESTING ARCHITECTURE
+
+---
+
+# 284. Testing Philosophy
+
+EcoSphere AI must adopt a quality-first engineering culture.
+
+Testing objectives:
+
+* Prevent regressions
+* Ensure reliability
+* Improve maintainability
+* Guarantee correctness
+* Enable safe deployments
+
+Follow:
+
+* Test Pyramid
+* Shift Left Testing
+* Continuous Testing
+* Automation First
+
+---
+
+# 285. Test Pyramid
+
+```text
+          E2E
+      Integration
+          Unit
+```
+
+Distribution:
+
+```python
+70% Unit Tests
+
+20% Integration Tests
+
+10% E2E Tests
+```
+
+---
+
+# 286. Unit Testing
+
+Tools:
+
+Frontend:
+
+```python
+Vitest
+
+Jest
+```
+
+Backend:
+
+```python
+Pytest
+```
+
+Test:
+
+* Functions
+* Hooks
+* Services
+* Utilities
+* Domain logic
+
+---
+
+# 287. Unit Test Principles
+
+Follow:
+
+AAA Pattern
+
+```text
+Arrange
+↓
+Act
+↓
+Assert
+```
+
+Tests must be:
+
+* Fast
+* Independent
+* Deterministic
+
+---
+
+# 288. Mocking
+
+Use:
+
+Frontend:
+
+```python
+MSW
+```
+
+Backend:
+
+```python
+pytest-mock
+```
+
+Mock:
+
+* APIs
+* Databases
+* AI providers
+* External services
+
+---
+
+# 289. Integration Testing
+
+Validate:
+
+```python
+Controller
+↓
+Service
+↓
+Repository
+↓
+Database
+```
+
+Examples:
+
+```python
+Activity creation
+
+Goal updates
+
+Recommendation acceptance
+
+Forecast generation
+```
+
+---
+
+# 290. API Testing
+
+Tools:
+
+```python
+Pytest
+
+HTTPX
+```
+
+Verify:
+
+* Status codes
+* Validation
+* Authentication
+* Pagination
+* Error handling
+
+---
+
+# 291. Database Testing
+
+Validate:
+
+* Foreign keys
+* Constraints
+* Transactions
+* Indexes
+
+Test:
+
+```python
+Rollback behavior
+
+Soft deletes
+
+Cascade rules
+```
+
+---
+
+# 292. End-to-End Testing
+
+Tool:
+
+```python
+Playwright
+```
+
+Critical flows:
+
+---
+
+### Signup Flow
+
+```text
+Register
+↓
+Onboarding
+↓
+Dashboard
+```
+
+---
+
+### Activity Flow
+
+```text
+Add Activity
+↓
+Emission Calculation
+↓
+Dashboard Update
+```
+
+---
+
+### Goal Flow
+
+```text
+Goal Creation
+↓
+Progress Tracking
+↓
+Completion
+```
+
+---
+
+### AI Coach Flow
+
+```text
+User Question
+↓
+Tool Calls
+↓
+Response
+```
+
+---
+
+# 293. UI Component Testing
+
+Tools:
+
+```python
+Testing Library
+
+Vitest
+```
+
+Test:
+
+* Buttons
+* Forms
+* Cards
+* Charts
+* Dialogs
+
+---
+
+# 294. Visual Regression Testing
+
+Tools:
+
+```python
+Chromatic
+
+Percy
+```
+
+Detect:
+
+* Layout shifts
+* Styling regressions
+* Component inconsistencies
+
+---
+
+# 295. Snapshot Testing
+
+Used sparingly.
+
+Suitable for:
+
+```python
+Cards
+
+Tables
+
+Badges
+```
+
+Avoid overuse.
+
+---
+
+# 296. Accessibility Testing
+
+Tools:
+
+```python
+axe-core
+
+Lighthouse
+```
+
+Validate:
+
+* ARIA labels
+* Keyboard navigation
+* Contrast ratios
+* Screen reader support
+
+---
+
+# 297. Performance Testing
+
+Tools:
+
+```python
+Lighthouse
+
+WebPageTest
+```
+
+Targets:
+
+```python
+Performance ≥ 95
+
+Accessibility ≥ 100
+
+SEO ≥ 100
+```
+
+---
+
+# 298. Load Testing
+
+Tools:
+
+```python
+k6
+
+Locust
+```
+
+Simulate:
+
+```python
+1000 users
+
+5000 users
+
+10000 users
+```
+
+Measure:
+
+* Throughput
+* Latency
+* Error rates
+
+---
+
+# 299. Stress Testing
+
+Push system beyond limits.
+
+Measure:
+
+* Recovery
+* Bottlenecks
+* Resource usage
+
+---
+
+# 300. Chaos Testing
+
+Inject failures:
+
+```python
+Database outage
+
+Redis outage
+
+AI outage
+
+Worker crashes
+```
+
+Verify:
+
+* Retry mechanisms
+* Circuit breakers
+* Fallbacks
+
+---
+
+# 301. Security Testing
+
+Tools:
+
+```python
+OWASP ZAP
+
+Bandit
+
+Semgrep
+```
+
+Detect:
+
+* SQL Injection
+* XSS
+* CSRF
+* Dependency vulnerabilities
+
+---
+
+# 302. Mutation Testing
+
+Tool:
+
+```python
+mutmut
+```
+
+Purpose:
+
+Measure quality of tests.
+
+Target:
+
+```python
+Mutation Score > 80%
+```
+
+---
+
+# 303. Contract Testing
+
+Tool:
+
+```python
+Pact
+```
+
+Validate:
+
+Frontend ↔ Backend contracts.
+
+---
+
+# 304. AI Testing
+
+Verify:
+
+* Hallucination rate
+* Tool accuracy
+* Forecast accuracy
+* Recommendation quality
+
+Metrics:
+
+```python
+Precision
+
+Recall
+
+Confidence score
+```
+
+---
+
+# 305. RAG Testing
+
+Measure:
+
+* Retrieval quality
+* Context relevance
+* Citation accuracy
+
+---
+
+# 306. Regression Testing
+
+Run automatically before:
+
+```python
+Merge
+
+Deployment
+
+Release
+```
+
+---
+
+# 307. Smoke Testing
+
+Verify:
+
+```python
+Login
+
+Dashboard
+
+Activities
+
+Reports
+
+AI Coach
+```
+
+---
+
+# 308. Acceptance Testing
+
+Validate user stories.
+
+Example:
+
+```text
+As a user,
+I want to track transport emissions
+so that I can reduce my footprint.
+```
+
+---
+
+# 309. Continuous Testing
+
+Run:
+
+```text
+Commit
+↓
+CI Pipeline
+↓
+Automated Tests
+↓
+Deployment
+```
+
+---
+
+# 310. Code Coverage
+
+Targets:
+
+```python
+Unit Tests ≥ 95%
+
+Integration ≥ 90%
+
+E2E ≥ 80%
+```
+
+---
+
+# 311. Flaky Test Detection
+
+Track:
+
+* Failure frequency
+* Retry counts
+
+Remove unstable tests.
+
+---
+
+# 312. Test Data Management
+
+Generate:
+
+```python
+Factories
+
+Fixtures
+
+Seed Data
+```
+
+Avoid:
+
+```python
+Hardcoded values
+```
+
+---
+
+# 313. Test Environment
+
+Separate:
+
+```python
+Database
+
+Redis
+
+Storage
+
+Workers
+```
+
+Never use production resources.
+
+---
+
+# 314. Release Gates
+
+Deployment blocked if:
+
+```python
+Coverage < threshold
+
+Critical tests fail
+
+Security scan fails
+```
+
+---
+
+# 315. Quality Metrics
+
+Track:
+
+* Test pass rate
+* Coverage
+* Defect density
+* Escaped bugs
+
+---
+
+# 316. Engineering Standards
+
+Follow:
+
+* Test Pyramid
+* Shift Left Testing
+* Continuous Testing
+* Contract Testing
+* Chaos Engineering
+* Mutation Testing
+
+---
+
+# END OF PART XI
+
+---
+
+# PART XII — PERFORMANCE ENGINEERING & OPTIMIZATION
+
+Next section covers:
+
+* SSR
+* ISR
+* Streaming
+* Suspense
+* Code splitting
+* Lazy loading
+* Memoization
+* Virtualization
+* Image optimization
+* Database indexing
+* Query optimization
+* Redis caching
+* CDN strategies
+* Web Vitals
+
+This section will resemble performance documents used by Vercel, Google Chrome, and Netflix.
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XII — PERFORMANCE ENGINEERING & OPTIMIZATION
+
+---
+
+# 317. Performance Philosophy
+
+EcoSphere AI must be engineered for speed, responsiveness, scalability, and efficiency.
+
+Goals:
+
+* Fast page loads
+* Low latency APIs
+* Minimal resource consumption
+* Smooth user experience
+* Excellent Core Web Vitals
+
+Follow:
+
+* Performance by Design
+* Progressive Enhancement
+* Cache First
+* Measure Everything
+
+---
+
+# 318. Performance Targets
+
+Frontend:
+
+```python
+LCP < 2.5s
+
+FID < 100ms
+
+CLS < 0.1
+```
+
+Backend:
+
+```python
+P95 API latency < 200ms
+
+P99 latency < 500ms
+```
+
+Availability:
+
+```python
+99.9%
+```
+
+---
+
+# 319. Core Web Vitals
+
+Monitor:
+
+### Largest Contentful Paint
+
+```python
+<2.5 seconds
+```
+
+---
+
+### First Input Delay
+
+```python
+<100ms
+```
+
+---
+
+### Cumulative Layout Shift
+
+```python
+<0.1
+```
+
+---
+
+### Interaction to Next Paint
+
+```python
+<200ms
+```
+
+---
+
+# 320. Rendering Strategy
+
+Use:
+
+### Server Components
+
+For:
+
+* Dashboards
+* Reports
+* Analytics
+
+---
+
+### Client Components
+
+For:
+
+* Forms
+* Charts
+* Interactions
+
+---
+
+### SSR
+
+For:
+
+```python
+Landing page
+
+Dashboard
+
+Reports
+```
+
+---
+
+### ISR
+
+For:
+
+```python
+Leaderboard
+
+Community
+```
+
+---
+
+# 321. Streaming
+
+Use React Streaming.
+
+Flow:
+
+```text
+Request
+↓
+Shell
+↓
+Partial UI
+↓
+Data arrives
+↓
+Complete page
+```
+
+Benefits:
+
+* Faster perceived performance
+* Better UX
+
+---
+
+# 322. Suspense Boundaries
+
+Separate:
+
+```python
+Charts
+
+Reports
+
+Recommendations
+
+AI Insights
+```
+
+Prevent whole-page blocking.
+
+---
+
+# 323. Code Splitting
+
+Split:
+
+```python
+Community Module
+
+Forecast Module
+
+Carbon Twin
+
+Admin Panel
+```
+
+Load only when needed.
+
+---
+
+# 324. Lazy Loading
+
+Lazy load:
+
+```python
+Charts
+
+Dialogs
+
+Modals
+
+Heavy animations
+```
+
+Using:
+
+```python
+dynamic()
+```
+
+---
+
+# 325. Bundle Optimization
+
+Reduce:
+
+* JS size
+* CSS size
+* Duplicate packages
+
+Targets:
+
+```python
+Initial JS < 200KB
+```
+
+---
+
+# 326. Tree Shaking
+
+Remove unused:
+
+```python
+Components
+
+Libraries
+
+Icons
+```
+
+---
+
+# 327. Image Optimization
+
+Use:
+
+```python
+next/image
+```
+
+Formats:
+
+```python
+AVIF
+
+WebP
+```
+
+Enable:
+
+* Compression
+* Lazy loading
+* Responsive images
+
+---
+
+# 328. Font Optimization
+
+Use:
+
+```python
+next/font
+```
+
+Avoid:
+
+```python
+External font blocking
+```
+
+---
+
+# 329. Memoization
+
+Use:
+
+```python
+useMemo()
+
+useCallback()
+
+React.memo()
+```
+
+For:
+
+* Charts
+* Tables
+* Heavy calculations
+
+---
+
+# 330. Virtualization
+
+Libraries:
+
+```python
+TanStack Virtual
+```
+
+Apply to:
+
+```python
+Activity History
+
+Notifications
+
+Leaderboard
+
+Posts
+```
+
+---
+
+# 331. Debouncing
+
+Use:
+
+```python
+300ms
+```
+
+For:
+
+* Search
+* Filters
+* AI chat
+
+---
+
+# 332. Throttling
+
+Apply to:
+
+```python
+Scroll events
+
+Resize events
+```
+
+---
+
+# 333. Pagination
+
+Default:
+
+```python
+20 items/page
+```
+
+Use:
+
+```python
+Cursor Pagination
+```
+
+Instead of offset pagination.
+
+---
+
+# 334. Infinite Scrolling
+
+Apply to:
+
+```python
+Community Feed
+
+Activity History
+```
+
+---
+
+# 335. Caching Hierarchy
+
+```text
+Browser Cache
+↓
+CDN
+↓
+Edge Cache
+↓
+Redis
+↓
+Database
+```
+
+---
+
+# 336. React Query Cache
+
+Cache:
+
+```python
+Dashboard
+
+Recommendations
+
+Reports
+```
+
+Use:
+
+```python
+staleTime
+
+cacheTime
+```
+
+---
+
+# 337. Redis Cache
+
+Store:
+
+```python
+Leaderboards
+
+Recommendations
+
+Forecasts
+
+Reports
+```
+
+---
+
+# 338. Cache Invalidation
+
+Strategies:
+
+```python
+TTL
+
+Write-through
+
+Event-driven invalidation
+```
+
+---
+
+# 339. Database Optimization
+
+Use:
+
+```python
+Indexes
+
+Composite Indexes
+
+Partitions
+```
+
+Avoid:
+
+```python
+N+1 queries
+```
+
+---
+
+# 340. Query Optimization
+
+Measure:
+
+```python
+Execution plans
+
+Slow queries
+
+Joins
+```
+
+Target:
+
+```python
+<50ms
+```
+
+---
+
+# 341. Connection Pooling
+
+Backend:
+
+```python
+SQLAlchemy Pool
+```
+
+Prevent:
+
+* Exhaustion
+* Bottlenecks
+
+---
+
+# 342. Time-Series Partitioning
+
+Partition:
+
+```python
+carbon_activities
+```
+
+By:
+
+```python
+month
+```
+
+---
+
+# 343. Redis Leaderboards
+
+Use:
+
+```python
+Sorted Sets
+```
+
+Complexity:
+
+```python
+O(log n)
+```
+
+---
+
+# 344. AI Performance
+
+Optimize:
+
+### Token Usage
+
+Compress context.
+
+---
+
+### Retrieval Size
+
+Top-k:
+
+```python
+5
+```
+
+---
+
+### Response Time
+
+Target:
+
+```python
+<3 seconds
+```
+
+---
+
+# 345. Batch Processing
+
+Batch:
+
+```python
+Notifications
+
+Reports
+
+Analytics
+```
+
+Reduces overhead.
+
+---
+
+# 346. CDN Strategy
+
+Assets:
+
+```python
+Images
+
+Fonts
+
+JS
+
+CSS
+```
+
+Use:
+
+```python
+Vercel Edge CDN
+```
+
+---
+
+# 347. Edge Functions
+
+Run:
+
+```python
+Authentication
+
+Geo routing
+
+Feature flags
+```
+
+Near users.
+
+---
+
+# 348. Compression
+
+Enable:
+
+```python
+Gzip
+
+Brotli
+```
+
+---
+
+# 349. Worker Optimization
+
+Celery:
+
+```python
+Concurrency
+
+Retry policies
+
+Queue priorities
+```
+
+---
+
+# 350. Background Processing
+
+Move:
+
+```python
+AI reports
+
+Forecasts
+
+Emails
+```
+
+Off the request path.
+
+---
+
+# 351. WebSocket Optimization
+
+Only push:
+
+```python
+Notifications
+
+Leaderboard updates
+
+Challenge progress
+```
+
+Avoid excessive broadcasts.
+
+---
+
+# 352. Animation Performance
+
+Use:
+
+```python
+transform
+
+opacity
+```
+
+Avoid:
+
+```python
+top
+
+left
+```
+
+Maintain:
+
+```python
+60 FPS
+```
+
+---
+
+# 353. Memory Optimization
+
+Prevent:
+
+```python
+Memory leaks
+
+Unused listeners
+
+Large caches
+```
+
+---
+
+# 354. Lighthouse Targets
+
+Performance:
+
+```python
+100
+```
+
+Accessibility:
+
+```python
+100
+```
+
+Best Practices:
+
+```python
+100
+```
+
+SEO:
+
+```python
+100
+```
+
+---
+
+# 355. Monitoring Performance
+
+Track:
+
+* Web Vitals
+* API latency
+* Cache hit ratio
+* DB query time
+* AI response time
+
+---
+
+# 356. Load Targets
+
+Support:
+
+```python
+100,000+ users
+
+10 million activities
+```
+
+---
+
+# 357. Engineering Standards
+
+Follow:
+
+* Google Web Vitals
+* Vercel Performance Patterns
+* React Performance Best Practices
+* Database Optimization
+* Caching First
+* Measure Before Optimize
+
+---
+
+# END OF PART XII
+
+---
+
+# PART XIII — DESIGN SYSTEM & UI/UX ARCHITECTURE
+
+Next section will cover:
+
+* Design Tokens
+* Typography
+* Colors
+* Spacing
+* Radius
+* Shadows
+* Motion System
+* Glassmorphism
+* Dark Mode
+* Charts
+* Accessibility
+* Responsive System
+* Micro-interactions
+* Animation Principles
+
+This section will resemble design systems used by Stripe, Linear, Notion, and Apple.
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XIII — DESIGN SYSTEM & UI/UX ARCHITECTURE
+
+---
+
+# 358. Design Philosophy
+
+EcoSphere AI must feel like a premium product.
+
+Inspired by:
+
+* Stripe
+* Linear
+* Apple
+* Notion
+* Arc Browser
+* Vercel
+
+Principles:
+
+* Simplicity
+* Clarity
+* Elegance
+* Delight
+* Accessibility
+* Consistency
+
+---
+
+# 359. Design System Philosophy
+
+Every UI element must be:
+
+* Reusable
+* Composable
+* Accessible
+* Themeable
+* Responsive
+
+Follow:
+
+* Atomic Design
+* Design Tokens
+* Component-Driven Development
+
+---
+
+# 360. Design Tokens
+
+Never hardcode values.
+
+Define tokens for:
+
+```python
+colors
+
+spacing
+
+radius
+
+font sizes
+
+shadows
+
+z-index
+
+animations
+```
+
+---
+
+# 361. Typography
+
+Primary Font:
+
+```python
+Geist
+```
+
+Fallback:
+
+```python
+Inter
+```
+
+Monospace:
+
+```python
+JetBrains Mono
+```
+
+---
+
+Scale:
+
+```python
+xs
+
+sm
+
+base
+
+lg
+
+xl
+
+2xl
+
+3xl
+
+4xl
+
+5xl
+```
+
+---
+
+# 362. Color System
+
+Brand:
+
+```python
+Emerald
+
+Teal
+
+Blue
+```
+
+Accent:
+
+```python
+Green
+```
+
+Success:
+
+```python
+Emerald
+```
+
+Warning:
+
+```python
+Amber
+```
+
+Error:
+
+```python
+Red
+```
+
+Info:
+
+```python
+Blue
+```
+
+---
+
+# 363. Theme System
+
+Support:
+
+### Light
+
+### Dark
+
+### System
+
+Persistence:
+
+```python
+localStorage
+```
+
+---
+
+# 364. Spacing Scale
+
+Use:
+
+```python
+4
+
+8
+
+12
+
+16
+
+24
+
+32
+
+48
+
+64
+```
+
+Never use arbitrary spacing.
+
+---
+
+# 365. Radius System
+
+Cards:
+
+```python
+16px
+```
+
+Buttons:
+
+```python
+12px
+```
+
+Inputs:
+
+```python
+10px
+```
+
+Dialogs:
+
+```python
+24px
+```
+
+---
+
+# 366. Shadow System
+
+Levels:
+
+```python
+sm
+
+md
+
+lg
+
+xl
+
+2xl
+```
+
+Glass cards:
+
+```python
+backdrop-blur
+```
+
+Soft shadows only.
+
+---
+
+# 367. Motion System
+
+Library:
+
+```python
+Framer Motion
+```
+
+Principles:
+
+* Meaningful
+* Fast
+* Smooth
+
+Avoid:
+
+* Excessive animations
+
+---
+
+# 368. Animation Durations
+
+Fast:
+
+```python
+150ms
+```
+
+Normal:
+
+```python
+250ms
+```
+
+Slow:
+
+```python
+400ms
+```
+
+---
+
+# 369. Easing Curves
+
+Use:
+
+```python
+ease-in
+
+ease-out
+
+ease-in-out
+```
+
+---
+
+# 370. Micro Interactions
+
+Animate:
+
+* Buttons
+* Inputs
+* Cards
+* Charts
+* Notifications
+
+Provide:
+
+* Hover feedback
+* Press feedback
+* Success states
+
+---
+
+# 371. Glassmorphism
+
+Cards:
+
+```python
+bg-white/10
+
+backdrop-blur-xl
+```
+
+Border:
+
+```python
+border-white/20
+```
+
+---
+
+# 372. Grid System
+
+Desktop:
+
+```python
+12 columns
+```
+
+Tablet:
+
+```python
+8 columns
+```
+
+Mobile:
+
+```python
+4 columns
+```
+
+---
+
+# 373. Responsive Breakpoints
+
+```python
+sm
+
+md
+
+lg
+
+xl
+
+2xl
+```
+
+Mobile-first approach.
+
+---
+
+# 374. Component Hierarchy
+
+Atomic Design:
+
+```text
+Atoms
+↓
+Molecules
+↓
+Organisms
+↓
+Templates
+↓
+Pages
+```
+
+---
+
+# 375. Core Components
+
+Buttons
+
+Cards
+
+Inputs
+
+Selects
+
+Tables
+
+Badges
+
+Dialogs
+
+Drawers
+
+Tooltips
+
+Charts
+
+Skeletons
+
+---
+
+# 376. Button System
+
+Variants:
+
+```python
+primary
+
+secondary
+
+outline
+
+ghost
+
+destructive
+```
+
+States:
+
+```python
+default
+
+hover
+
+active
+
+disabled
+
+loading
+```
+
+---
+
+# 377. Input Components
+
+Support:
+
+* Validation
+* Icons
+* Password toggle
+* Error states
+* Helper text
+
+---
+
+# 378. Form UX
+
+Libraries:
+
+```python
+React Hook Form
+
+Zod
+```
+
+Features:
+
+* Inline validation
+* Real-time feedback
+
+---
+
+# 379. Loading States
+
+Use:
+
+### Skeletons
+
+Never use:
+
+```python
+spinners everywhere
+```
+
+---
+
+# 380. Empty States
+
+Provide:
+
+* Illustration
+* Explanation
+* CTA
+
+Example:
+
+```text
+No activities yet.
+
+Start tracking your footprint.
+```
+
+---
+
+# 381. Error States
+
+Include:
+
+* Friendly message
+* Retry button
+* Support link
+
+---
+
+# 382. Dashboard Layout
+
+Sections:
+
+```text
+Hero
+↓
+Stats
+↓
+Charts
+↓
+Recommendations
+↓
+Challenges
+↓
+Community
+```
+
+---
+
+# 383. Navigation
+
+Desktop:
+
+Sidebar
+
+Mobile:
+
+Bottom navigation
+
+---
+
+# 384. Charts
+
+Library:
+
+```python
+Recharts
+```
+
+Charts:
+
+* Line
+* Area
+* Pie
+* Bar
+* Radar
+* Heatmap
+
+Animated transitions enabled.
+
+---
+
+# 385. Chart Colors
+
+Green:
+
+Savings
+
+Red:
+
+High emissions
+
+Blue:
+
+Information
+
+Amber:
+
+Warnings
+
+---
+
+# 386. Data Density
+
+Prioritize:
+
+* Clarity
+* Readability
+
+Avoid:
+
+* Visual clutter
+
+---
+
+# 387. Accessibility
+
+Follow:
+
+WCAG 2.2 AA
+
+Provide:
+
+* Keyboard navigation
+* Focus rings
+* ARIA labels
+* Screen reader support
+
+---
+
+# 388. Reduced Motion
+
+Respect:
+
+```python
+prefers-reduced-motion
+```
+
+Disable:
+
+* Heavy animations
+
+---
+
+# 389. Color Blind Support
+
+Ensure:
+
+* High contrast
+* Pattern distinctions
+
+---
+
+# 390. Icon System
+
+Library:
+
+```python
+Lucide Icons
+```
+
+Consistency:
+
+24px grid
+
+---
+
+# 391. Toast Notifications
+
+Library:
+
+```python
+Sonner
+```
+
+Variants:
+
+Success
+
+Warning
+
+Error
+
+Info
+
+---
+
+# 392. Dark Mode
+
+Support:
+
+* Automatic
+* Manual
+
+Tokens should adapt automatically.
+
+---
+
+# 393. Tables
+
+Features:
+
+* Sort
+* Filter
+* Pagination
+* Sticky headers
+
+---
+
+# 394. Search UX
+
+Support:
+
+* Debouncing
+* Suggestions
+* Recent searches
+
+---
+
+# 395. Mobile Experience
+
+Touch-first design.
+
+Targets:
+
+```python
+44px minimum touch size
+```
+
+---
+
+# 396. PWA UX
+
+Offline mode
+
+Install prompt
+
+App-like experience
+
+---
+
+# 397. AI Chat Interface
+
+Inspired by:
+
+* ChatGPT
+* Claude
+
+Features:
+
+* Streaming responses
+* Markdown
+* Citations
+* Tool indicators
+
+---
+
+# 398. Carbon Twin Visualization
+
+Display:
+
+Current vs Future
+
+Using:
+
+* Line charts
+* Scenario cards
+* Savings indicators
+
+---
+
+# 399. Gamification UI
+
+Show:
+
+* XP
+* Streaks
+* Badges
+* Leaderboards
+
+---
+
+# 400. Delight Features
+
+Add:
+
+* Animated counters
+* Confetti
+* Smooth transitions
+* Gradient glows
+
+---
+
+# 401. Design Quality Standards
+
+Aim for:
+
+* Apple Design Award quality
+* Awwwards quality
+* Product Hunt #1 quality
+
+---
+
+# 402. Engineering Standards
+
+Follow:
+
+* Atomic Design
+* Design Tokens
+* WCAG 2.2
+* Mobile First
+* Motion Principles
+* Accessibility First
+
+---
+
+# END OF PART XIII
+
+---
+
+# PART XIV — RECOMMENDATION ENGINE & PERSONALIZATION SYSTEM
+
+Next section will cover:
+
+* Behavior analysis
+* Habit detection
+* Scoring algorithms
+* Priority ranking
+* Confidence scores
+* Recommendation pipelines
+* User segmentation
+* Personalization models
+* Adaptive learning
+* Reinforcement loops
+
+This section will resemble recommendation systems used by Netflix, Spotify, and Duolingo.
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XIV — RECOMMENDATION ENGINE & PERSONALIZATION SYSTEM
+
+---
+
+# 403. Personalization Philosophy
+
+EcoSphere AI should provide recommendations that are:
+
+* Personalized
+* Explainable
+* Actionable
+* Scientifically grounded
+* Adaptive
+
+Avoid:
+
+* Generic advice
+* Repeated recommendations
+* Information overload
+
+---
+
+# 404. Recommendation Goals
+
+Optimize for:
+
+* Maximum carbon reduction
+* High user acceptance
+* Low friction
+* Sustainable habit formation
+
+---
+
+# 405. Inputs
+
+Recommendation engine considers:
+
+```python
+activities
+
+goals
+
+household
+
+region
+
+diet
+
+vehicle
+
+income_group
+
+engagement
+
+streaks
+
+history
+```
+
+---
+
+# 406. User Segmentation
+
+Segments:
+
+```python
+Student
+
+Professional
+
+Family
+
+Frequent Traveler
+
+Eco Enthusiast
+```
+
+Each segment receives different strategies.
+
+---
+
+# 407. User Profile Vector
+
+Create:
+
+```python
+user_embedding
+```
+
+Containing:
+
+```python
+diet
+
+transport
+
+energy
+
+shopping
+
+engagement
+
+preferences
+```
+
+Used for similarity matching.
+
+---
+
+# 408. Behavior Analysis
+
+Detect:
+
+```python
+largest_emission_source
+
+weekly_patterns
+
+seasonal_patterns
+
+improvement_trend
+```
+
+---
+
+# 409. Habit Detection
+
+Examples:
+
+### Transport
+
+Frequent driving
+
+---
+
+### Food
+
+High meat consumption
+
+---
+
+### Energy
+
+Excessive electricity use
+
+---
+
+### Waste
+
+Low recycling frequency
+
+---
+
+# 410. Recommendation Categories
+
+Transport
+
+Food
+
+Energy
+
+Waste
+
+Water
+
+Shopping
+
+Digital footprint
+
+Community
+
+Challenges
+
+---
+
+# 411. Recommendation Pipeline
+
+```text
+User Activities
+↓
+Behavior Analysis
+↓
+Pattern Detection
+↓
+Candidate Recommendations
+↓
+Scoring Engine
+↓
+Ranking
+↓
+Top Recommendations
+```
+
+---
+
+# 412. Candidate Generation
+
+Generate:
+
+```python
+50 candidate recommendations
+```
+
+Then rank and select:
+
+```python
+Top 5
+```
+
+---
+
+# 413. Impact Estimation
+
+Estimate:
+
+```python
+kg CO2 saved
+
+cost savings
+
+difficulty
+
+time required
+```
+
+---
+
+# 414. Difficulty Score
+
+Range:
+
+```python
+1-10
+```
+
+Examples:
+
+```python
+Use LED Bulbs = 2
+
+Install Solar = 9
+```
+
+---
+
+# 415. Confidence Score
+
+Range:
+
+```python
+0-100
+```
+
+Depends on:
+
+* Data quality
+* User history
+* Regional factors
+
+---
+
+# 416. Priority Score
+
+Formula:
+
+```python
+priority_score =
+impact
+× confidence
+÷ difficulty
+```
+
+---
+
+# 417. Recommendation Ranking
+
+Sort by:
+
+```python
+priority_score DESC
+```
+
+---
+
+# 418. Explainability
+
+Each recommendation must explain:
+
+### Why?
+
+### Expected impact?
+
+### Difficulty?
+
+### Confidence?
+
+### Source?
+
+---
+
+Example:
+
+```text
+Replacing two weekly car trips with cycling
+could save approximately 18kg CO₂/month.
+
+Difficulty: Low
+
+Confidence: 89%
+
+Source:
+DEFRA Transport Factors.
+```
+
+---
+
+# 419. Diversity Constraint
+
+Prevent:
+
+```python
+5 transport recommendations
+```
+
+Instead:
+
+```python
+Transport
+
+Food
+
+Energy
+
+Waste
+
+Community
+```
+
+---
+
+# 420. Fatigue Prevention
+
+Avoid showing:
+
+```python
+same recommendation repeatedly
+```
+
+Cooldown:
+
+```python
+14 days
+```
+
+---
+
+# 421. Acceptance Tracking
+
+Track:
+
+```python
+accepted
+
+ignored
+
+completed
+```
+
+Learn from feedback.
+
+---
+
+# 422. Recommendation Lifecycle
+
+```text
+Generated
+↓
+Shown
+↓
+Accepted
+↓
+Completed
+↓
+Reward
+```
+
+---
+
+# 423. Reinforcement Loop
+
+```text
+Action
+↓
+Emission Reduction
+↓
+XP Reward
+↓
+Positive Feedback
+↓
+Habit Formation
+```
+
+---
+
+# 424. Goal-Based Recommendations
+
+Inputs:
+
+```python
+goal
+
+deadline
+
+current_progress
+```
+
+Outputs:
+
+```python
+subtasks
+
+weekly challenges
+
+reminders
+```
+
+---
+
+# 425. Seasonal Adaptation
+
+Adapt to:
+
+* Summer
+* Winter
+* Holidays
+* Festivals
+
+---
+
+# 426. Geographic Personalization
+
+Region affects:
+
+* Electricity factors
+* Transport options
+* Food patterns
+* Climate
+
+---
+
+# 427. Context Awareness
+
+Consider:
+
+```python
+weekday
+
+weekend
+
+weather
+
+time_of_day
+```
+
+---
+
+# 428. Social Personalization
+
+Use:
+
+```python
+friends
+
+community
+
+leaderboard
+```
+
+To increase motivation.
+
+---
+
+# 429. AI Coach Integration
+
+Recommendations become conversation starters.
+
+Example:
+
+```text
+Your transport emissions increased 12% this month.
+
+Would you like suggestions to reduce them?
+```
+
+---
+
+# 430. Recommendation Types
+
+Quick Wins
+
+Medium Changes
+
+Long-Term Investments
+
+---
+
+# 431. Long-Term Recommendations
+
+Examples:
+
+```python
+EV adoption
+
+Solar installation
+
+Diet transition
+```
+
+---
+
+# 432. Short-Term Recommendations
+
+Examples:
+
+```python
+Cycle twice a week
+
+Reduce food waste
+
+Turn off unused devices
+```
+
+---
+
+# 433. Adaptive Learning
+
+Engine learns:
+
+```python
+What users accept
+
+What users ignore
+
+Completion rate
+```
+
+---
+
+# 434. Similar User Modeling
+
+Find:
+
+```python
+users with similar behavior
+```
+
+Recommend successful actions.
+
+---
+
+# 435. Collaborative Filtering
+
+Use:
+
+```python
+User Similarity
+
+Behavior Similarity
+```
+
+Inspired by:
+
+* Netflix
+* Spotify
+
+---
+
+# 436. Multi-Armed Bandits
+
+Explore:
+
+New recommendations
+
+Exploit:
+
+Successful recommendations
+
+---
+
+# 437. Reinforcement Learning
+
+Future capability:
+
+Optimize:
+
+```python
+long-term carbon reduction
+```
+
+Rather than clicks.
+
+---
+
+# 438. Recommendation Metrics
+
+Track:
+
+Acceptance Rate
+
+Completion Rate
+
+Reduction Achieved
+
+Retention Impact
+
+---
+
+# 439. Success Metrics
+
+Targets:
+
+```python
+Acceptance Rate > 40%
+
+Completion Rate > 25%
+
+Monthly Carbon Reduction > 10%
+```
+
+---
+
+# 440. Recommendation APIs
+
+```http
+GET /recommendations
+```
+
+---
+
+```http
+POST /recommendations/{id}/accept
+```
+
+---
+
+```http
+POST /recommendations/{id}/complete
+```
+
+---
+
+# 441. Offline Recommendation Generation
+
+Generate:
+
+Daily
+
+Weekly
+
+Monthly
+
+Using background workers.
+
+---
+
+# 442. AI Safety
+
+Prevent:
+
+* Unrealistic advice
+* Harmful suggestions
+* Unsupported claims
+
+Always provide:
+
+* Confidence scores
+* Scientific sources
+
+---
+
+# 443. Engineering Standards
+
+Follow:
+
+* Explainable AI
+* Human-Centered AI
+* Reinforcement Loops
+* Collaborative Filtering
+* Multi-Armed Bandits
+* Behavioral Science
+
+---
+
+# END OF PART XIV
+
+---
+
+# PART XV — GAMIFICATION ENGINE & BEHAVIORAL DESIGN
+
+Next will cover:
+
+* XP system
+* Levels
+* Streak algorithms
+* Badges
+* Achievements
+* Leaderboards
+* Challenges
+* Rewards
+* Behavioral psychology
+* Habit loops
+* Seasonal events
+* Community motivation
+
+This section will resemble engagement systems used by Duolingo, Strava, and Fitbit.
+
+
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XV — GAMIFICATION ENGINE & BEHAVIORAL DESIGN
+
+---
+
+# 444. Gamification Philosophy
+
+EcoSphere AI should not merely track emissions.
+
+It should create:
+
+* Motivation
+* Habit formation
+* Long-term engagement
+* Positive reinforcement
+
+Inspired by:
+
+* Duolingo
+* Strava
+* Fitbit
+* Habitica
+
+---
+
+# 445. Behavioral Principles
+
+Based on:
+
+* BJ Fogg Behavior Model
+* Atomic Habits
+* Hook Model
+* Self-Determination Theory
+
+Core pillars:
+
+```python
+Motivation
+
+Ability
+
+Triggers
+```
+
+---
+
+# 446. Habit Loop
+
+```text
+Trigger
+↓
+Action
+↓
+Reward
+↓
+Investment
+↓
+Repeat
+```
+
+Example:
+
+```text
+Reminder
+↓
+Log Activity
+↓
+Earn XP
+↓
+Maintain Streak
+↓
+Repeat Tomorrow
+```
+
+---
+
+# 447. XP System
+
+Users gain XP for:
+
+```python
+Activity logging
+
+Goal completion
+
+Recommendation acceptance
+
+Challenge completion
+
+Daily streaks
+
+Community participation
+```
+
+---
+
+# 448. XP Values
+
+Examples:
+
+```python
+Log Activity = 10 XP
+
+Goal Completed = 100 XP
+
+Challenge Completed = 50 XP
+
+Weekly Report Viewed = 20 XP
+
+Recommendation Accepted = 30 XP
+```
+
+---
+
+# 449. Level System
+
+Formula:
+
+```python
+xp_required =
+100 × level²
+```
+
+Example:
+
+```python
+Level 1 = 100
+
+Level 2 = 400
+
+Level 3 = 900
+```
+
+---
+
+# 450. Levels
+
+Titles:
+
+```python
+Level 1
+Eco Beginner
+
+Level 5
+Green Explorer
+
+Level 10
+Eco Warrior
+
+Level 20
+Planet Guardian
+
+Level 50
+Climate Champion
+
+Level 100
+Earth Legend
+```
+
+---
+
+# 451. Streak Engine
+
+Tracks:
+
+```python
+Daily activity
+
+Goal progress
+
+Challenge completion
+```
+
+---
+
+# 452. Streak Algorithm
+
+```python
+If activity_logged_today:
+
+current_streak += 1
+
+Else:
+
+current_streak = 0
+```
+
+---
+
+# 453. Streak Freeze
+
+Users receive:
+
+```python
+3 freezes per month
+```
+
+Prevents accidental streak loss.
+
+---
+
+# 454. Longest Streak
+
+Store:
+
+```python
+current_streak
+
+longest_streak
+```
+
+---
+
+# 455. Badge System
+
+Categories:
+
+```python
+Consistency
+
+Transport
+
+Food
+
+Energy
+
+Community
+
+Challenges
+```
+
+---
+
+# 456. Example Badges
+
+```python
+First Step
+
+7-Day Streak
+
+30-Day Streak
+
+Cycling Hero
+
+Plant-Based Pioneer
+
+Energy Saver
+
+Zero Waste Master
+
+Climate Champion
+```
+
+---
+
+# 457. Achievement Engine
+
+Achievements contain:
+
+```python
+id
+
+name
+
+description
+
+icon
+
+rarity
+
+xp_reward
+```
+
+---
+
+# 458. Badge Rarity
+
+```python
+Common
+
+Rare
+
+Epic
+
+Legendary
+```
+
+---
+
+# 459. Leaderboards
+
+Types:
+
+```python
+Global
+
+Friends
+
+Monthly
+
+Weekly
+```
+
+---
+
+# 460. Ranking Metrics
+
+Based on:
+
+```python
+XP
+
+Carbon Reduction
+
+Challenge Completion
+
+Consistency
+```
+
+---
+
+# 461. Challenge System
+
+Challenges:
+
+```python
+Daily
+
+Weekly
+
+Monthly
+
+Seasonal
+```
+
+---
+
+# 462. Example Challenges
+
+```python
+Cycle twice this week
+
+Avoid food waste for 3 days
+
+Reduce electricity usage by 10%
+
+Plant-based meals for 5 days
+```
+
+---
+
+# 463. Seasonal Events
+
+Examples:
+
+```python
+Earth Day Event
+
+Plastic Free July
+
+No Flight November
+
+Green December
+```
+
+---
+
+# 464. Event Rewards
+
+Users earn:
+
+```python
+XP
+
+Badges
+
+Titles
+
+Leaderboard boosts
+```
+
+---
+
+# 465. Reward System
+
+Rewards:
+
+```python
+XP
+
+Achievements
+
+Confetti
+
+Unlockables
+
+Progress animations
+```
+
+---
+
+# 466. Progress Bars
+
+Display:
+
+```python
+Current XP
+
+Level Progress
+
+Goal Progress
+
+Challenge Progress
+```
+
+---
+
+# 467. Daily Missions
+
+Generate:
+
+```python
+3 missions/day
+```
+
+Based on:
+
+```python
+User habits
+
+Goals
+
+Emission sources
+```
+
+---
+
+# 468. Weekly Missions
+
+Generate:
+
+```python
+5 missions/week
+```
+
+Examples:
+
+```python
+Reduce transport emissions
+
+Increase recycling
+
+Complete AI recommendations
+```
+
+---
+
+# 469. Personalized Challenges
+
+Based on:
+
+```python
+Diet
+
+Transport
+
+Energy
+
+Region
+
+Lifestyle
+```
+
+---
+
+# 470. Community Motivation
+
+Features:
+
+```python
+Friends
+
+Groups
+
+Shared goals
+
+Challenge teams
+```
+
+---
+
+# 471. Social Proof
+
+Show:
+
+```python
+Friends completed this challenge
+
+Top users this week
+
+Community progress
+```
+
+---
+
+# 472. Positive Reinforcement
+
+Celebrate:
+
+```python
+Milestones
+
+Achievements
+
+Goal completion
+```
+
+Using:
+
+```python
+Animations
+
+Confetti
+
+Sound effects
+```
+
+---
+
+# 473. Habit Score
+
+Range:
+
+```python
+0-100
+```
+
+Factors:
+
+```python
+Consistency
+
+Engagement
+
+Completion Rate
+
+Streaks
+```
+
+---
+
+# 474. Sustainability Score
+
+Range:
+
+```python
+0-100
+```
+
+Based on:
+
+```python
+Transport
+
+Energy
+
+Food
+
+Waste
+
+Shopping
+```
+
+---
+
+# 475. Carbon Reduction Score
+
+Measures:
+
+```python
+Monthly improvement
+
+Yearly improvement
+```
+
+---
+
+# 476. Motivation Notifications
+
+Examples:
+
+```text
+You're only one day away from a 30-day streak!
+
+Great job! You've reduced emissions by 8% this month.
+```
+
+---
+
+# 477. Anti-Burnout Design
+
+Avoid:
+
+```python
+Punishment
+
+Negative messages
+
+Loss aversion abuse
+```
+
+Promote:
+
+```python
+Encouragement
+
+Progress
+
+Small wins
+```
+
+---
+
+# 478. Engagement Metrics
+
+Track:
+
+```python
+DAU
+
+WAU
+
+MAU
+
+Streak Length
+
+Challenge Participation
+
+Badge Unlock Rate
+```
+
+---
+
+# 479. Leaderboard Fairness
+
+Segment by:
+
+```python
+Experience level
+
+Region
+
+Friend groups
+```
+
+Prevent:
+
+```python
+Whales dominating
+```
+
+---
+
+# 480. Behavioral Analytics
+
+Measure:
+
+```python
+Retention
+
+Session Duration
+
+Habit Formation
+
+Recommendation Adoption
+```
+
+---
+
+# 481. Gamification APIs
+
+```http
+GET /xp
+```
+
+```http
+GET /levels
+```
+
+```http
+GET /badges
+```
+
+```http
+GET /leaderboard
+```
+
+```http
+GET /challenges
+```
+
+---
+
+# 482. Background Jobs
+
+Generate:
+
+```python
+Daily Missions
+
+Weekly Challenges
+
+Seasonal Events
+
+Leaderboard Updates
+```
+
+---
+
+# 483. Future Enhancements
+
+Support:
+
+```python
+Teams
+
+Guilds
+
+Tournaments
+
+Carbon Leagues
+
+Avatar System
+
+Collectibles
+```
+
+---
+
+# 484. Engineering Standards
+
+Follow:
+
+* Duolingo engagement systems
+* Strava social loops
+* Atomic Habits
+* Hook Model
+* Self-Determination Theory
+* Positive Reinforcement
+
+---
+
+# END OF PART XV
+
+---
+
+# PART XVI — FORECASTING ENGINE & CARBON TWIN
+
+Next will cover:
+
+* Time-series forecasting
+* Trend analysis
+* Confidence intervals
+* Scenario simulation
+* Carbon Twin architecture
+* What-if analysis
+* Monte Carlo simulations
+* Future Self
+* 30-day, 90-day, 1-year, 5-year forecasts
+* Explainable predictions
+
+This section will resemble forecasting systems used by Google DeepMind and advanced analytics platforms.
+
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XVI — FORECASTING ENGINE & CARBON TWIN
+
+---
+
+# 485. Forecasting Philosophy
+
+EcoSphere AI should not only explain the past.
+
+It should predict the future.
+
+The platform must answer:
+
+* What happens if I continue current habits?
+* What if I become vegetarian?
+* What if I reduce flights?
+* What if I install solar panels?
+* What will my emissions be in 5 years?
+
+Predictions must be:
+
+* Explainable
+* Personalized
+* Probabilistic
+* Scientifically grounded
+
+---
+
+# 486. Forecasting Objectives
+
+Predict:
+
+```python
+30 Days
+
+90 Days
+
+1 Year
+
+5 Years
+```
+
+Outputs:
+
+```python
+Emissions
+
+Savings
+
+Confidence
+
+Trend
+```
+
+---
+
+# 487. Forecast Inputs
+
+Inputs:
+
+```python
+Activities
+
+Goals
+
+Diet
+
+Transport
+
+Energy
+
+Waste
+
+Household
+
+Region
+
+Seasonality
+```
+
+---
+
+# 488. Time-Series Data
+
+Use:
+
+```python
+carbon_activities
+```
+
+Time granularity:
+
+```python
+Daily
+
+Weekly
+
+Monthly
+```
+
+---
+
+# 489. Trend Analysis
+
+Detect:
+
+```python
+Increasing Trend
+
+Decreasing Trend
+
+Stable Trend
+
+Seasonal Pattern
+```
+
+---
+
+# 490. Forecast Models
+
+V1:
+
+```python
+Linear Regression
+
+Moving Average
+
+Exponential Smoothing
+```
+
+V2:
+
+```python
+Prophet
+
+XGBoost
+
+LSTM
+```
+
+Future:
+
+```python
+Transformers
+
+DeepAR
+```
+
+---
+
+# 491. Prediction Pipeline
+
+```text
+Historical Data
+↓
+Feature Engineering
+↓
+Forecast Model
+↓
+Confidence Estimation
+↓
+Scenario Simulation
+↓
+Visualization
+```
+
+---
+
+# 492. Feature Engineering
+
+Features:
+
+```python
+day_of_week
+
+month
+
+season
+
+temperature
+
+holidays
+
+diet
+
+transport_mode
+
+electricity_usage
+```
+
+---
+
+# 493. Forecast Outputs
+
+Store:
+
+```python
+predicted_co2e
+
+confidence_score
+
+trend
+
+generated_at
+```
+
+---
+
+# 494. Confidence Intervals
+
+Show:
+
+```python
+Minimum
+
+Expected
+
+Maximum
+```
+
+Example:
+
+```text
+Expected:
+
+280kg CO₂
+
+Range:
+
+250–310kg CO₂
+
+Confidence:
+
+89%
+```
+
+---
+
+# 495. Explainable Forecasts
+
+Every prediction must explain:
+
+### Why?
+
+### Which factors contribute?
+
+### Confidence level?
+
+### Uncertainty?
+
+---
+
+# 496. Seasonality
+
+Account for:
+
+```python
+Summer
+
+Winter
+
+Festivals
+
+Vacations
+
+Holidays
+```
+
+---
+
+# 497. Carbon Twin Philosophy
+
+Every user has a:
+
+```python
+Digital Carbon Twin
+```
+
+Representing:
+
+* Current lifestyle
+* Future lifestyle
+* Alternative lifestyles
+
+---
+
+# 498. Carbon Twin Inputs
+
+Use:
+
+```python
+Activities
+
+Goals
+
+Habits
+
+Household
+
+Diet
+
+Transport
+
+Energy
+```
+
+---
+
+# 499. Carbon Twin Architecture
+
+```text
+User Profile
+↓
+Historical Activities
+↓
+Behavior Analysis
+↓
+Digital Twin
+↓
+Scenario Engine
+↓
+Forecast
+```
+
+---
+
+# 500. Scenario Simulator
+
+Simulate:
+
+```python
+Vegetarian Diet
+
+Vegan Diet
+
+EV Adoption
+
+Solar Installation
+
+Flight Reduction
+
+Cycling
+
+Public Transport
+```
+
+---
+
+# 501. What-If Engine
+
+Examples:
+
+```text
+What if I stop flying?
+
+What if I cycle 3 days per week?
+
+What if I switch to LED bulbs?
+```
+
+---
+
+# 502. Scenario Outputs
+
+Calculate:
+
+```python
+Current Emissions
+
+Future Emissions
+
+Savings
+
+Cost Impact
+
+Difficulty
+```
+
+---
+
+# 503. Comparison Engine
+
+Display:
+
+```python
+Current
+
+Scenario A
+
+Scenario B
+
+Scenario C
+```
+
+Visualize:
+
+* Line charts
+* Radar charts
+* Area charts
+
+---
+
+# 504. Monte Carlo Simulations
+
+Generate:
+
+```python
+1000 simulations
+```
+
+Estimate:
+
+```python
+Best Case
+
+Worst Case
+
+Expected Outcome
+```
+
+---
+
+# 505. Future Self
+
+Show:
+
+### 30 Days
+
+### 90 Days
+
+### 1 Year
+
+### 5 Years
+
+Visualize:
+
+```text
+Current You
+↓
+Future You
+```
+
+---
+
+# 506. Future Personas
+
+Examples:
+
+### Eco Minimalist
+
+Low emissions
+
+---
+
+### Average Lifestyle
+
+Moderate emissions
+
+---
+
+### High Impact Lifestyle
+
+High emissions
+
+---
+
+# 507. Carbon Budget Projection
+
+Track:
+
+```python
+Budget Used
+
+Remaining Budget
+
+Overspending Risk
+```
+
+---
+
+# 508. Savings Estimation
+
+Calculate:
+
+```python
+CO₂ Saved
+
+Money Saved
+
+Energy Saved
+```
+
+---
+
+# 509. Risk Analysis
+
+Identify:
+
+```python
+Largest Future Risks
+
+High-emission Habits
+
+Seasonal Spikes
+```
+
+---
+
+# 510. Forecast API
+
+```http
+GET /forecast/30d
+```
+
+```http
+GET /forecast/90d
+```
+
+```http
+GET /forecast/1y
+```
+
+```http
+GET /forecast/5y
+```
+
+---
+
+# 511. Carbon Twin API
+
+Generate:
+
+```http
+POST /carbon-twin
+```
+
+Scenario:
+
+```http
+POST /carbon-twin/scenario
+```
+
+---
+
+# 512. AI Forecast Agent
+
+Responsibilities:
+
+```python
+Trend Analysis
+
+Scenario Generation
+
+Risk Detection
+
+Confidence Estimation
+
+Narrative Generation
+```
+
+---
+
+# 513. Narrative Generation
+
+Example:
+
+```text
+If you continue your current lifestyle, your annual emissions are expected to increase by approximately 7%.
+
+Switching two weekly car trips to cycling could reduce emissions by 18kg CO₂ per month.
+
+Confidence: 91%
+```
+
+---
+
+# 514. Forecast Metrics
+
+Track:
+
+```python
+Forecast Accuracy
+
+MAE
+
+RMSE
+
+MAPE
+
+Confidence Calibration
+```
+
+---
+
+# 515. Retraining
+
+Frequency:
+
+```python
+Monthly
+```
+
+Future:
+
+```python
+Continuous Learning
+```
+
+---
+
+# 516. Background Jobs
+
+Run:
+
+```python
+Daily Trend Updates
+
+Weekly Forecast Refresh
+
+Monthly Carbon Twin Generation
+
+Yearly Reports
+```
+
+---
+
+# 517. Visualization
+
+Components:
+
+```python
+Line Charts
+
+Radar Charts
+
+Heatmaps
+
+Scenario Cards
+
+Savings Indicators
+```
+
+---
+
+# 518. Explainability Standards
+
+Predictions must include:
+
+```python
+Confidence Score
+
+Source
+
+Reasoning
+
+Uncertainty
+```
+
+Never provide:
+
+```python
+Black-box predictions
+```
+
+---
+
+# 519. Future Enhancements
+
+Support:
+
+```python
+Weather Data
+
+Smart Meters
+
+IoT Devices
+
+Wearables
+
+Google Fit
+
+Apple Health
+
+EV Chargers
+```
+
+---
+
+# 520. Engineering Standards
+
+Follow:
+
+* Explainable AI
+* Probabilistic Forecasting
+* Monte Carlo Methods
+* Time-Series Analysis
+* Scenario Simulation
+* Human-Centered Predictions
+
+---
+
+# END OF PART XVI
+
+---
+
+# PART XVII — NOTIFICATIONS, REPORTS & EXPORT ENGINE
+
+Next section will cover:
+
+* Email notifications
+* Push notifications
+* In-app notifications
+* Weekly reports
+* Monthly reports
+* PDF generation
+* CSV export
+* Excel export
+* Share cards
+* Social media cards
+* Scheduled delivery
+* AI-generated summaries
+
+This section will resemble reporting systems used by Notion, Duolingo, and Stripe.
+
+
+
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XVII — NOTIFICATIONS, REPORTS & EXPORT ENGINE
+
+---
+
+# 521. Philosophy
+
+EcoSphere AI should continuously keep users informed, motivated, and engaged.
+
+Notifications and reports should:
+
+* Encourage behavior change
+* Avoid notification fatigue
+* Provide actionable insights
+* Reinforce progress
+* Celebrate achievements
+
+Inspired by:
+
+* Duolingo
+* Strava
+* Notion
+* Grammarly
+
+---
+
+# 522. Notification Channels
+
+Support:
+
+```python
+In-App Notifications
+
+Email Notifications
+
+Push Notifications
+
+Browser Notifications
+```
+
+Future:
+
+```python
+WhatsApp
+
+Telegram
+
+SMS
+```
+
+---
+
+# 523. Notification Categories
+
+```python
+Achievements
+
+Reminders
+
+Challenges
+
+Recommendations
+
+Reports
+
+Community
+
+System Alerts
+```
+
+---
+
+# 524. Notification Priorities
+
+Priority Levels:
+
+```python
+Critical
+
+High
+
+Medium
+
+Low
+```
+
+---
+
+# 525. Notification Table
+
+Store:
+
+```python
+id
+
+user_id
+
+type
+
+title
+
+message
+
+priority
+
+status
+
+read_at
+
+created_at
+```
+
+---
+
+# 526. Delivery Pipeline
+
+```text
+Event
+↓
+Notification Service
+↓
+Priority Queue
+↓
+Channel Selection
+↓
+User
+```
+
+---
+
+# 527. Notification Preferences
+
+Users can configure:
+
+```python
+Email
+
+Push
+
+In-App
+
+Frequency
+
+Quiet Hours
+```
+
+---
+
+# 528. Quiet Hours
+
+Example:
+
+```python
+22:00
+
+↓
+
+08:00
+```
+
+Avoid disturbing users.
+
+---
+
+# 529. Smart Notification Engine
+
+Consider:
+
+```python
+Timezone
+
+Engagement
+
+History
+
+Streaks
+
+Goals
+
+Frequency
+```
+
+Prevent:
+
+```python
+Notification Fatigue
+```
+
+---
+
+# 530. Motivation Notifications
+
+Examples:
+
+```text
+Great job!
+
+You've reduced emissions by 6% this month.
+```
+
+---
+
+```text
+You're only one day away from a 30-day streak.
+```
+
+---
+
+# 531. Weekly Reminder
+
+Example:
+
+```text
+Don't forget to log your activities this week.
+```
+
+---
+
+# 532. Recommendation Notifications
+
+Example:
+
+```text
+Transport emissions increased 12%.
+
+Try cycling twice this week.
+```
+
+---
+
+# 533. Achievement Notifications
+
+Example:
+
+```text
+🎉 Badge Unlocked!
+
+Climate Champion
+```
+
+---
+
+# 534. Challenge Notifications
+
+Examples:
+
+```text
+New weekly challenge available.
+```
+
+```text
+2 days remaining to complete your challenge.
+```
+
+---
+
+# 535. Community Notifications
+
+Examples:
+
+```text
+Your friend completed a challenge.
+```
+
+```text
+Someone liked your post.
+```
+
+---
+
+# 536. Notification Scheduler
+
+Daily:
+
+```python
+Reminders
+```
+
+Weekly:
+
+```python
+Challenges
+
+Reports
+```
+
+Monthly:
+
+```python
+Analytics Summary
+```
+
+---
+
+# 537. Push Notification Service
+
+Future providers:
+
+```python
+Firebase Cloud Messaging
+
+OneSignal
+```
+
+---
+
+# 538. Email Service
+
+Providers:
+
+```python
+Resend
+
+SendGrid
+```
+
+Templates:
+
+```python
+Welcome Email
+
+Weekly Report
+
+Achievement Email
+
+Password Reset
+
+Verification
+```
+
+---
+
+# 539. Email Templates
+
+Follow:
+
+* Responsive Design
+* Dark Mode
+* Accessibility
+
+---
+
+# 540. AI Report Philosophy
+
+Reports should explain:
+
+* Progress
+* Trends
+* Insights
+* Recommendations
+
+Not just raw numbers.
+
+---
+
+# 541. Weekly Reports
+
+Include:
+
+```python
+Emissions
+
+Progress
+
+Achievements
+
+Recommendations
+
+Challenges
+```
+
+---
+
+# 542. Monthly Reports
+
+Include:
+
+```python
+Monthly Trends
+
+Comparison
+
+Savings
+
+Forecast
+```
+
+---
+
+# 543. Annual Reports
+
+Include:
+
+```python
+Year Summary
+
+Carbon Reduction
+
+Goals Achieved
+
+Major Milestones
+```
+
+---
+
+# 544. Report Generation Pipeline
+
+```text
+Activities
+↓
+Analytics
+↓
+Forecast
+↓
+Recommendations
+↓
+Narrative Generation
+↓
+PDF Export
+```
+
+---
+
+# 545. AI Summary Generation
+
+Agent:
+
+```python
+Report Agent
+```
+
+Produces:
+
+```python
+Narrative Summary
+
+Highlights
+
+Achievements
+
+Suggestions
+```
+
+---
+
+# 546. Report Components
+
+Sections:
+
+```text
+Overview
+↓
+Charts
+↓
+Achievements
+↓
+Recommendations
+↓
+Forecast
+```
+
+---
+
+# 547. Charts
+
+Types:
+
+```python
+Line
+
+Bar
+
+Pie
+
+Radar
+
+Heatmap
+```
+
+---
+
+# 548. Export Formats
+
+Support:
+
+```python
+PDF
+
+CSV
+
+Excel
+
+PNG
+
+JPEG
+```
+
+---
+
+# 549. PDF Reports
+
+Library:
+
+```python
+ReportLab
+```
+
+Include:
+
+* Branding
+* Charts
+* AI Summary
+* Recommendations
+
+---
+
+# 550. CSV Export
+
+Fields:
+
+```python
+Activities
+
+Emissions
+
+Goals
+
+Reports
+```
+
+---
+
+# 551. Excel Export
+
+Sheets:
+
+```python
+Activities
+
+Analytics
+
+Recommendations
+
+Forecast
+```
+
+---
+
+# 552. Social Share Cards
+
+Generate:
+
+```python
+Monthly Achievement Cards
+
+Carbon Reduction Cards
+
+Badge Cards
+```
+
+Optimized for:
+
+* Twitter/X
+* LinkedIn
+* Instagram
+
+---
+
+# 553. Image Report Generator
+
+Produce:
+
+```python
+Infographics
+
+Progress Posters
+
+Shareable Insights
+```
+
+---
+
+# 554. Scheduled Delivery
+
+Users can schedule:
+
+```python
+Weekly
+
+Monthly
+
+Quarterly
+```
+
+Delivery:
+
+```python
+Email
+
+Push
+```
+
+---
+
+# 555. Report History
+
+Store:
+
+```python
+report_id
+
+user_id
+
+type
+
+generated_at
+
+storage_url
+```
+
+---
+
+# 556. Compression
+
+Compress:
+
+```python
+Large PDFs
+
+Images
+```
+
+---
+
+# 557. Background Jobs
+
+Workers:
+
+```python
+ReportWorker
+
+EmailWorker
+
+NotificationWorker
+
+ExportWorker
+```
+
+---
+
+# 558. Retry Mechanism
+
+Failed delivery:
+
+```text
+Retry
+↓
+Backoff
+↓
+Dead Letter Queue
+```
+
+---
+
+# 559. Report Metrics
+
+Track:
+
+```python
+Downloads
+
+Open Rate
+
+Read Time
+
+Completion Rate
+```
+
+---
+
+# 560. Email Metrics
+
+Track:
+
+```python
+Delivered
+
+Opened
+
+Clicked
+
+Bounced
+```
+
+---
+
+# 561. Notification Metrics
+
+Track:
+
+```python
+Sent
+
+Opened
+
+Dismissed
+
+Conversion
+```
+
+---
+
+# 562. Personalization
+
+Customize reports based on:
+
+```python
+Region
+
+Goals
+
+Habits
+
+Preferences
+```
+
+---
+
+# 563. Accessibility
+
+Reports should support:
+
+* Screen Readers
+* High Contrast
+* Dark Mode
+
+---
+
+# 564. Future Enhancements
+
+Support:
+
+```python
+Voice Summaries
+
+Podcast Reports
+
+AI Video Reports
+
+WhatsApp Delivery
+
+Telegram Delivery
+```
+
+---
+
+# 565. Engineering Standards
+
+Follow:
+
+* Event-Driven Architecture
+* Accessibility First
+* Human-Centered Design
+* AI Narrative Generation
+* Reliable Delivery
+
+---
+
+# END OF PART XVII
+
+---
+
+# PART XVIII — COMMUNITY, SOCIAL & COLLABORATION PLATFORM
+
+Next section will cover:
+
+* Friends system
+* Social feed
+* Posts
+* Comments
+* Likes
+* Groups
+* Teams
+* Shared goals
+* Community challenges
+* Carbon leagues
+* Moderation
+* Reputation system
+* Trust & Safety
+
+This section will resemble the social architectures of Strava, Reddit, and Duolingo Communities.
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XVIII — COMMUNITY, SOCIAL & COLLABORATION PLATFORM
+
+---
+
+# 566. Community Philosophy
+
+EcoSphere AI should transform sustainability from an individual activity into a collaborative experience.
+
+Goals:
+
+* Social accountability
+* Shared motivation
+* Positive reinforcement
+* Friendly competition
+* Knowledge sharing
+
+Inspired by:
+
+* Strava
+* Reddit
+* Duolingo
+* Discord
+
+---
+
+# 567. Core Community Features
+
+Support:
+
+```python
+Friends
+
+Posts
+
+Comments
+
+Likes
+
+Groups
+
+Teams
+
+Leaderboards
+
+Challenges
+
+Achievements
+
+Shared Goals
+```
+
+---
+
+# 568. Community Architecture
+
+```text
+User
+↓
+Friends
+↓
+Groups
+↓
+Challenges
+↓
+Achievements
+↓
+Community Feed
+```
+
+---
+
+# 569. Friends System
+
+Users can:
+
+```python
+Send Friend Requests
+
+Accept Requests
+
+Remove Friends
+
+Block Users
+```
+
+---
+
+# 570. Friend Table
+
+```python
+id
+
+sender_id
+
+receiver_id
+
+status
+
+created_at
+```
+
+Status:
+
+```python
+pending
+
+accepted
+
+blocked
+```
+
+---
+
+# 571. Social Feed
+
+Contains:
+
+```python
+Achievements
+
+Challenges
+
+Posts
+
+Progress Updates
+
+Badge Unlocks
+```
+
+Sorted by:
+
+```python
+Recent
+
+Popular
+
+Friends
+```
+
+---
+
+# 572. Post System
+
+Users can share:
+
+```python
+Milestones
+
+Achievements
+
+Tips
+
+Photos
+
+Challenges
+```
+
+---
+
+# 573. Post Schema
+
+```python
+id
+
+user_id
+
+content
+
+media_url
+
+likes_count
+
+comments_count
+
+created_at
+```
+
+---
+
+# 574. Comment System
+
+Features:
+
+```python
+Nested Replies
+
+Mentions
+
+Reactions
+```
+
+---
+
+# 575. Like System
+
+Support:
+
+```python
+Like
+
+Celebrate
+
+Fire
+
+Green Heart
+```
+
+---
+
+# 576. Groups
+
+Examples:
+
+```python
+College Students
+
+Families
+
+Vegans
+
+Cyclists
+
+Corporate Teams
+```
+
+---
+
+# 577. Group Schema
+
+```python
+id
+
+name
+
+description
+
+owner_id
+
+member_count
+
+created_at
+```
+
+---
+
+# 578. Team System
+
+Users can create:
+
+```python
+Public Teams
+
+Private Teams
+```
+
+Examples:
+
+```python
+SATI Vidisha
+
+Eco Warriors
+
+Climate Champions
+```
+
+---
+
+# 579. Shared Goals
+
+Examples:
+
+```python
+Reduce emissions by 10%
+
+Plant-based month
+
+Zero waste week
+```
+
+---
+
+# 580. Team Challenges
+
+Examples:
+
+```python
+No Flight Week
+
+Cycle Month
+
+Plastic Free July
+```
+
+---
+
+# 581. Community Challenges
+
+Participation:
+
+```python
+Global
+
+Regional
+
+Friends Only
+
+Teams
+```
+
+---
+
+# 582. Carbon Leagues
+
+Levels:
+
+```python
+Bronze
+
+Silver
+
+Gold
+
+Platinum
+
+Diamond
+```
+
+Promotions based on:
+
+```python
+XP
+
+Streaks
+
+Carbon Reduction
+```
+
+---
+
+# 583. Reputation System
+
+Users gain reputation for:
+
+```python
+Helpful posts
+
+Challenge participation
+
+Advice quality
+
+Consistency
+```
+
+---
+
+# 584. Reputation Score
+
+Range:
+
+```python
+0-1000
+```
+
+Ranks:
+
+```python
+Beginner
+
+Contributor
+
+Expert
+
+Mentor
+
+Legend
+```
+
+---
+
+# 585. Knowledge Sharing
+
+Support:
+
+```python
+Tips
+
+Guides
+
+Community Discussions
+
+FAQs
+```
+
+---
+
+# 586. Saved Posts
+
+Users can:
+
+```python
+Bookmark Posts
+
+Save Tips
+
+Favorite Discussions
+```
+
+---
+
+# 587. Search System
+
+Search:
+
+```python
+Users
+
+Posts
+
+Groups
+
+Challenges
+```
+
+Filters:
+
+```python
+Newest
+
+Popular
+
+Friends
+```
+
+---
+
+# 588. Trending Topics
+
+Examples:
+
+```python
+Earth Day
+
+Plastic Free July
+
+Vegetarian Challenge
+```
+
+---
+
+# 589. Notifications
+
+Notify users about:
+
+```python
+Likes
+
+Comments
+
+Friend Requests
+
+Challenge Invitations
+
+Mentions
+```
+
+---
+
+# 590. Community Moderation
+
+Moderation Levels:
+
+```python
+AI
+
+Moderator
+
+Admin
+```
+
+---
+
+# 591. AI Moderation
+
+Detect:
+
+```python
+Spam
+
+Harassment
+
+Toxicity
+
+Misinformation
+```
+
+Models:
+
+```python
+Perspective API
+
+OpenAI Moderation
+```
+
+---
+
+# 592. Content Safety
+
+Prevent:
+
+```python
+Hate Speech
+
+Bullying
+
+Fake Climate Claims
+
+Spam
+```
+
+---
+
+# 593. Reporting System
+
+Users can report:
+
+```python
+Posts
+
+Comments
+
+Users
+```
+
+Reasons:
+
+```python
+Spam
+
+Harassment
+
+False Information
+```
+
+---
+
+# 594. Blocking System
+
+Users can:
+
+```python
+Mute
+
+Block
+
+Restrict
+```
+
+---
+
+# 595. Privacy Controls
+
+Profiles:
+
+```python
+Public
+
+Friends Only
+
+Private
+```
+
+Visibility:
+
+```python
+Posts
+
+Achievements
+
+Goals
+```
+
+---
+
+# 596. Leaderboards
+
+Types:
+
+```python
+Global
+
+Regional
+
+Friends
+
+Teams
+```
+
+Metrics:
+
+```python
+XP
+
+Streaks
+
+Reduction Achieved
+```
+
+---
+
+# 597. Collaboration
+
+Support:
+
+```python
+Shared Goals
+
+Team Challenges
+
+Community Missions
+```
+
+---
+
+# 598. Carbon Impact Visualization
+
+Community impact:
+
+```python
+Trees Equivalent
+
+Cars Removed
+
+Energy Saved
+
+CO₂ Reduced
+```
+
+---
+
+# 599. Community Analytics
+
+Track:
+
+```python
+Posts Created
+
+Likes
+
+Comments
+
+Engagement Rate
+
+Challenge Participation
+```
+
+---
+
+# 600. API Endpoints
+
+Posts:
+
+```http
+GET /posts
+POST /posts
+```
+
+Comments:
+
+```http
+POST /posts/{id}/comments
+```
+
+Likes:
+
+```http
+POST /posts/{id}/like
+```
+
+Groups:
+
+```http
+GET /groups
+POST /groups
+```
+
+Friends:
+
+```http
+POST /friends/request
+```
+
+---
+
+# 601. Background Jobs
+
+Workers:
+
+```python
+FeedWorker
+
+NotificationWorker
+
+ModerationWorker
+
+LeaderboardWorker
+```
+
+---
+
+# 602. Future Features
+
+Support:
+
+```python
+Voice Communities
+
+Live Events
+
+Carbon Tournaments
+
+Guilds
+
+Mentorship
+
+Local Meetups
+```
+
+---
+
+# 603. Trust & Safety
+
+Follow:
+
+* Community Guidelines
+* AI Moderation
+* Human Review
+* Privacy First
+
+---
+
+# 604. Success Metrics
+
+Track:
+
+```python
+DAU
+
+WAU
+
+MAU
+
+Engagement
+
+Retention
+
+Posts Per User
+
+Challenge Participation
+```
+
+---
+
+# 605. Engineering Standards
+
+Follow:
+
+* Reddit-style discussions
+* Strava social loops
+* Duolingo communities
+* Trust & Safety principles
+* Human-centered moderation
+
+---
+
+# END OF PART XVIII
+
+---
+
+# PART XIX — BUSINESS PLATFORM, ADMIN PANEL & B2B FEATURES
+
+Next section will cover:
+
+* Admin Dashboard
+* Analytics Panel
+* User Management
+* Feature Flags
+* Subscription System
+* Freemium Model
+* Premium Plans
+* Enterprise Dashboard
+* White-label Support
+* Multi-tenancy
+* Organization Management
+* ESG Reporting
+* Carbon Accounting
+* Billing & Payments
+
+This section will resemble internal systems used by Stripe, Notion, and enterprise SaaS platforms.
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XIX — BUSINESS PLATFORM, ADMIN PANEL & B2B FEATURES
+
+---
+
+# 606. Business Philosophy
+
+EcoSphere AI should evolve from a consumer app into a complete sustainability platform.
+
+Support:
+
+* Individuals
+* Families
+* Communities
+* Universities
+* Startups
+* Enterprises
+
+Inspired by:
+
+* Stripe
+* Notion
+* Salesforce
+* HubSpot
+
+---
+
+# 607. Monetization Strategy
+
+Business Models:
+
+```python
+Freemium
+
+Premium
+
+Team Plans
+
+Enterprise Plans
+
+White Label
+```
+
+---
+
+# 608. Subscription Tiers
+
+### Free
+
+Features:
+
+```python
+Basic Tracking
+
+Dashboard
+
+5 Recommendations
+
+Weekly Reports
+```
+
+---
+
+### Premium
+
+Features:
+
+```python
+Unlimited Tracking
+
+AI Coach
+
+Forecasting
+
+Carbon Twin
+
+Advanced Analytics
+```
+
+---
+
+### Team
+
+Features:
+
+```python
+Shared Goals
+
+Leaderboards
+
+Team Challenges
+
+Reports
+```
+
+---
+
+### Enterprise
+
+Features:
+
+```python
+Organization Dashboard
+
+ESG Reports
+
+Carbon Accounting
+
+API Access
+
+SSO
+
+White Label
+```
+
+---
+
+# 609. Pricing Table
+
+```python
+Free
+
+Premium
+
+Team
+
+Enterprise
+```
+
+Future:
+
+```python
+Monthly
+
+Yearly
+
+Lifetime
+```
+
+---
+
+# 610. Billing Provider
+
+Use:
+
+```python
+Stripe
+```
+
+Capabilities:
+
+```python
+Subscriptions
+
+Invoices
+
+Trials
+
+Coupons
+
+Tax Support
+```
+
+---
+
+# 611. Subscription Schema
+
+```python
+id
+
+user_id
+
+plan
+
+status
+
+renewal_date
+
+stripe_customer_id
+
+created_at
+```
+
+---
+
+# 612. Feature Flags
+
+Features:
+
+```python
+Carbon Twin
+
+EcoGPT
+
+Forecasting
+
+Community
+
+Reports
+```
+
+Benefits:
+
+* Gradual rollout
+* A/B testing
+* Premium gating
+
+---
+
+# 613. Admin Panel Philosophy
+
+Admins need complete visibility.
+
+Capabilities:
+
+* Monitor platform
+* Manage users
+* Moderate content
+* Analyze growth
+
+---
+
+# 614. Admin Dashboard
+
+Sections:
+
+```text
+Overview
+↓
+Users
+↓
+Revenue
+↓
+Community
+↓
+AI Usage
+↓
+Errors
+```
+
+---
+
+# 615. User Management
+
+Admins can:
+
+```python
+Search Users
+
+Suspend Users
+
+Delete Users
+
+View Profiles
+```
+
+---
+
+# 616. Role Management
+
+Roles:
+
+```python
+USER
+
+MODERATOR
+
+ADMIN
+
+SUPER_ADMIN
+```
+
+Permissions controlled via RBAC.
+
+---
+
+# 617. Audit Logs
+
+Track:
+
+```python
+Login
+
+Role Changes
+
+User Deletion
+
+Content Moderation
+
+Feature Changes
+```
+
+---
+
+# 618. Platform Analytics
+
+Metrics:
+
+```python
+DAU
+
+WAU
+
+MAU
+
+Retention
+
+Churn
+
+Revenue
+```
+
+---
+
+# 619. Revenue Analytics
+
+Track:
+
+```python
+MRR
+
+ARR
+
+LTV
+
+CAC
+
+Churn Rate
+```
+
+---
+
+# 620. Feature Analytics
+
+Measure:
+
+```python
+EcoGPT Usage
+
+Carbon Twin Usage
+
+Forecast Requests
+
+Challenge Participation
+```
+
+---
+
+# 621. AI Cost Analytics
+
+Monitor:
+
+```python
+Token Usage
+
+OpenAI Spend
+
+Gemini Spend
+
+Average Cost Per User
+```
+
+---
+
+# 622. Support Dashboard
+
+Track:
+
+```python
+Tickets
+
+Reports
+
+Abuse Cases
+
+Feedback
+```
+
+---
+
+# 623. Moderation Dashboard
+
+Manage:
+
+```python
+Posts
+
+Comments
+
+Reported Users
+
+Spam Detection
+```
+
+---
+
+# 624. Organization Model
+
+Entities:
+
+```python
+Organization
+
+Members
+
+Teams
+
+Departments
+```
+
+---
+
+# 625. Multi-Tenancy
+
+Architecture:
+
+```text
+Tenant
+↓
+Organization
+↓
+Users
+↓
+Resources
+```
+
+Isolation:
+
+```python
+tenant_id
+```
+
+---
+
+# 626. Organization Roles
+
+Roles:
+
+```python
+Owner
+
+Admin
+
+Manager
+
+Member
+```
+
+---
+
+# 627. Team Analytics
+
+Organizations can monitor:
+
+```python
+Carbon Reduction
+
+Participation
+
+Leaderboard
+
+Goals
+```
+
+---
+
+# 628. Shared Goals
+
+Examples:
+
+```python
+Reduce emissions by 15%
+
+Plastic-free month
+
+Cycle week
+```
+
+---
+
+# 629. ESG Dashboard
+
+Track:
+
+### Environmental
+
+Carbon emissions
+
+Energy
+
+Water
+
+Waste
+
+---
+
+### Social
+
+Participation
+
+Community engagement
+
+---
+
+### Governance
+
+Policies
+
+Compliance
+
+Audit logs
+
+---
+
+# 630. ESG Reports
+
+Generate:
+
+```python
+Monthly ESG
+
+Quarterly ESG
+
+Annual ESG
+```
+
+Export:
+
+```python
+PDF
+
+Excel
+```
+
+---
+
+# 631. Carbon Accounting
+
+Categories:
+
+```python
+Scope 1
+
+Scope 2
+
+Scope 3
+```
+
+Based on:
+
+```python
+GHG Protocol
+```
+
+---
+
+# 632. White Label Platform
+
+Customizable:
+
+```python
+Logo
+
+Theme
+
+Colors
+
+Branding
+
+Domain
+```
+
+---
+
+# 633. Custom Domains
+
+Support:
+
+```python
+company.com
+```
+
+---
+
+# 634. API Access
+
+Enterprise plans get:
+
+```python
+API Keys
+
+Webhooks
+
+SDKs
+```
+
+---
+
+# 635. Webhooks
+
+Events:
+
+```python
+goal.completed
+
+badge.unlocked
+
+report.generated
+
+recommendation.accepted
+```
+
+---
+
+# 636. API Rate Limits
+
+Free:
+
+```python
+100 requests/hour
+```
+
+Premium:
+
+```python
+1000 requests/hour
+```
+
+Enterprise:
+
+```python
+Unlimited
+```
+
+---
+
+# 637. SSO Support
+
+Future:
+
+```python
+Google
+
+Microsoft
+
+Okta
+
+SAML
+```
+
+---
+
+# 638. Compliance Dashboard
+
+Track:
+
+```python
+GDPR
+
+SOC2
+
+ISO 27001
+```
+
+---
+
+# 639. Data Residency
+
+Regions:
+
+```python
+US
+
+EU
+
+Asia
+```
+
+---
+
+# 640. Customer Success Dashboard
+
+Track:
+
+```python
+Activation
+
+Retention
+
+Health Score
+
+Expansion
+```
+
+---
+
+# 641. Feedback System
+
+Users can submit:
+
+```python
+Ideas
+
+Bugs
+
+Feature Requests
+```
+
+---
+
+# 642. Referral Program
+
+Rewards:
+
+```python
+XP
+
+Premium Days
+
+Badges
+```
+
+---
+
+# 643. Affiliate Program
+
+Partners receive:
+
+```python
+Commission
+
+Referral Tracking
+```
+
+---
+
+# 644. Marketplace (Future)
+
+Categories:
+
+```python
+Eco Products
+
+Solar Providers
+
+EV Charging
+
+Carbon Offsets
+```
+
+---
+
+# 645. Carbon Offset Marketplace
+
+Users can:
+
+```python
+Offset Emissions
+
+Track Impact
+```
+
+---
+
+# 646. Enterprise APIs
+
+Endpoints:
+
+```http
+GET /organizations
+
+GET /teams
+
+GET /esg/reports
+
+POST /webhooks
+```
+
+---
+
+# 647. Background Workers
+
+Workers:
+
+```python
+BillingWorker
+
+AnalyticsWorker
+
+ReportWorker
+
+WebhookWorker
+```
+
+---
+
+# 648. Success Metrics
+
+Track:
+
+```python
+MRR
+
+ARR
+
+LTV
+
+CAC
+
+NRR
+
+Churn
+```
+
+---
+
+# 649. Future Features
+
+Support:
+
+```python
+AI Sustainability Copilot
+
+Carbon Trading
+
+Marketplace
+
+Carbon Credits
+
+Consulting Platform
+```
+
+---
+
+# 650. Engineering Standards
+
+Follow:
+
+* Stripe Billing
+* Salesforce Multi-Tenancy
+* HubSpot CRM Principles
+* Enterprise SaaS Architecture
+* ESG Standards
+
+---
+
+# END OF PART XIX
+
+---
+
+# PART XX — SCIENTIFIC ENGINE, EMISSION FACTORS & CLIMATE INTELLIGENCE
+
+Next section will cover:
+
+* IPCC
+* DEFRA
+* EPA
+* GHG Protocol
+* Climatiq
+* Scope 1, 2, 3
+* CO₂e calculations
+* Regional factors
+* Electricity grid intensity
+* Food emissions
+* Water footprint
+* Digital footprint
+* Shopping footprint
+* Lifecycle Assessment (LCA)
+* Scientific validation
+
+This section is arguably the most important because it transforms EcoSphere AI from a beautiful app into a scientifically credible climate platform resembling products built by sustainability research teams.
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XX — SCIENTIFIC ENGINE, EMISSION FACTORS & CLIMATE INTELLIGENCE
+
+---
+
+# 651. Scientific Philosophy
+
+EcoSphere AI must prioritize:
+
+* Accuracy
+* Transparency
+* Explainability
+* Reproducibility
+
+The platform should not behave like a generic calculator.
+
+It should operate as a scientific climate intelligence system.
+
+Inspired by:
+
+* IPCC
+* GHG Protocol
+* DEFRA
+* EPA
+* IEA
+* Climatiq
+
+---
+
+# 652. Core Formula
+
+Carbon emissions must follow:
+
+```python id="g61d5v"
+CO₂e =
+Activity Amount
+×
+Emission Factor
+```
+
+Example:
+
+```python id="v4v65n"
+100 km car trip
+×
+0.171 kg CO₂e/km
+
+=
+17.1 kg CO₂e
+```
+
+---
+
+# 653. Units
+
+Support:
+
+```python id="wmn4ea"
+kg CO₂e
+
+g CO₂e
+
+tonnes CO₂e
+```
+
+Conversion:
+
+```python id="h2ltko"
+1000 kg = 1 tonne
+```
+
+---
+
+# 654. Scientific Sources
+
+Primary:
+
+```python id="ez8k10"
+IPCC
+
+DEFRA
+
+EPA
+
+IEA
+
+GHG Protocol
+
+Climatiq
+```
+
+Secondary:
+
+```python id="e8gobm"
+Our World In Data
+
+FAO
+
+UNEP
+```
+
+---
+
+# 655. Scope Classification
+
+Follow:
+
+```python id="d3zb2m"
+Scope 1
+
+Scope 2
+
+Scope 3
+```
+
+---
+
+### Scope 1
+
+Direct emissions.
+
+Examples:
+
+```python id="3a4vth"
+Gas
+
+Fuel
+
+Vehicle
+```
+
+---
+
+### Scope 2
+
+Indirect electricity emissions.
+
+Examples:
+
+```python id="t0n9wx"
+Grid electricity
+```
+
+---
+
+### Scope 3
+
+Upstream and downstream.
+
+Examples:
+
+```python id="z06x2n"
+Flights
+
+Food
+
+Shopping
+
+Digital footprint
+```
+
+---
+
+# 656. Categories
+
+Track:
+
+```python id="8j6h2n"
+Transport
+
+Food
+
+Energy
+
+Waste
+
+Water
+
+Shopping
+
+Digital
+
+Travel
+
+Lifestyle
+```
+
+---
+
+# 657. Transport Factors
+
+Modes:
+
+```python id="m1q3p9"
+Car
+
+Bike
+
+Bus
+
+Train
+
+Metro
+
+Flight
+
+Walking
+
+EV
+```
+
+Units:
+
+```python id="11gfr5"
+km
+
+mile
+```
+
+---
+
+# 658. Flight Factors
+
+Class:
+
+```python id="im1twi"
+Economy
+
+Business
+
+First Class
+```
+
+Distance:
+
+```python id="6ktjlwm"
+Short haul
+
+Medium haul
+
+Long haul
+```
+
+Include:
+
+```python id="vwwz2d"
+Radiative forcing
+```
+
+---
+
+# 659. Food Factors
+
+Categories:
+
+```python id="3r5bfc"
+Beef
+
+Chicken
+
+Fish
+
+Dairy
+
+Eggs
+
+Vegetarian
+
+Vegan
+```
+
+Unit:
+
+```python id="2gr5lj"
+kg
+
+meal
+```
+
+---
+
+# 660. Energy Factors
+
+Sources:
+
+```python id="g3qzlp"
+Coal
+
+Natural Gas
+
+Solar
+
+Hydro
+
+Wind
+
+Nuclear
+```
+
+Unit:
+
+```python id="u1y9vd"
+kWh
+```
+
+---
+
+# 661. Waste Factors
+
+Types:
+
+```python id="g3h53h"
+Landfill
+
+Recycle
+
+Compost
+```
+
+---
+
+# 662. Water Footprint
+
+Measure:
+
+```python id="u1uqqq"
+Liters
+
+Gallons
+```
+
+Include:
+
+```python id="z42ldw"
+Water intensity
+```
+
+---
+
+# 663. Shopping Footprint
+
+Categories:
+
+```python id="80it1j"
+Clothing
+
+Electronics
+
+Furniture
+
+Household
+```
+
+Based on:
+
+```python id="g6b7yd"
+Lifecycle Assessment
+```
+
+---
+
+# 664. Digital Footprint
+
+Track:
+
+```python id="wqvzyv"
+Streaming
+
+Cloud Storage
+
+Email
+
+AI Usage
+```
+
+---
+
+# 665. Home Appliances
+
+Support:
+
+```python id="3pbl84"
+AC
+
+Refrigerator
+
+TV
+
+Laptop
+
+Fan
+
+Lights
+```
+
+Units:
+
+```python id="1jlwmr"
+Hours
+
+kWh
+```
+
+---
+
+# 666. Regional Factors
+
+Emission factors depend on:
+
+```python id="v9vct0"
+Country
+
+State
+
+Grid Mix
+
+Fuel Mix
+```
+
+---
+
+# 667. Electricity Grid Intensity
+
+Store:
+
+```python id="t9y8ja"
+country
+
+region
+
+gCO₂e/kWh
+```
+
+---
+
+# 668. Lifecycle Assessment (LCA)
+
+Consider:
+
+```python id="xbtt0x"
+Production
+
+Usage
+
+Disposal
+```
+
+Applied to:
+
+```python id="wmj7d4"
+Electronics
+
+Clothing
+
+Vehicles
+```
+
+---
+
+# 669. Carbon Budget
+
+Annual target:
+
+```python id="m38hhm"
+2 tonnes CO₂e/person
+```
+
+Compare:
+
+```python id="0h1n6d"
+Current
+
+Recommended
+```
+
+---
+
+# 670. Equivalent Impact Visualization
+
+Convert emissions into:
+
+```python id="q6n2z8"
+Trees planted
+
+Cars removed
+
+Energy saved
+
+Coal avoided
+```
+
+---
+
+# 671. Scientific Confidence
+
+Every estimate includes:
+
+```python id="1l0bfg"
+confidence_score
+```
+
+Range:
+
+```python id="9l2q6k"
+0–100
+```
+
+---
+
+# 672. Uncertainty Modeling
+
+Sources:
+
+```python id="r1w7bx"
+Measurement errors
+
+Regional variation
+
+Behavioral assumptions
+```
+
+Display:
+
+```python id="g9f7s7"
+Lower bound
+
+Expected value
+
+Upper bound
+```
+
+---
+
+# 673. Versioned Factors
+
+Table:
+
+```python id="r4u58s"
+EmissionFactorVersion
+```
+
+Fields:
+
+```python id="9psn7n"
+version
+
+source
+
+effective_date
+
+created_at
+```
+
+---
+
+# 674. Scientific Citations
+
+Every recommendation should provide:
+
+```python id="1cl8jw"
+Source
+
+Factor
+
+Confidence
+
+Year
+```
+
+Example:
+
+```text id="8ow0um"
+DEFRA 2025
+Transport Factor
+Confidence: 92%
+```
+
+---
+
+# 675. Factor Database
+
+Store:
+
+```python id="hmwwro"
+category
+
+subcategory
+
+factor
+
+unit
+
+source
+
+region
+
+version
+```
+
+---
+
+# 676. Scenario Factors
+
+Support:
+
+```python id="sqkkri"
+Vegetarian
+
+Vegan
+
+EV
+
+Solar
+
+Cycling
+```
+
+---
+
+# 677. Climate Intelligence Layer
+
+Detect:
+
+```python id="h0wixg"
+Largest contributor
+
+Fastest reduction opportunity
+
+Long-term risk
+```
+
+---
+
+# 678. Carbon Intensity Index
+
+Range:
+
+```python id="u2hh9e"
+0–100
+```
+
+Higher means:
+
+```python id="2p2l0l"
+More emissions
+```
+
+---
+
+# 679. Sustainability Score
+
+Range:
+
+```python id="ehl9s6"
+0–100
+```
+
+Factors:
+
+```python id="u4rvbo"
+Food
+
+Energy
+
+Transport
+
+Waste
+```
+
+---
+
+# 680. Household Footprint
+
+Support:
+
+```python id="0utrt5"
+Single Person
+
+Couple
+
+Family
+```
+
+Normalize:
+
+```python id="st4dzy"
+Per capita emissions
+```
+
+---
+
+# 681. Climate Risk Detection
+
+Identify:
+
+```python id="vwhzfi"
+Over-budget emissions
+
+High transport dependence
+
+Food impact spikes
+```
+
+---
+
+# 682. Data Freshness
+
+Update factors:
+
+```python id="7c0dfx"
+Yearly
+```
+
+Sources:
+
+```python id="3hskbg"
+DEFRA
+
+EPA
+
+IEA
+```
+
+---
+
+# 683. Validation Rules
+
+Reject:
+
+```python id="mb80ja"
+Negative distances
+
+Impossible values
+
+Invalid units
+```
+
+---
+
+# 684. Scientific APIs
+
+```http id="u9q4sh"
+GET /emission-factors
+```
+
+---
+
+```http id="7gxg0z"
+POST /calculate
+```
+
+---
+
+```http id="f8o4x5"
+GET /sources
+```
+
+---
+
+# 685. AI Explainability
+
+Responses must include:
+
+### Why?
+
+### Formula?
+
+### Source?
+
+### Confidence?
+
+### Uncertainty?
+
+---
+
+# 686. Future Scientific Features
+
+Support:
+
+```python id="bl9p9k"
+Satellite Data
+
+Smart Meters
+
+IoT Sensors
+
+EV Chargers
+
+Weather Data
+
+Utility Bills
+```
+
+---
+
+# 687. Engineering Standards
+
+Follow:
+
+* IPCC
+* DEFRA
+* EPA
+* IEA
+* GHG Protocol
+* Lifecycle Assessment
+* Explainable AI
+
+---
+
+# END OF PART XX
+
+---
+
+# PART XXI — ADVANCED AI AGENTS & AUTONOMOUS WORKFLOWS
+
+Next will cover:
+
+* Supervisor Agent
+* Planner Agent
+* Critic Agent
+* Tool Router
+* Memory Manager
+* Reflection Loops
+* Self-Evaluation
+* Multi-Agent Coordination
+* Agent Graphs
+* LangGraph
+* ReAct
+* MCP Architecture
+* Autonomous Weekly Reviews
+* Autonomous Goal Planning
+* Autonomous Report Generation
+
+This section will resemble the internal agent architectures used by OpenAI, Anthropic, and advanced autonomous AI systems.
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XXI — ADVANCED AI AGENTS & AUTONOMOUS WORKFLOWS
+
+---
+
+# 688. Agentic AI Philosophy
+
+EcoSphere AI should not behave like a traditional chatbot.
+
+It should operate as an autonomous sustainability operating system.
+
+Inspired by:
+
+* OpenAI
+* Anthropic
+* Google DeepMind
+
+Core principles:
+
+* Reasoning
+* Planning
+* Tool usage
+* Memory
+* Reflection
+* Self-evaluation
+
+---
+
+# 689. Agent Stack
+
+Framework:
+
+```python
+LangGraph
+```
+
+Supporting Libraries:
+
+```python
+LangChain
+
+Pydantic AI
+```
+
+LLMs:
+
+```python
+GPT-5
+
+Gemini 2.5
+```
+
+Memory:
+
+```python
+Redis
+
+PostgreSQL
+
+pgvector
+```
+
+---
+
+# 690. Agent Hierarchy
+
+```text
+Supervisor Agent
+↓
+Planner Agent
+↓
+Tool Router
+↓
+Specialized Agents
+↓
+Critic Agent
+↓
+Response Composer
+↓
+Memory Manager
+```
+
+---
+
+# 691. Supervisor Agent
+
+Responsibilities:
+
+* Session orchestration
+* Task decomposition
+* Agent coordination
+* Failure handling
+
+Workflow:
+
+```text
+User Query
+↓
+Supervisor
+↓
+Planner
+↓
+Specialized Agents
+↓
+Critic
+↓
+Response
+```
+
+---
+
+# 692. Planner Agent
+
+Responsibilities:
+
+```python
+Intent detection
+
+Task decomposition
+
+Workflow planning
+
+Tool selection
+```
+
+Example:
+
+```text
+How can I reduce emissions?
+↓
+Analyze activities
+↓
+Detect source
+↓
+Generate recommendations
+↓
+Estimate savings
+```
+
+---
+
+# 693. Tool Router
+
+Maintains:
+
+```python
+tool_registry
+```
+
+Tools:
+
+```python
+calculate_emissions()
+
+generate_report()
+
+predict_future()
+
+simulate_scenario()
+
+get_goals()
+
+get_recommendations()
+```
+
+Responsibilities:
+
+* Select tools
+* Validate inputs
+* Prevent unauthorized execution
+
+---
+
+# 694. Coach Agent
+
+Purpose:
+
+Personalized sustainability guidance.
+
+Capabilities:
+
+```python
+Education
+
+Habit formation
+
+Motivation
+
+Advice generation
+```
+
+---
+
+# 695. Forecast Agent
+
+Responsibilities:
+
+```python
+Trend detection
+
+Prediction
+
+Scenario analysis
+
+Risk estimation
+```
+
+Outputs:
+
+```python
+30d
+
+90d
+
+1y
+
+5y
+```
+
+---
+
+# 696. Carbon Twin Agent
+
+Responsibilities:
+
+```python
+Scenario simulation
+
+Future analysis
+
+Lifestyle comparison
+```
+
+Examples:
+
+```python
+Vegetarian diet
+
+EV adoption
+
+Solar installation
+```
+
+---
+
+# 697. Report Agent
+
+Generates:
+
+```python
+Weekly reports
+
+Monthly reports
+
+Yearly reports
+
+Narrative summaries
+```
+
+---
+
+# 698. Challenge Agent
+
+Creates:
+
+```python
+Daily missions
+
+Weekly challenges
+
+Habit loops
+```
+
+---
+
+# 699. Community Agent
+
+Responsibilities:
+
+```python
+Feed ranking
+
+Recommendations
+
+Moderation
+
+Engagement analysis
+```
+
+---
+
+# 700. Notification Agent
+
+Handles:
+
+```python
+Push
+
+Email
+
+Reminder timing
+
+Personalization
+```
+
+---
+
+# 701. Memory Manager Agent
+
+Controls:
+
+---
+
+### Short-Term Memory
+
+Current session.
+
+Stored in:
+
+```python
+Redis
+```
+
+TTL:
+
+```python
+24 hours
+```
+
+---
+
+### Long-Term Memory
+
+Stored in:
+
+```python
+PostgreSQL
+```
+
+Stores:
+
+```python
+Goals
+
+Habits
+
+Preferences
+```
+
+---
+
+### Episodic Memory
+
+Examples:
+
+```python
+Vegetarian
+
+Cycles twice weekly
+
+Goal: Reduce transport emissions
+```
+
+---
+
+# 702. Critic Agent
+
+Purpose:
+
+Evaluate outputs before responding.
+
+Checks:
+
+```python
+Scientific accuracy
+
+Consistency
+
+Hallucinations
+
+Confidence
+```
+
+Pipeline:
+
+```text
+Draft Response
+↓
+Critic
+↓
+Verification
+↓
+Final Response
+```
+
+---
+
+# 703. Response Composer Agent
+
+Combines outputs from:
+
+```python
+Coach Agent
+
+Forecast Agent
+
+Report Agent
+```
+
+Produces:
+
+```python
+Unified answer
+```
+
+---
+
+# 704. Reflection Loop
+
+Agents self-evaluate.
+
+Pipeline:
+
+```text
+Reason
+↓
+Execute
+↓
+Evaluate
+↓
+Improve
+↓
+Respond
+```
+
+Inspired by:
+
+```python
+ReAct
+```
+
+---
+
+# 705. ReAct Pattern
+
+```text
+Thought
+↓
+Action
+↓
+Observation
+↓
+Thought
+↓
+Final Answer
+```
+
+---
+
+# 706. Agent Graph
+
+Built using:
+
+```python
+LangGraph
+```
+
+Graph:
+
+```text
+User
+↓
+Supervisor
+↓
+Planner
+↓
+Tool Router
+↓
+Agents
+↓
+Critic
+↓
+Composer
+↓
+Memory
+```
+
+---
+
+# 707. Agent Communication
+
+Use:
+
+```python
+Pydantic schemas
+```
+
+Messages:
+
+```python
+Task
+
+Context
+
+Result
+
+Confidence
+```
+
+---
+
+# 708. Context Window Management
+
+Prioritize:
+
+```python
+Recent messages
+
+Goals
+
+Habits
+
+Important memories
+```
+
+Compress:
+
+Older conversations.
+
+---
+
+# 709. Memory Retrieval Pipeline
+
+```text
+Query
+↓
+Embedding
+↓
+Vector Search
+↓
+Relevant Memories
+↓
+LLM
+```
+
+---
+
+# 710. RAG Integration
+
+Sources:
+
+```python
+IPCC
+
+EPA
+
+DEFRA
+
+User history
+
+Reports
+```
+
+---
+
+# 711. Confidence Scores
+
+Range:
+
+```python
+0-100
+```
+
+Generated by:
+
+```python
+Critic Agent
+```
+
+---
+
+# 712. Autonomous Weekly Review
+
+Workflow:
+
+```text
+Activities
+↓
+Largest source detection
+↓
+Trend analysis
+↓
+Recommendations
+↓
+Report generation
+↓
+Notification
+```
+
+---
+
+# 713. Autonomous Goal Planning
+
+```text
+Goal
+↓
+Break into tasks
+↓
+Challenges
+↓
+Track progress
+↓
+Feedback
+```
+
+---
+
+# 714. Autonomous Report Generation
+
+Pipeline:
+
+```text
+Analytics
+↓
+Forecast
+↓
+Narrative
+↓
+PDF
+↓
+Delivery
+```
+
+---
+
+# 715. Autonomous Recommendation Workflow
+
+```text
+User history
+↓
+Behavior analysis
+↓
+Ranking
+↓
+Impact estimation
+↓
+Top actions
+```
+
+---
+
+# 716. Failure Recovery
+
+If:
+
+```python
+OpenAI unavailable
+```
+
+Fallback:
+
+```python
+Gemini
+```
+
+If:
+
+```python
+Forecast Agent fails
+```
+
+Continue:
+
+```python
+Coach Agent response
+```
+
+---
+
+# 717. Human-in-the-Loop
+
+High-risk actions require:
+
+```python
+User confirmation
+```
+
+Never:
+
+```python
+Execute irreversible actions autonomously
+```
+
+---
+
+# 718. Agent Metrics
+
+Track:
+
+```python
+Success Rate
+
+Latency
+
+Token Usage
+
+Tool Calls
+
+Hallucination Rate
+
+Confidence Distribution
+```
+
+---
+
+# 719. Self-Evaluation Metrics
+
+Measure:
+
+```python
+Answer quality
+
+Forecast accuracy
+
+Recommendation acceptance
+```
+
+---
+
+# 720. Multi-Agent Coordination
+
+Pattern:
+
+```text
+Parallel Execution
+↓
+Aggregation
+↓
+Critic Validation
+↓
+Response
+```
+
+---
+
+# 721. MCP Architecture (Future)
+
+Support:
+
+```python
+Model Context Protocol
+```
+
+Allow:
+
+```python
+External tools
+
+Third-party integrations
+
+Shared context
+```
+
+---
+
+# 722. Agent Safety
+
+Prevent:
+
+```python
+Prompt injection
+
+Unauthorized tool access
+
+Data leakage
+
+Hallucinations
+```
+
+---
+
+# 723. Future Agents
+
+Support:
+
+```python
+Voice Agent
+
+Image Agent
+
+Smart Home Agent
+
+Wearable Agent
+
+IoT Agent
+
+Marketplace Agent
+```
+
+---
+
+# 724. Engineering Standards
+
+Follow:
+
+* LangGraph
+* ReAct
+* Reflection
+* Tool Calling
+* Memory Systems
+* Human-in-the-loop
+* Explainable AI
+* Multi-Agent Coordination
+
+---
+
+# END OF PART XXI
+
+---
+
+# PART XXII — DATA ENGINEERING, ANALYTICS & ML PIPELINES
+
+Next will cover:
+
+* ETL pipelines
+* Feature Store
+* Data warehouse
+* Event streams
+* Batch processing
+* Real-time analytics
+* ML pipelines
+* Model registry
+* Drift detection
+* A/B testing
+* Experimentation platform
+* Lakehouse architecture
+
+This section will resemble data platforms built by Uber, Netflix, and Airbnb.
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XXII — DATA ENGINEERING, ANALYTICS & ML PIPELINES
+
+---
+
+# 725. Data Philosophy
+
+EcoSphere AI should be a data-driven platform.
+
+Every action generates:
+
+* Events
+* Metrics
+* Insights
+* Features
+* Predictions
+
+Inspired by:
+
+* Uber Michelangelo
+* Netflix Data Platform
+* Airbnb Bighead
+* Spotify Analytics
+
+Principles:
+
+* Single Source of Truth
+* Event-Driven Data
+* Reproducibility
+* Data Quality
+* Explainability
+
+---
+
+# 726. Data Architecture
+
+```text
+Application
+↓
+Events
+↓
+Event Bus
+↓
+OLTP Database
+↓
+ETL Pipeline
+↓
+Warehouse
+↓
+Feature Store
+↓
+ML Models
+↓
+Predictions
+```
+
+---
+
+# 727. Data Sources
+
+Sources:
+
+```python
+Activities
+
+Goals
+
+Recommendations
+
+Challenges
+
+Community
+
+AI Conversations
+
+Notifications
+
+Reports
+```
+
+---
+
+# 728. Event Tracking
+
+Events:
+
+```python
+activity_logged
+
+goal_created
+
+recommendation_accepted
+
+badge_unlocked
+
+challenge_completed
+
+report_downloaded
+```
+
+---
+
+# 729. Event Schema
+
+Fields:
+
+```python
+event_id
+
+user_id
+
+event_name
+
+timestamp
+
+metadata
+
+session_id
+```
+
+---
+
+# 730. ETL Pipeline
+
+Pipeline:
+
+```text
+Extract
+↓
+Transform
+↓
+Load
+```
+
+Sources:
+
+```python
+PostgreSQL
+
+Redis
+
+Events
+```
+
+Destination:
+
+```python
+Warehouse
+```
+
+---
+
+# 731. Batch Processing
+
+Frequency:
+
+```python
+Hourly
+
+Daily
+
+Weekly
+```
+
+Jobs:
+
+```python
+Analytics
+
+Reports
+
+Forecast Refresh
+
+Feature Updates
+```
+
+---
+
+# 732. Real-Time Analytics
+
+Use:
+
+```python
+Redis
+
+WebSockets
+```
+
+Examples:
+
+```python
+Leaderboard
+
+Notifications
+
+Live Metrics
+```
+
+---
+
+# 733. Data Warehouse
+
+Future:
+
+```python
+BigQuery
+
+Snowflake
+```
+
+Tables:
+
+```python
+fact_activities
+
+fact_emissions
+
+fact_goals
+
+fact_reports
+
+dim_users
+
+dim_time
+```
+
+---
+
+# 734. Star Schema
+
+```text
+          dim_time
+              │
+dim_users ─ fact_emissions ─ dim_region
+              │
+        dim_category
+```
+
+---
+
+# 735. Feature Store
+
+Store:
+
+```python
+user_embedding
+
+habit_score
+
+engagement_score
+
+streak_score
+
+carbon_intensity
+```
+
+Purpose:
+
+* Reusable ML features
+* Consistent training and inference
+
+---
+
+# 736. Feature Categories
+
+Behavior:
+
+```python
+activity_frequency
+
+goal_completion_rate
+```
+
+Engagement:
+
+```python
+session_duration
+
+challenge_participation
+```
+
+Climate:
+
+```python
+transport_ratio
+
+food_ratio
+
+energy_ratio
+```
+
+---
+
+# 737. ML Pipeline
+
+```text
+Raw Data
+↓
+Feature Engineering
+↓
+Training
+↓
+Validation
+↓
+Model Registry
+↓
+Deployment
+↓
+Monitoring
+```
+
+---
+
+# 738. Training Frequency
+
+Models:
+
+```python
+Forecast Model
+
+Recommendation Model
+
+Engagement Model
+```
+
+Retraining:
+
+```python
+Monthly
+```
+
+---
+
+# 739. Model Registry
+
+Store:
+
+```python
+model_name
+
+version
+
+metrics
+
+created_at
+```
+
+Support:
+
+```python
+Champion Model
+
+Challenger Model
+```
+
+---
+
+# 740. Drift Detection
+
+Monitor:
+
+```python
+Feature Drift
+
+Concept Drift
+
+Prediction Drift
+```
+
+Triggers:
+
+```python
+Retraining
+```
+
+---
+
+# 741. Experimentation Platform
+
+Support:
+
+```python
+A/B Tests
+
+Feature Flags
+
+Canary Models
+```
+
+---
+
+# 742. A/B Testing
+
+Experiments:
+
+```python
+Recommendation Ranking
+
+Challenge Frequency
+
+Notification Timing
+
+Gamification Rewards
+```
+
+Metrics:
+
+```python
+Retention
+
+Acceptance Rate
+
+Engagement
+```
+
+---
+
+# 743. Cohort Analysis
+
+Segments:
+
+```python
+Students
+
+Professionals
+
+Families
+
+Frequent Travelers
+```
+
+Measure:
+
+```python
+Retention
+
+Progress
+
+Adoption
+```
+
+---
+
+# 744. User Analytics
+
+Track:
+
+```python
+DAU
+
+WAU
+
+MAU
+
+Session Duration
+
+Churn
+
+Retention
+```
+
+---
+
+# 745. Funnel Analysis
+
+Flow:
+
+```text
+Signup
+↓
+Onboarding
+↓
+Activity Logging
+↓
+Recommendations
+↓
+Goal Completion
+```
+
+Measure drop-offs.
+
+---
+
+# 746. Recommendation Analytics
+
+Track:
+
+```python
+Acceptance Rate
+
+Completion Rate
+
+Carbon Reduction
+
+Confidence Accuracy
+```
+
+---
+
+# 747. Forecast Metrics
+
+Measure:
+
+```python
+MAE
+
+RMSE
+
+MAPE
+
+Forecast Accuracy
+```
+
+---
+
+# 748. AI Analytics
+
+Track:
+
+```python
+Token Usage
+
+Latency
+
+Hallucination Rate
+
+Fallback Frequency
+```
+
+---
+
+# 749. Cost Analytics
+
+Monitor:
+
+```python
+OpenAI Cost
+
+Storage Cost
+
+Bandwidth
+
+Database Cost
+```
+
+Forecast:
+
+```python
+Monthly Spend
+```
+
+---
+
+# 750. Data Quality
+
+Validate:
+
+```python
+Completeness
+
+Uniqueness
+
+Consistency
+
+Freshness
+
+Accuracy
+```
+
+---
+
+# 751. Data Validation Rules
+
+Reject:
+
+```python
+Negative Values
+
+Invalid Units
+
+Missing IDs
+```
+
+---
+
+# 752. Data Lineage
+
+Track:
+
+```python
+Source
+
+Transformations
+
+Destination
+```
+
+Purpose:
+
+* Auditability
+* Reproducibility
+
+---
+
+# 753. Metadata Catalog
+
+Store:
+
+```python
+Table Definitions
+
+Owners
+
+Schemas
+
+Descriptions
+```
+
+---
+
+# 754. Lakehouse Architecture (Future)
+
+Layers:
+
+```text
+Bronze
+↓
+Silver
+↓
+Gold
+```
+
+Bronze:
+
+Raw Data
+
+Silver:
+
+Cleaned Data
+
+Gold:
+
+Business Metrics
+
+---
+
+# 755. Time-Series Analytics
+
+Granularity:
+
+```python
+Daily
+
+Weekly
+
+Monthly
+
+Yearly
+```
+
+---
+
+# 756. Segmentation Engine
+
+Segments:
+
+```python
+Low Engagement
+
+High Impact
+
+High Retention
+
+Premium Users
+```
+
+---
+
+# 757. ML Models
+
+Models:
+
+```python
+Forecast Model
+
+Recommendation Model
+
+Retention Model
+
+Churn Prediction Model
+```
+
+---
+
+# 758. Explainable ML
+
+Provide:
+
+```python
+Feature Importance
+
+Confidence
+
+Reasoning
+```
+
+Never:
+
+```python
+Black-box outputs
+```
+
+---
+
+# 759. Data Governance
+
+Follow:
+
+* GDPR
+* Privacy by Design
+* Data Minimization
+
+Policies:
+
+```python
+Retention
+
+Access Control
+
+Audit Logging
+```
+
+---
+
+# 760. Engineering Standards
+
+Follow:
+
+* Uber Michelangelo
+* Netflix Data Platform
+* Feature Stores
+* MLOps
+* Explainable AI
+* Data Quality Principles
+
+---
+
+# END OF PART XXII
+
+---
+
+# PART XXIII — DOCUMENTATION, ARCHITECTURE DIAGRAMS & ENGINEERING EXCELLENCE
+
+Next will cover:
+
+* README
+* ADRs
+* Swagger
+* OpenAPI
+* ER Diagrams
+* Sequence Diagrams
+* C4 Architecture
+* Mermaid Diagrams
+* Contributor Guide
+* Coding Standards
+* Code Reviews
+* Architecture Decision Records
+* Engineering Playbooks
+
+This section will resemble internal engineering handbooks from Stripe, Google, and Airbnb.
+
+
+
+
+# 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XXIII — DOCUMENTATION, ARCHITECTURE DIAGRAMS & ENGINEERING EXCELLENCE
+
+---
+
+# 761. Engineering Philosophy
+
+Code without documentation does not scale.
+
+EcoSphere AI should be engineered like a mature platform where:
+
+* Decisions are recorded
+* Architecture is documented
+* APIs are discoverable
+* Onboarding is simple
+* Knowledge is preserved
+
+Inspired by:
+
+* Stripe
+* Google
+* Airbnb
+* Uber
+
+---
+
+# 762. Documentation Hierarchy
+
+```text
+README
+↓
+Architecture Docs
+↓
+ADRs
+↓
+API Docs
+↓
+Sequence Diagrams
+↓
+Deployment Docs
+↓
+Contributing Guide
+↓
+Runbooks
+```
+
+---
+
+# 763. Repository Documentation Structure
+
+```python
+docs/
+
+architecture/
+
+adrs/
+
+api/
+
+diagrams/
+
+playbooks/
+
+runbooks/
+
+security/
+
+performance/
+
+testing/
+
+deployment/
+```
+
+---
+
+# 764. README Structure
+
+Must contain:
+
+```python
+Overview
+
+Features
+
+Tech Stack
+
+Architecture
+
+Installation
+
+Environment Variables
+
+Running Locally
+
+Deployment
+
+Testing
+
+Folder Structure
+
+Contributing
+```
+
+---
+
+# 765. Architecture Documentation
+
+Describe:
+
+```python
+Frontend
+
+Backend
+
+Database
+
+Redis
+
+Workers
+
+AI Layer
+
+Monitoring
+```
+
+Include:
+
+* Diagrams
+* Examples
+* Decisions
+
+---
+
+# 766. Architecture Decision Records (ADR)
+
+Purpose:
+
+Record important decisions.
+
+Examples:
+
+```python
+ADR-001
+Why FastAPI?
+
+ADR-002
+Why Redis?
+
+ADR-003
+Why LangGraph?
+```
+
+Template:
+
+```text
+Context
+
+Decision
+
+Consequences
+```
+
+---
+
+# 767. API Documentation
+
+Use:
+
+```python
+OpenAPI 3.1
+```
+
+Generated from:
+
+```python
+FastAPI
+```
+
+Include:
+
+```python
+Request
+
+Response
+
+Errors
+
+Examples
+```
+
+---
+
+# 768. Swagger
+
+Endpoint:
+
+```http
+/docs
+```
+
+Alternative:
+
+```http
+/redoc
+```
+
+---
+
+# 769. ER Diagrams
+
+Generate diagrams for:
+
+```python
+Users
+
+Activities
+
+Goals
+
+Reports
+
+Challenges
+
+Badges
+
+Notifications
+```
+
+---
+
+# 770. C4 Architecture Model
+
+Levels:
+
+---
+
+### Context Diagram
+
+System boundaries.
+
+---
+
+### Container Diagram
+
+Frontend
+
+Backend
+
+Redis
+
+Database
+
+Workers
+
+---
+
+### Component Diagram
+
+Services
+
+Repositories
+
+Controllers
+
+---
+
+### Code Diagram
+
+Class-level details.
+
+---
+
+# 771. Mermaid Diagrams
+
+Generate:
+
+```python
+Flowcharts
+
+ERDs
+
+Sequence Diagrams
+
+State Machines
+```
+
+---
+
+# 772. Sequence Diagrams
+
+Document:
+
+---
+
+### Activity Logging
+
+```text
+User
+↓
+API
+↓
+Service
+↓
+Repository
+↓
+Database
+↓
+Response
+```
+
+---
+
+### Recommendation Flow
+
+```text
+Activity
+↓
+Behavior Analysis
+↓
+Scoring Engine
+↓
+Recommendation
+```
+
+---
+
+### AI Workflow
+
+```text
+User
+↓
+Planner Agent
+↓
+Tool Router
+↓
+Coach Agent
+↓
+Critic Agent
+↓
+Response
+```
+
+---
+
+# 773. Deployment Diagrams
+
+Include:
+
+```python
+Vercel
+
+Render
+
+Redis
+
+Supabase
+
+Workers
+
+Monitoring
+```
+
+---
+
+# 774. Folder Structure Documentation
+
+Explain:
+
+```python
+components/
+
+features/
+
+services/
+
+repositories/
+
+schemas/
+
+types/
+
+hooks/
+
+tests/
+```
+
+---
+
+# 775. Coding Standards
+
+Follow:
+
+```python
+TypeScript Strict
+
+SOLID
+
+DRY
+
+KISS
+
+YAGNI
+```
+
+---
+
+# 776. Naming Conventions
+
+Components:
+
+```python
+PascalCase
+```
+
+Variables:
+
+```python
+camelCase
+```
+
+Constants:
+
+```python
+UPPER_CASE
+```
+
+Database:
+
+```python
+snake_case
+```
+
+---
+
+# 777. Commit Conventions
+
+Use:
+
+```text
+feat:
+
+fix:
+
+refactor:
+
+docs:
+
+test:
+
+chore:
+```
+
+Example:
+
+```text
+feat: add carbon twin simulator
+```
+
+---
+
+# 778. Branch Naming
+
+Format:
+
+```text
+feature/
+
+fix/
+
+refactor/
+```
+
+Example:
+
+```text
+feature/recommendation-engine
+```
+
+---
+
+# 779. Pull Request Template
+
+Include:
+
+```python
+Description
+
+Screenshots
+
+Testing
+
+Checklist
+```
+
+---
+
+# 780. Code Review Standards
+
+Review:
+
+```python
+Correctness
+
+Performance
+
+Security
+
+Accessibility
+
+Maintainability
+```
+
+Never approve:
+
+```python
+Spaghetti Code
+```
+
+---
+
+# 781. Contributor Guide
+
+Explain:
+
+```python
+Setup
+
+Branches
+
+Commits
+
+Testing
+
+Pull Requests
+```
+
+---
+
+# 782. Environment Documentation
+
+Document:
+
+```python
+DATABASE_URL
+
+REDIS_URL
+
+OPENAI_API_KEY
+
+SUPABASE_URL
+```
+
+Never expose secrets.
+
+---
+
+# 783. Runbooks
+
+Create runbooks for:
+
+```python
+Database Failure
+
+Redis Failure
+
+AI Outage
+
+Worker Failure
+```
+
+Each runbook includes:
+
+```python
+Symptoms
+
+Diagnosis
+
+Resolution
+```
+
+---
+
+# 784. Incident Playbooks
+
+Examples:
+
+---
+
+### OpenAI Outage
+
+```text
+Detect
+↓
+Fallback to Gemini
+↓
+Notify Team
+↓
+Recover
+```
+
+---
+
+### Redis Failure
+
+```text
+Reconnect
+↓
+Switch Cache
+↓
+Recover
+```
+
+---
+
+# 785. Onboarding Guide
+
+New engineers should be able to:
+
+```python
+Clone Repo
+
+Setup Env
+
+Run Tests
+
+Start Project
+```
+
+Within:
+
+```python
+30 minutes
+```
+
+---
+
+# 786. Knowledge Base
+
+Topics:
+
+```python
+Architecture
+
+AI
+
+Forecasting
+
+Security
+
+Deployment
+```
+
+---
+
+# 787. Internal Wiki
+
+Sections:
+
+```python
+FAQs
+
+Guides
+
+Runbooks
+
+Design Decisions
+```
+
+---
+
+# 788. Release Notes
+
+Include:
+
+```python
+Features
+
+Bug Fixes
+
+Performance Improvements
+
+Breaking Changes
+```
+
+---
+
+# 789. Changelog
+
+Follow:
+
+```python
+Keep a Changelog
+```
+
+Versioning:
+
+```python
+SemVer
+```
+
+---
+
+# 790. Engineering Playbooks
+
+Playbooks:
+
+```python
+Testing
+
+Deployment
+
+Monitoring
+
+Security
+
+AI
+```
+
+---
+
+# 791. Technical Debt Tracking
+
+Maintain:
+
+```python
+Debt Backlog
+```
+
+Prioritize:
+
+```python
+High
+
+Medium
+
+Low
+```
+
+---
+
+# 792. Documentation Metrics
+
+Track:
+
+```python
+Coverage
+
+Freshness
+
+Broken Links
+
+Contributor Count
+```
+
+---
+
+# 793. Architecture Reviews
+
+Frequency:
+
+```python
+Quarterly
+```
+
+Review:
+
+```python
+Scalability
+
+Security
+
+Performance
+
+Maintainability
+```
+
+---
+
+# 794. Engineering Excellence Metrics
+
+Measure:
+
+```python
+DORA Metrics
+
+Coverage
+
+Reliability
+
+MTTR
+
+Defect Rate
+```
+
+---
+
+# 795. Design Reviews
+
+Review:
+
+```python
+Accessibility
+
+Consistency
+
+Responsiveness
+
+Performance
+```
+
+---
+
+# 796. Engineering Principles
+
+Follow:
+
+* SOLID
+* DRY
+* Clean Architecture
+* Domain-Driven Design
+* Event-Driven Architecture
+* Observability First
+
+---
+
+# 797. Documentation Automation
+
+Generate automatically:
+
+```python
+Swagger
+
+ERDs
+
+Architecture Diagrams
+
+Changelogs
+```
+
+---
+
+# 798. AI-Assisted Documentation
+
+Use AI to:
+
+```python
+Summarize PRs
+
+Generate Docs
+
+Generate ADRs
+
+Create Release Notes
+```
+
+---
+
+# 799. Long-Term Maintainability
+
+Prioritize:
+
+```python
+Readability
+
+Simplicity
+
+Consistency
+
+Extensibility
+```
+
+Over:
+
+```python
+Premature Optimization
+```
+
+---
+
+# 800. Engineering Standards
+
+Follow:
+
+* Google Engineering Practices
+* Stripe Engineering Handbook
+* Airbnb Style Guide
+* C4 Architecture
+* OpenAPI
+* ADR Methodology
+
+---
+
+# END OF PART XXIII
+
+---
+
+# PART XXIV — FINAL SYSTEM ARCHITECTURE & ROADMAP
+
+The final section should unify everything and define:
+
+* Complete system architecture
+* C4 diagrams
+* User journeys
+* MVP roadmap
+* 24-hour hackathon version
+* 72-hour version
+* Production v1
+* Production v2
+* Scaling to 100K+ users
+* Scaling to 1M+ users
+* Future AI capabilities
+* Ultimate engineering principles
+
+This final section will resemble an internal platform specification written by senior engineers and architects at OpenAI, Google, Stripe, and Uber.
+
+ # 🏆 MASTER PROMPT DOCUMENT V2.0
+
+# PART XXIV — FINAL SYSTEM ARCHITECTURE & ROADMAP
+
+---
+
+# 801. Vision
+
+EcoSphere AI should evolve from a hackathon project into a world-class sustainability operating system.
+
+Mission:
+
+```text
+Understand
+↓
+Track
+↓
+Predict
+↓
+Reduce
+↓
+Transform Behavior
+```
+
+Inspired by:
+
+* OpenAI
+* Google
+* Stripe
+* Uber
+* Duolingo
+* Notion
+
+---
+
+# 802. System Philosophy
+
+Build for:
+
+* Scalability
+* Reliability
+* Maintainability
+* Explainability
+* Human-Centered AI
+
+Prioritize:
+
+```python
+Correctness
+
+Security
+
+Performance
+
+Accessibility
+
+Developer Experience
+```
+
+---
+
+# 803. High-Level Architecture
+
+```text
+Frontend
+↓
+API Gateway
+↓
+FastAPI Backend
+↓
+Services Layer
+↓
+Repositories
+↓
+PostgreSQL
+↓
+Redis
+↓
+Workers
+↓
+AI Agents
+↓
+Monitoring
+```
+
+---
+
+# 804. Complete Platform Architecture
+
+```text
+┌─────────────────────┐
+│ Next.js Frontend    │
+└─────────┬───────────┘
+          │
+┌─────────▼───────────┐
+│ FastAPI API Layer   │
+└─────────┬───────────┘
+          │
+ ┌────────┴────────┐
+ │ Services Layer  │
+ └────────┬────────┘
+          │
+┌─────────▼─────────┐
+│ Repositories      │
+└─────────┬─────────┘
+          │
+ ┌────────┴────────┐
+ │ PostgreSQL      │
+ │ Redis           │
+ │ Supabase        │
+ └────────┬────────┘
+          │
+┌─────────▼─────────┐
+│ Celery Workers    │
+└─────────┬─────────┘
+          │
+┌─────────▼─────────┐
+│ AI Agent Layer    │
+└─────────┬─────────┘
+          │
+┌─────────▼─────────┐
+│ Monitoring Layer  │
+└───────────────────┘
+```
+
+---
+
+# 805. AI Architecture
+
+```text
+User
+↓
+Supervisor Agent
+↓
+Planner Agent
+↓
+Tool Router
+↓
+Coach Agent
+Forecast Agent
+Report Agent
+Carbon Twin Agent
+Challenge Agent
+↓
+Critic Agent
+↓
+Response Composer
+↓
+Memory Manager
+```
+
+---
+
+# 806. Event Architecture
+
+```text
+Event
+↓
+Redis Queue
+↓
+Celery Worker
+↓
+Database
+↓
+Notification
+↓
+Analytics
+```
+
+---
+
+# 807. Caching Architecture
+
+```text
+Browser Cache
+↓
+CDN
+↓
+Edge Cache
+↓
+Redis
+↓
+PostgreSQL
+```
+
+---
+
+# 808. Observability Architecture
+
+```text
+Application
+↓
+Logs
+↓
+Pino
+↓
+Prometheus
+↓
+Grafana
+↓
+Sentry
+↓
+PostHog
+```
+
+---
+
+# 809. Data Architecture
+
+```text
+Application
+↓
+Events
+↓
+Warehouse
+↓
+Feature Store
+↓
+ML Models
+↓
+Predictions
+```
+
+---
+
+# 810. Security Architecture
+
+Layers:
+
+```text
+User
+↓
+Authentication
+↓
+Authorization
+↓
+Rate Limiting
+↓
+Input Validation
+↓
+Encryption
+↓
+Audit Logs
+```
+
+---
+
+# 811. C4 Context Diagram
+
+```text
+User
+↓
+EcoSphere AI
+↓
+OpenAI
+Gemini
+Supabase
+Redis
+Stripe
+Email Service
+Monitoring
+```
+
+---
+
+# 812. Container Diagram
+
+Containers:
+
+```python
+Frontend
+
+Backend
+
+Database
+
+Redis
+
+Workers
+
+AI Layer
+
+Storage
+
+Monitoring
+```
+
+---
+
+# 813. Component Diagram
+
+Backend:
+
+```text
+Controllers
+↓
+Services
+↓
+Repositories
+↓
+Database
+```
+
+AI:
+
+```text
+Supervisor
+↓
+Planner
+↓
+Agents
+↓
+Critic
+```
+
+---
+
+# 814. User Journey
+
+```text
+Signup
+↓
+Onboarding
+↓
+Baseline Footprint
+↓
+Dashboard
+↓
+Recommendations
+↓
+Challenges
+↓
+Reports
+↓
+Habit Formation
+```
+
+---
+
+# 815. Onboarding Journey
+
+Questions:
+
+```python
+Country
+
+Diet
+
+Transport
+
+Electricity
+
+Household
+
+Goals
+```
+
+Output:
+
+```python
+Initial Carbon Score
+```
+
+---
+
+# 816. KPI Metrics
+
+Product:
+
+```python
+DAU
+
+WAU
+
+MAU
+
+Retention
+
+Churn
+
+Activation
+```
+
+AI:
+
+```python
+Forecast Accuracy
+
+Recommendation Acceptance
+
+Hallucination Rate
+```
+
+Business:
+
+```python
+MRR
+
+ARR
+
+LTV
+
+CAC
+```
+
+---
+
+# 817. Hackathon MVP (6 Hours)
+
+Features:
+
+```python
+Authentication
+
+Dashboard
+
+Activity Tracking
+
+Emission Calculation
+
+Recommendations
+
+Charts
+```
+
+Tech:
+
+```python
+Next.js
+
+FastAPI
+
+PostgreSQL
+```
+
+---
+
+# 818. Hackathon Version (24 Hours)
+
+Add:
+
+```python
+AI Coach
+
+Gamification
+
+Reports
+
+Challenges
+
+Dark Mode
+```
+
+---
+
+# 819. Weekend Build (72 Hours)
+
+Add:
+
+```python
+Carbon Twin
+
+Forecasting
+
+Community
+
+Notifications
+
+PDF Reports
+```
+
+---
+
+# 820. Production V1
+
+Add:
+
+```python
+Redis
+
+Celery
+
+Monitoring
+
+Caching
+
+Testing
+
+CI/CD
+```
+
+Target:
+
+```python
+10K Users
+```
+
+---
+
+# 821. Production V2
+
+Add:
+
+```python
+LangGraph
+
+RAG
+
+Multi-Agent AI
+
+Advanced Analytics
+
+Feature Store
+```
+
+Target:
+
+```python
+100K Users
+```
+
+---
+
+# 822. Production V3
+
+Add:
+
+```python
+Marketplace
+
+Enterprise Dashboard
+
+White Label
+
+Carbon Accounting
+```
+
+Target:
+
+```python
+1 Million Users
+```
+
+---
+
+# 823. Scaling Strategy
+
+10K Users:
+
+```python
+Single Database
+```
+
+---
+
+100K Users:
+
+```python
+Redis
+
+Workers
+
+CDN
+```
+
+---
+
+1M Users:
+
+```python
+Read Replicas
+
+Partitioning
+
+Queues
+
+Autoscaling
+```
+
+---
+
+# 824. Reliability Targets
+
+Availability:
+
+```python
+99.9%
+```
+
+MTTR:
+
+```python
+<30 minutes
+```
+
+Error Rate:
+
+```python
+<0.1%
+```
+
+---
+
+# 825. Performance Targets
+
+Frontend:
+
+```python
+LCP < 2.5s
+```
+
+API:
+
+```python
+P95 < 200ms
+```
+
+AI:
+
+```python
+<3s
+```
+
+---
+
+# 826. Accessibility Targets
+
+Lighthouse:
+
+```python
+Accessibility = 100
+```
+
+Follow:
+
+```python
+WCAG 2.2 AA
+```
+
+---
+
+# 827. Engineering KPIs
+
+Track:
+
+```python
+Coverage
+
+Latency
+
+Reliability
+
+Defects
+
+Deployment Frequency
+```
+
+---
+
+# 828. DORA Metrics
+
+Measure:
+
+```python
+Lead Time
+
+Deployment Frequency
+
+MTTR
+
+Change Failure Rate
+```
+
+---
+
+# 829. Future AI Capabilities
+
+Support:
+
+```python
+Voice Agent
+
+Image Agent
+
+Wearables
+
+IoT Devices
+
+Smart Homes
+
+Smart Meters
+```
+
+---
+
+# 830. Future Integrations
+
+```python
+Google Fit
+
+Apple Health
+
+Tesla API
+
+Smart Thermostats
+
+Solar Systems
+```
+
+---
+
+# 831. Sustainability Intelligence Platform
+
+Long-term vision:
+
+```text
+Tracker
+↓
+Coach
+↓
+Predictor
+↓
+Digital Twin
+↓
+Autonomous Sustainability Operating System
+```
+
+---
+
+# 832. Ultimate Engineering Principles
+
+Always optimize for:
+
+```python
+Correctness
+
+Simplicity
+
+Security
+
+Performance
+
+Accessibility
+
+Scalability
+
+Maintainability
+
+User Delight
+```
+
+---
+
+# 833. Coding Principles
+
+Follow:
+
+* SOLID
+* DRY
+* KISS
+* YAGNI
+* Domain-Driven Design
+* Event-Driven Architecture
+* Clean Architecture
+
+---
+
+# 834. AI Principles
+
+Follow:
+
+* Explainable AI
+* Human-in-the-Loop
+* Reflection
+* Tool Calling
+* RAG
+* Memory Systems
+* Confidence Scores
+
+---
+
+# 835. Platform Principles
+
+Follow:
+
+* Privacy by Design
+* Accessibility First
+* Observability First
+* Security by Default
+* Testing First
+* Documentation First
+
+---
+
+# 836. Product Principles
+
+Build:
+
+* Features users need
+* Sustainable habits
+* Positive reinforcement
+* Long-term behavior change
+
+Avoid:
+
+* Feature bloat
+* Dark patterns
+* Vanity metrics
+
+---
+
+# 837. Final Requirement
+
+Never build:
+
+* Prototype code
+* Placeholder implementations
+* Spaghetti architecture
+* Hardcoded values
+
+Always build:
+
+* Production-grade software
+* Modular systems
+* Reusable components
+* Observable infrastructure
+* Scientifically accurate calculations
+* Explainable AI workflows
+
+---
+
+# 838. Definition of Success
+
+EcoSphere AI succeeds when users:
+
+```text
+Understand their footprint
+↓
+Track their activities
+↓
+Receive insights
+↓
+Change behavior
+↓
+Reduce emissions
+↓
+Build sustainable habits
+↓
+Create measurable impact
+```
+
+---
+
+# 839. Engineering Standard
+
+The resulting platform should feel indistinguishable from software built by:
+
+* OpenAI
+* Anthropic
+* Google
+* Stripe
+* Uber
+* Airbnb
+* Netflix
+* Duolingo
+
+while maintaining scientific credibility through:
+
+* IPCC
+* DEFRA
+* EPA
+* IEA
+* GHG Protocol
+
+---
+
+# 840. END OF MASTER PROMPT DOCUMENT V2.0
+
+---
+
+
+
+
