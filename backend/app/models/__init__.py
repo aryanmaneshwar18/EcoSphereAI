@@ -858,24 +858,3 @@ class AuditLog(Base):
     )
 
 
-# ── Notifications ─────────────────────────────────────────────────
-class Notification(Base, TimestampMixin, SoftDeleteMixin):
-    """
-    In-app notifications and alerts.
-    """
-    __tablename__ = "notifications"
-
-    id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), primary_key=True, default=uuid.uuid4
-    )
-    user_id: Mapped[uuid.UUID] = mapped_column(
-        ForeignKey("users.id", ondelete="CASCADE"), nullable=False, index=True
-    )
-    title: Mapped[str] = mapped_column(String(255), nullable=False)
-    message: Mapped[str] = mapped_column(Text, nullable=False)
-    type: Mapped[NotificationType] = mapped_column(Enum(NotificationType), nullable=False)
-    is_read: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False)
-    action_url: Mapped[Optional[str]] = mapped_column(String(255), nullable=True)
-
-    # Relationships
-    user: Mapped["User"] = relationship("User", back_populates="notifications")
