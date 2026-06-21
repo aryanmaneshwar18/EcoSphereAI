@@ -41,7 +41,7 @@ class Settings(BaseSettings):
     ENVIRONMENT: Environment = Environment.DEVELOPMENT
     DEBUG: bool = Field(default=False)
     API_PREFIX: str = "/api/v1"
-    ALLOWED_ORIGINS: list[str] = Field(
+    ALLOWED_ORIGINS: list[str] | str = Field(
         default=["http://localhost:3000", "http://localhost:3001"]
     )
     LOG_LEVEL: str = "INFO"
