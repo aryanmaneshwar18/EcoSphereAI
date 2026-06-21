@@ -1,36 +1,30 @@
 "use client";
 
 import { Plus, Bell } from "lucide-react";
-import { getGreeting } from "@/lib/utils";
+import { useUser } from "@clerk/nextjs";
+import Link from "next/link";
 
 export function TopBar() {
+  const { user } = useUser();
+  const initials = user?.firstName?.[0] || "E";
+
   return (
-    <header
-      className="sticky top-0 z-30 flex items-center justify-between px-8 py-4 border-b bg-[rgba(10,15,26,0.8)] backdrop-blur-[20px] border-[var(--border-primary)]"
-    >
-      <div>
-        <h1 className="text-xl font-semibold text-[var(--text-primary)]">
-          {getGreeting()}, <span className="gradient-text">Explorer</span>
-        </h1>
-        <p className="text-sm mt-0.5 text-[var(--text-tertiary)]">
-          Track your impact. Change the world.
-        </p>
-      </div>
-      <div className="flex items-center gap-3">
-        <button className="btn-secondary flex items-center gap-2 !py-2 !px-3" aria-label="Log new activity">
-          <Plus className="w-4 h-4" />
-          <span className="text-sm">Log Activity</span>
+    <header className="sticky top-0 z-30 flex items-center justify-end gap-3 px-6 sm:px-8 py-3 border-b bg-[rgba(3,7,18,0.6)] backdrop-blur-2xl border-white/[0.04]">
+      <Link href="/activities">
+        <button className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.08] text-white text-sm font-medium transition-all">
+          <Plus className="w-4 h-4 text-teal-400" />
+          <span className="hidden sm:inline">Log Activity</span>
         </button>
-        <button className="relative p-2 rounded-lg hover:bg-white/5 transition-colors" aria-label="Notifications">
-          <Bell className="w-5 h-5 text-[var(--text-secondary)]" />
-          <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-emerald-400 rounded-full" />
-        </button>
-        <div
-          className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-semibold text-white"
-          style={{ background: "linear-gradient(135deg, #10B981, #3B82F6)" }}
-        >
-          E
-        </div>
+      </Link>
+      <button className="relative p-2.5 rounded-xl hover:bg-white/[0.04] transition-colors" aria-label="Notifications">
+        <Bell className="w-[18px] h-[18px] text-slate-400" />
+        <span className="absolute top-2 right-2 w-1.5 h-1.5 bg-teal-400 rounded-full" />
+      </button>
+      <div
+        className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold text-white shadow-[0_0_12px_rgba(20,184,166,0.3)]"
+        style={{ background: "linear-gradient(135deg, #14B8A6, #22D3EE)" }}
+      >
+        {initials}
       </div>
     </header>
   );
