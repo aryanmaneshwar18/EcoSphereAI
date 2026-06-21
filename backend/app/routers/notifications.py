@@ -3,7 +3,7 @@ from fastapi import APIRouter, Depends, status
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from app.core.database import get_db_session
-from app.core.security import get_current_user
+from app.routers.auth import get_current_user
 from app.models.user import User
 from app.models import Notification
 from app.schemas import APIResponse
