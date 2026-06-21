@@ -1,7 +1,7 @@
 from typing import Any
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.ext.asyncio import AsyncSession
-from app.core.database import get_db
+from app.core.database import get_db_session
 from app.core.security import get_current_user
 from app.models.user import User
 from app.schemas import APIResponse
@@ -16,7 +16,7 @@ class ScenarioRequest(BaseModel):
 @router.get("/trajectory")
 async def get_current_trajectory(
     current_user: User = Depends(get_current_user),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db_session)
 ) -> Any:
     """
     Get the projected baseline carbon trajectory for the current user.
@@ -29,7 +29,7 @@ async def get_current_trajectory(
 async def simulate_scenarios(
     request: ScenarioRequest,
     current_user: User = Depends(get_current_user),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db_session)
 ) -> Any:
     """
     Simulate future trajectories based on proposed behavioral scenarios.

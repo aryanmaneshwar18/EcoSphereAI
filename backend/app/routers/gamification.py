@@ -1,7 +1,7 @@
 from typing import Any
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.ext.asyncio import AsyncSession
-from app.core.database import get_db
+from app.core.database import get_db_session
 from app.core.security import get_current_user
 from app.models.user import User
 from app.schemas import APIResponse
@@ -12,7 +12,7 @@ router = APIRouter()
 @router.get("/state")
 async def get_gamification_state(
     current_user: User = Depends(get_current_user),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db_session)
 ) -> APIResponse[Any]:
     """
     Retrieve the current gamification state (XP, Level, Streak, Badges) for the user.

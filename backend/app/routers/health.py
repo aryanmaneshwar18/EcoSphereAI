@@ -13,7 +13,7 @@ from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import get_settings
-from app.core.database import get_db
+from app.core.database import get_db_session
 
 router = APIRouter()
 settings = get_settings()
@@ -44,7 +44,7 @@ async def health_check():
     summary="Readiness check",
     description="Returns whether the service is ready to accept traffic.",
 )
-async def readiness_check(db: AsyncSession = Depends(get_db)):
+async def readiness_check(db: AsyncSession = Depends(get_db_session)):
     """Readiness probe — checks if all dependencies are available."""
     checks = {
         "database": False,

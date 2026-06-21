@@ -2,7 +2,7 @@ from typing import Any
 from fastapi import APIRouter, Depends, status
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
-from app.core.database import get_db
+from app.core.database import get_db_session
 from app.core.security import get_current_user
 from app.models.user import User
 from app.models import Notification
@@ -15,7 +15,7 @@ router = APIRouter()
 @router.get("")
 async def get_notifications(
     current_user: User = Depends(get_current_user),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db_session)
 ) -> Any:
     """
     Get all unread notifications for the user.
@@ -49,7 +49,7 @@ async def get_notifications(
 async def mark_notification_read(
     notification_id: str,
     current_user: User = Depends(get_current_user),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db_session)
 ) -> Any:
     """
     Mark a specific notification as read.
