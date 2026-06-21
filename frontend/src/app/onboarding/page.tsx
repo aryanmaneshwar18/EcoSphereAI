@@ -124,7 +124,7 @@ export default function OnboardingPage() {
           >
             <Leaf className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-3xl font-bold text-white mb-2">Let's calculate your baseline.</h1>
+          <h1 className="text-3xl font-bold text-white mb-2">Let&apos;s calculate your baseline.</h1>
           <p className="text-gray-400">We need a few details to build your initial carbon footprint profile.</p>
         </div>
 

@@ -9,6 +9,7 @@ export default function GlobalError({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  console.error("Global system error:", error);
   return (
     <html lang="en" className="dark">
       <body className="antialiased bg-[var(--bg-primary)] text-[var(--text-primary)]">

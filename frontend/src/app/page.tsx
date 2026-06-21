@@ -3,7 +3,6 @@
 import { useEffect, useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import {
-  TrendingDown,
   Car,
   Zap,
   Utensils,
@@ -29,8 +28,6 @@ import {
   PieChart,
   Pie,
   Cell,
-  BarChart,
-  Bar,
 } from "recharts";
 import { cn } from "@/lib/utils";
 import { useDashboardStore } from "@/store/dashboard-store";
@@ -98,12 +95,14 @@ function AnimatedNumber({ value, decimals = 1 }: { value: number; decimals?: num
    ══════════════════════════════════════════════════════ */
 export default function DashboardPage() {
   const [mounted, setMounted] = useState(false);
-  const { dashboardData: data, fetchDashboard, isLoading } = useDashboardStore();
+  const { dashboardData: data, fetchDashboard } = useDashboardStore();
   const { user } = useUser();
 
   useEffect(() => {
-    setMounted(true);
+    // Prevent cascading renders by scheduling setMounted
+    const timer = setTimeout(() => setMounted(true), 0);
     fetchDashboard();
+    return () => clearTimeout(timer);
   }, [fetchDashboard]);
 
   /* ── Derived data (real OR fallback) ─────────────── */

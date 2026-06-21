@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Target, Plus, CheckCircle2, Leaf } from "lucide-react";
+import { Target, Plus, Leaf } from "lucide-react";
 import { EmptyState } from "@/components/ui/empty-state";
 import { motion, AnimatePresence } from "framer-motion";
 

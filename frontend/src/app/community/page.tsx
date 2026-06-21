@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Users, Trophy, Award, Flame, Star, Crown, Heart, MessageCircle, Share2, Target } from "lucide-react";
+import { Users, Award, Flame, Star, Crown, Heart, MessageCircle, Share2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { EmptyState } from "@/components/ui/empty-state";
 

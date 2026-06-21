@@ -5,7 +5,7 @@
 
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
-import type { User, AuthResponse } from "@/types";
+import type { User } from "@/types";
 import { apiClient } from "@/lib/api-client";
 
 interface AuthState {

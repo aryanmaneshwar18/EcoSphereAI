@@ -79,7 +79,7 @@ export const useDashboardStore = create<DashboardState>()((set, get) => ({
     try {
       const response = await apiClient.createActivity({
         ...data,
-        category: data.category as any,
+        category: data.category as unknown as import("@/types").ActivityCategory,
       });
       if (response.data) {
         // Refresh dashboard after logging

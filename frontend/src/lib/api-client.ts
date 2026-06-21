@@ -194,7 +194,7 @@ class ApiClient {
   }
 
   // ── Onboarding ────────────────────────────────────────────────
-  async calculateBaseline(payload: any) {
+  async calculateBaseline(payload: Record<string, unknown>) {
     return this.client.post("/onboarding/baseline", payload);
   }
 
@@ -207,32 +207,32 @@ class ApiClient {
   }
 
   // ── Gamification ──────────────────────────────────────────────
-  async getGamificationState(): Promise<APIResponse<any>> {
-    const response = await this.client.get<APIResponse<any>>("/gamification/state");
+  async getGamificationState(): Promise<APIResponse<unknown>> {
+    const response = await this.client.get<APIResponse<unknown>>("/gamification/state");
     return response.data;
   }
 
   // ── Carbon Twin ─────────────────────────────────────────────
-  async getTwinTrajectory(): Promise<APIResponse<any>> {
-    const response = await this.client.get<APIResponse<any>>("/twin/trajectory");
+  async getTwinTrajectory(): Promise<APIResponse<unknown>> {
+    const response = await this.client.get<APIResponse<unknown>>("/twin/trajectory");
     return response.data;
   }
 
-  async simulateTwinScenarios(scenarios: string[]): Promise<APIResponse<any>> {
-    const response = await this.client.post<APIResponse<any>>("/twin/simulate", { scenarios });
+  async simulateTwinScenarios(scenarios: string[]): Promise<APIResponse<unknown>> {
+    const response = await this.client.post<APIResponse<unknown>>("/twin/simulate", { scenarios });
     return response.data;
   }
 
   // ── Community ───────────────────────────────────────────────
-  async getCommunityLeaderboard(limit: number = 100): Promise<APIResponse<any[]>> {
-    const response = await this.client.get<APIResponse<any[]>>("/community/leaderboard", {
+  async getCommunityLeaderboard(limit: number = 100): Promise<APIResponse<unknown[]>> {
+    const response = await this.client.get<APIResponse<unknown[]>>("/community/leaderboard", {
       params: { limit }
     });
     return response.data;
   }
 
-  async getCommunityFeed(limit: number = 50): Promise<APIResponse<any[]>> {
-    const response = await this.client.get<APIResponse<any[]>>("/community/feed", {
+  async getCommunityFeed(limit: number = 50): Promise<APIResponse<unknown[]>> {
+    const response = await this.client.get<APIResponse<unknown[]>>("/community/feed", {
       params: { limit }
     });
     return response.data;

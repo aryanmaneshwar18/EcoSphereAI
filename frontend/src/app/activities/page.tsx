@@ -50,7 +50,7 @@ export default function LogActivityPage() {
   
   const logActivity = useDashboardStore((state) => state.logActivity);
 
-  const { register, handleSubmit, watch, formState: { errors } } = useForm({
+  const { register, handleSubmit, watch } = useForm({
     defaultValues: {
       amount: "",
       activity_date: new Date().toISOString().split("T")[0],
@@ -63,7 +63,7 @@ export default function LogActivityPage() {
     ? SUBCATEGORIES[selectedCategory]?.find(s => s.id === selectedSubcategory)
     : null;
 
-  const onSubmit = async (data: any) => {
+  const onSubmit = async (data: Record<string, unknown>) => {
     if (!selectedCategory || !selectedSubcategory) return;
     
     setIsSubmitting(true);

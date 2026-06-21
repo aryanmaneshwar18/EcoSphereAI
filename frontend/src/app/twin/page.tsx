@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { 
-  Leaf, Zap, Car, TrendingDown, ArrowRight, Sun, Bike, Salad, Train
+  Leaf, Car, TrendingDown, Sun, Bike, Salad
 } from "lucide-react";
 import { 
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer 
@@ -114,7 +114,7 @@ export default function CarbonTwinPage() {
           Carbon Twin Simulator
         </h1>
         <p className="text-gray-400 mt-2">
-          Model "What If?" scenarios and forecast your future environmental impact.
+          Model &quot;What If?&quot; scenarios and forecast your future environmental impact.
         </p>
       </div>
 

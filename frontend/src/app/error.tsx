@@ -1,7 +1,7 @@
 "use client"; // Error components must be Client Components
 
 import { useEffect } from "react";
-import { AlertCircle, RefreshCcw } from "lucide-react";
+import { AlertCircle } from "lucide-react";
 import { EmptyState } from "@/components/ui/empty-state";
 
 export default function Error({
